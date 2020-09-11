@@ -57,7 +57,7 @@ To fully delegate a subdomain to Adobe Campaign, follow these steps:
 
 1. Once the subdomain is created with the corresponding Adobe nameserver information, click **[!UICONTROL Next]**.
 
-1. Select the desired use case for the subdomain: **Marketing communications** or **Transactional & operational communications**. Global concepts on subdomains' use cases are presented in [this section](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. If you selected a Campaign Classic instance, select the desired use case for the subdomain: **Marketing communications** or **Transactional & operational communications**. Global concepts on subdomains' use cases are presented in [this section](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
     ![](assets/subdomain5.png)
 
@@ -79,7 +79,7 @@ To delegate a subdomain to Adobe Campaign using CNAMEs, follow these steps:
 
     ![](assets/cname-method-selection.png)
 
-1. Select the desired use case for the subdomain: **Marketing communications** or **Transactional & operational communications**. Global concepts on subdomains' use cases are presented in [this section](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. If you selected a Campaign Classic instance, select the desired use case for the subdomain: **Marketing communications** or **Transactional & operational communications**. Global concepts on subdomains' use cases are presented in [this section](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
     ![](assets/cname-use-case.png)
 
