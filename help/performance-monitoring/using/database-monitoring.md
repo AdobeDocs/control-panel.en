@@ -29,11 +29,11 @@ Select the desired instance from the **[!UICONTROL Instance List]** to display i
 
 >[!NOTE]
 >
->Note that data from this dashboard is updated each time the **[!UICONTROL Database cleanup technnical workflow]** is run on your Campaign instance (see [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation).
+>Note that data from this dashboard is updated each time the **[!UICONTROL Database cleanup technical workflow]** is run on your Campaign instance (see [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation).
 >
 >You can check the last time the workflow ran below the **[!UICONTROL Used Space]** and **[!UICONTROL Provided Space]** metrics. Note that, if the workflow has not been running since more than 3 days, we recommend reaching out to Adobe Customer care so that they investigate why the workflow is not running.
 
-Additional metrics, described below, are available in this dashboard to help you analyze the usage of the instance's database:
+Additional metrics, described below, are available in this dashboard to help you analyse the usage of the instance's database:
 
 * [Database Utilization](../../performance-monitoring/using/database-monitoring.md#database-utilization)
 * [Storage overview](../../performance-monitoring/using/database-monitoring.md#storage-overview)
@@ -41,7 +41,7 @@ Additional metrics, described below, are available in this dashboard to help you
 
 ### Database utilization {#database-utilization}
 
-The **[!UICONTROL Database utilization]** area provides a graphical representation of the minimum, average and maximum database utilization over the last 7 days, as well as the 90% database utilization threshold, represented by a red dotted curve.
+The **[!UICONTROL Database utilization]** area provides a graphical representation of the minimum, average and maximum database utilization over the last 7 days as well as the 90% database utilization threshold represented by a red dotted curve.
 
 To change the period of time, use the filters available in the upper-right corner of the graph.
 
@@ -82,7 +82,7 @@ Monitoring workflows and deliveries that are creating large temporary resources 
 
 ![](assets/database-top10.png)
 
-The **[!UICONTROL View all]** button alows you to access detailed information on these temporary resources.  
+The **[!UICONTROL View all]** button allows you to access detailed information on these temporary resources.  
 
 ![](assets/database-top10-view.png)
 
@@ -105,7 +105,7 @@ The section below provides useful resources from Campaign documentations to help
 
 **Database maintenance**
 
-* Database cleanup technnical workflow ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Database cleanup technical workflow ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Database maintenance guide](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Database performance troubleshooting](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [Database-related options](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
