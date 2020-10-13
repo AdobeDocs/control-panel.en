@@ -17,7 +17,7 @@ Overflowing an instance database can lead to several issues (inability to login,
 
 >[!NOTE]
 >
->The amount of database space provided as shown in the Control Panel may not reflect the amount of Database space specified in your contract. Most often, larger database space is provided to you temporarily to ensure performance of your system.
+>If the amount of provided database space provided as shown in the Control Panel does not reflect the amount specified in your contract, reach out to Customer Care.
 
 ## Monitoring database usage {#monitoring-instances-database}
 
@@ -29,7 +29,7 @@ Select the desired instance from the **[!UICONTROL Instance List]** to display i
 
 >[!NOTE]
 >
->Note that data from this dashboard is updated each time the **[!UICONTROL Database cleanup technical workflow]** is run on your Campaign instance (see [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation).
+>Note that data from this dashboard is updated based on the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance (see [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation).
 >
 >You can check the last time the workflow ran below the **[!UICONTROL Used Space]** and **[!UICONTROL Provided Space]** metrics. Note that, if the workflow has not been running since more than 3 days, we recommend reaching out to Adobe Customer care so that they investigate why the workflow is not running.
 
@@ -55,7 +55,10 @@ For more details on a specific period of time, hover over the graph to display i
 
 The **[!UICONTROL Storage overview]** area provides a graphical representation of the space occupied by:
 
-* **[!UICONTROL System resources]**,
+* **[!UICONTROL System resources]**
+
+    Note that, if system resources are consuming a large part of the database space, we recommend reaching out to Customer Care.
+
 * **[!UICONTROL Out-of-the-box tables]** provided by default with your Campaign instances,
 * **[!UICONTROL Temporary tables]** created by workflows and deliveries,
 * **[!UICONTROL Non-out of the box tables]** generated after creating custom resources.
@@ -81,6 +84,10 @@ Monitoring workflows and deliveries that are creating large temporary resources 
 >General recommendation is to avoid having **more than 40 columns** in non out of the box resources.
 
 ![](assets/database-top10.png)
+
+>[!NOTE]
+>
+>If a workflow is found to have a large number of table counts or database size, we recommend reviewing the workflow in order to investigate why it is generating so much data.
 
 The **[!UICONTROL View all]** button allows you to access detailed information on these temporary resources.  
 
