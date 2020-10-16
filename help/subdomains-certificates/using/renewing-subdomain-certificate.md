@@ -14,7 +14,7 @@ description: Learn how to renew your subdomains' SSL certificates
 
 >[!IMPORTANT]
 >
->Subdomain delegation from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
+>Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
 
 ## About certificates renewal {#about-certificate-renewal-process}
 
@@ -94,7 +94,7 @@ After obtaining a Certificate Signing Request CSR from the Control Panel, purcha
 Once an SSL certificate has been purchased, you can install it on your instance. Before proceeding, make sure you are aware of the prerequisites below:
 
 * The Certificate Signing Request (CSR) must have been generated from the Control Panel. Otherwise, you will not be able to install the certificate from the Control Panel.
-* The certificate Signing Request (CSR) should match the subdomain that has been delegated to Adobe. For example, it cannot contain more subdomains that the one that has been delegated.
+* The certificate Signing Request (CSR) should match the subdomain that has been configured to work with Adobe. For example, it cannot contain more subdomains that the one that has been configured.
 * The certificate should have a current date. It is not possible to install certificates with dates in the future, and should not be expired (i.e. valid start and end dates).
 * The certificate should be issued by a trusted certificate authority (CA) such as Comodo, DigiCert, GoDaddy, etc.
 * The size of the certificate should be 2048 bits and the algorithm should be RSA.
