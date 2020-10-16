@@ -10,6 +10,16 @@ Here you will find information about the latest Control Panel releases.
 >
 >Please note that Control Panel is available for customers hosted on AWS only, except for hybrid environments which are not yet supported. No upgrades are required to access Control Panel. Please make sure you are an Admin user to access it.
 
+## October 2020 {october-2020}
+
+**Subdomain configuration using CNAMEs**
+
+Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Database monitoring enhancements**
+
+The **[!UICONTROL Database monitoring]** tab has been enhanced with additional metrics, allowing you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
+
 ## June 2020 {#june-2020}
 
 **Subdomain deliverability audit**
