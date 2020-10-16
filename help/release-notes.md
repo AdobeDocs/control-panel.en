@@ -36,7 +36,7 @@ Control Panel now allows you to monitor the number of active profiles that are u
 
 **Certificate management for CNAME subdomains**
 
-Control Panel now allows you to renew the SSL certificates of your subdomains that have been delegated with the CNAME method. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Control Panel now allows you to renew the SSL certificates of your subdomains that have been configured with the CNAME method. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -56,7 +56,7 @@ Campaign Control Panel is equipped with real-time email alerting capabilities, a
 
 *January 22, 2020*
 
-We’ve added new capabilities for Admin users to delegate subdomains and renew SSL certificates from Control Panel.
+We’ve added new capabilities for Admin users to configure subdomains and renew SSL certificates from Control Panel.
 
 For more information, refer to these pages:
 * [Setting up a new subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)

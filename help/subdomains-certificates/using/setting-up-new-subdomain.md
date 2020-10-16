@@ -71,7 +71,7 @@ Once the subdomain is submitted, various checks and configuration steps  will be
 
 ## Subdomain configuration using CNAMEs {#use-cnames}
 
-To delegate a subdomain to Adobe Campaign using CNAMEs, follow these steps:
+To configure a subdomain using CNAMEs, follow these steps:
 
 1. In the **[!UICONTROL Subdomains & Certificates]** card, select the desired production instance, then click **[!UICONTROL Setup new subdomain]**.
 
@@ -87,7 +87,7 @@ To delegate a subdomain to Adobe Campaign using CNAMEs, follow these steps:
 
 1. Enter the subdomain that you created into your hosting solution, then click **[!UICONTROL Next]**.
 
-    Make sure you fill in the **full name** of the subdomain to delegate. For example, to delegate the "usoffers.email.weretail.com" subdomain, type "usoffers.email.weretail.com".
+    Make sure you fill in the **full name** of the subdomain to setup. For example, to configure the "usoffers.email.weretail.com" subdomain, type "usoffers.email.weretail.com".
 
     ![](assets/cname-submit.png)
 
@@ -103,7 +103,7 @@ To delegate a subdomain to Adobe Campaign using CNAMEs, follow these steps:
     >
     >If you want to create the records and submit the subdomain configuration later on, select the second statement then click **[!UICONTROL Submit later]**. You will then be able to resume the subdomain configuration directly from the subdomain management screen **[!UICONTROL Processing]** area.
     >
-    >Note that DNS records to be placed on your server will be kept by Control Panel 30 days. Beyond that period, you will have to delegate the subdomain from scratch.
+    >Note that DNS records to be placed on your server will be kept by Control Panel 30 days. Beyond that period, you will have to configure the subdomain from scratch.
 
 Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
 
@@ -123,7 +123,7 @@ Once the subdomain is submitted, various checks and configuration steps  will be
 
     ![](assets/subdomain_audit.png)
 
-1. Eventually, the **Deliverability team** will be notified about the new subdomain, in order to audit it. The audit process can take up to 10 business days after the subdomain has been delegated.
+1. Eventually, the **Deliverability team** will be notified about the new subdomain, in order to audit it. The audit process can take up to 10 business days after the subdomain has been configured.
 
     >[!IMPORTANT]
     >

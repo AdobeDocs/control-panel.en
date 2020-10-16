@@ -57,7 +57,7 @@ Possible use cases are:
 
 **Breaking down your subdomains according to use cases is a best practice for deliverability**. By doing so, the reputation of each subdomain is isolated and protected. For example, if your subdomain for marketing communications ends up being added to the block list by Internet Service Providers, your transactional communications subdomain will not be impacted, and will keep being able to send communications.
 
-**You can delegate a subdomains for both Marketing and Transactional use cases**:
+**You can configure a subdomains for both Marketing and Transactional use cases**:
 
 * For Marketing use cases, subdomains will be configured on **MID** (Mid sourcing) instances.
 * For Transactional use cases, subdomains will be configured on ALL **RT** (Message Center / Real-time messaging) instances to ensure connectivity. The subdomains will therefore operate with all your RT instances.
