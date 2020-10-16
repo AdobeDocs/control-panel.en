@@ -13,7 +13,7 @@ description: Learn how to set up a new subdomain for your campaign instances
 
 >[!IMPORTANT]
 >
->Subdomain delegation from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
+>Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
 
 This page provides information on how to set up new subdomains using Full subdomain delegation or CNAMEs. Global concepts on these two methods are presented in this section: [](../../subdomains-certificates/using/subdomains-branding.md).
 
@@ -27,9 +27,9 @@ This page provides information on how to set up new subdomains using Full subdom
 
 ### Instance selection
 
-Subdomain delegation is available for **production** instances only.
+Subdomain configuration is available for **production** instances only.
 
-If the instance that you select in the subdomain delegation wizard has no previously configured subdomains, the first subdomain delegated to Adobe will become the **primary subdomain** for that instance and you will not be able to change it in the future.
+If the instance that you select in the wizard has no previously setup subdomains, the first configured subdomain will become the **primary subdomain** for that instance and you will not be able to change it in the future.
 
 As a result, **reverse DNS records** will be created for other subdomains using this primary subdomain. **Reply-to, and bounce addresses** for other subdomains will be generated from the primary subdomain.
 
@@ -69,7 +69,7 @@ To fully delegate a subdomain to Adobe Campaign, follow these steps:
 
 Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see []((../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
 
-## Subdomain delegation using CNAMEs {#use-cnames}
+## Subdomain configuration using CNAMEs {#use-cnames}
 
 To delegate a subdomain to Adobe Campaign using CNAMEs, follow these steps:
 
@@ -77,7 +77,7 @@ To delegate a subdomain to Adobe Campaign using CNAMEs, follow these steps:
 
     ![](assets/subdomain1.png)
 
-1. Select the **[!UICONTROL CNAME]** delegation method, then click **[!UICONTROL Next]**.
+1. Select the **[!UICONTROL CNAME]** method, then click **[!UICONTROL Next]**.
 
     ![](assets/cname-method-selection.png)
 
@@ -101,7 +101,7 @@ To delegate a subdomain to Adobe Campaign using CNAMEs, follow these steps:
     
     >[!NOTE]
     >
-    >If you want to create the records and submit the subdomain delegation later on, select the second statement then click **[!UICONTROL Submit later]**. You will then be able to resume the subdomain delegation directly from the subdomain management screen **[!UICONTROL Processing]** area.
+    >If you want to create the records and submit the subdomain configuration later on, select the second statement then click **[!UICONTROL Submit later]**. You will then be able to resume the subdomain configuration directly from the subdomain management screen **[!UICONTROL Processing]** area.
     >
     >Note that DNS records to be placed on your server will be kept by Control Panel 30 days. Beyond that period, you will have to delegate the subdomain from scratch.
 
@@ -113,13 +113,13 @@ Once the subdomain is submitted, various checks and configuration steps  will be
 
     >[!NOTE]
     >
-    >Note that while subdomain delegation runs, other requests through the Control Panel will be entered into a queue and performed only after the Subdomain Delegation completes, to prevent any performance issues.
+    >Note that while subdomain configuration runs, other requests through the Control Panel will be entered into a queue and performed only after the subdomain configuration completes, to prevent any performance issues.
 
 1. If the checks are successful, the Control Panel will start setting up the subdomain with DNS records, additional URLs, inboxes etc.
 
     ![](assets/subdomain7.png)
 
-    You can get more details on the configuration progress by clicking the subdomain delegation **[!UICONTROL Details]** button.
+    You can get more details on the configuration progress by clicking the subdomain configuration **[!UICONTROL Details]** button.
 
     ![](assets/subdomain_audit.png)
 
@@ -147,6 +147,6 @@ You can get more details on the subdomain by clicking the **[!UICONTROL Subdomai
 
 ## Troubleshooting {#troubleshooting}
 
-* In some cases, delegation goes through, but the subdomain may not be successfully verified. The subdomain will stay into the **[!UICONTROL Configured]** list with a job log providing information on the error. Contact Customer Care if you have trouble resolving the issue.
+* In some cases, subdomain configuration goes through, but the subdomain may not be successfully verified. The subdomain will stay into the **[!UICONTROL Configured]** list with a job log providing information on the error. Contact Customer Care if you have trouble resolving the issue.
 * If the subdomain is being shown as “Unverified” after being configured, launch a new subdomain verification (**...** / **[!UICONTROL Verify subdomain]**). If it still shows the same status, the reason could be that there is some customisation done on recipients schema, which cannot be verified using standard processes. Please try sending out a campaign with that subdomain.
 * If the subdomain configuration is taking too long (more than 10 business days) at deliverability audit step, please reach out to Customer Care.
