@@ -88,6 +88,8 @@ Monitoring workflows and deliveries that are creating large temporary resources 
 >[!NOTE]
 >
 >If a workflow is found to have a large number of table counts or database size, we recommend reviewing the workflow in order to investigate why it is generating so much data.
+>
+>Campaign Standard and Classic resources are also available at the end of this page to help you prevent database overload.
 
 The **[!UICONTROL View all]** button allows you to access detailed information on these temporary resources.  
 
@@ -95,9 +97,9 @@ The **[!UICONTROL View all]** button allows you to access detailed information o
 
 >[!NOTE]
 >
->The **[!UICONTROL Keep interim results]** column provides information on the number of results contained in the workflow's transitions.
+>The value in the **[!UICONTROL Keep interim results]** column indicates if the option is enabled ("1") or diabled ("0") in Campaign. The **[!UICONTROL Keep interim results]** option is accessible in workflows' properties. It allows you to save the results of the transitions between the various activities of a workflow (see [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) documentation).
 >
->**[!UICONTROL Keep interim results]** is a Campaign Standard option accessible in workflows' properties. It allows you  to save the results of the transitions between the various activities of a workflow (see [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) documentation).
+>If the option is enabled for one of your workflows, the database cleanup workflow will not be able to reclaim the space consumed by interim results. We therefore recommend reviewing the workflow to check if the option can be turned off.
 
 ## Preventing database overload {#preventing-database-overload}
 
@@ -116,6 +118,7 @@ The section below provides useful resources from Campaign documentations to help
 * [Database maintenance guide](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Database performance troubleshooting](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [Database-related options](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
+* Data retention ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
 >[!NOTE]
 >
