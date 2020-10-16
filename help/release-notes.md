@@ -10,7 +10,7 @@ Here you will find information about the latest Control Panel releases.
 >
 >Please note that Control Panel is available for customers hosted on AWS only, except for hybrid environments which are not yet supported. No upgrades are required to access Control Panel. Please make sure you are an Admin user to access it.
 
-## October 2020 {october-2020}
+## October 2020 {#october-2020}
 
 **Subdomain configuration using CNAMEs**
 
