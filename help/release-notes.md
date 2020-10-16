@@ -10,6 +10,16 @@ Here you will find information about the latest Control Panel releases.
 >
 >Please note that Control Panel is available for customers hosted on AWS only, except for hybrid environments which are not yet supported. No upgrades are required to access Control Panel. Please make sure you are an Admin user to access it.
 
+## October 2020 {#october-2020}
+
+**Subdomain configuration using CNAMEs**
+
+Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Database monitoring enhancements**
+
+The **[!UICONTROL Database monitoring]** tab has been enhanced with additional metrics, allowing you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
+
 ## June 2020 {#june-2020}
 
 **Subdomain deliverability audit**
@@ -36,7 +46,7 @@ Control Panel now allows you to monitor the number of active profiles that are u
 
 **Certificate management for CNAME subdomains**
 
-Control Panel now allows you to renew the SSL certificates of your subdomains that have been delegated with the CNAME method. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Control Panel now allows you to renew the SSL certificates of your subdomains that have been configured with the CNAME method. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -56,7 +66,7 @@ Campaign Control Panel is equipped with real-time email alerting capabilities, a
 
 *January 22, 2020*
 
-We’ve added new capabilities for Admin users to delegate subdomains and renew SSL certificates from Control Panel.
+We’ve added new capabilities for Admin users to configure subdomains and renew SSL certificates from Control Panel.
 
 For more information, refer to these pages:
 * [Setting up a new subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)

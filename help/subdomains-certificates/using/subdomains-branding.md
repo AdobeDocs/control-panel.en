@@ -13,7 +13,7 @@ description: Learn more about subdomains branding
 
 >[!IMPORTANT]
 >
->Subdomain delegation from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
+>Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
 
 ## Why setting up subdomains? {#why-setting-up-subdomains}
 
@@ -26,27 +26,48 @@ Let's take the example of the "mybrand.com" domain, that is used to send both tr
 
 By doing so, you will help preserve the reputation of your domain and other subdomains. For example, if the "marketing.mybrand.com" subdomains ended up being added to the block list by Internet Service Providers due to bad deliverability, this would prevent the whole "mybrand.com" domain and the "info.mybrand.com" subdomain from being added to the block list.
 
-## Subdomain delegation methods {#subdomain-delegation-methods}
+## Subdomain configuration methods {#subdomain-delegation-methods}
 
-Subdomain delegation allows you to delegate a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign. Available setup methods are:
+Subdomain configuration allows you to configure a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign. Available setup methods are:
 
 * **Full subdomain delegation to Adobe Campaign** (recommended): The subdomain is fully delegated to Adobe. Adobe is able to deliver the Campaign as a managed service by controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking of email campaigns.
 
-* **Use of CNAMEs** (not recommended and not supported through the Control Panel): Create a subdomain and use CNAMEs to point to Adobe-specific records. Using this setup, both Adobe and the customer share responsibility for maintaining DNS.
+* **Use of CNAMEs**: Create a subdomain and use CNAMEs to point to Adobe-specific records. Using this setup, both Adobe and the customer share responsibility for maintaining DNS.
 
 The table below provides a summary of how these methods work, as well as the implied level of effort:
 
-| Delegation method | How it works | Level of effort |
+| Configuration method | How it works | Level of effort |
 |---|---|---|
 | **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
 | **CNAME, custom method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
 
-Additional information on domain delegation is available in [this documentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
-If you have any question regarding subdomain delegation methods, reach out to Adobe Deliverability team, or eventually contact Customer Care to request Deliverability consulting.
+If you have any question regarding subdomain configuration methods, reach out to Adobe Deliverability team, or eventually contact Customer Care to request Deliverability consulting.
+
+## Subdomains' use cases (Campaign Classic) (#subdomains-use-cases)
+
+When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+
+Possible use cases are:
+
+* **Marketing communications**: communications that are intended for a commercial purpose. Example: sales email campaign.
+
+* **Transactional & operational communications**: transactional communications contain information aimed at completing a process that the recipient has started with you. Example: purchase confirmation, password reset email. Organizational communications relate to the exchange of information, ideas, and views within and outside the organization, with no commercial purpose.
+
+**Breaking down your subdomains according to use cases is a best practice for deliverability**. By doing so, the reputation of each subdomain is isolated and protected. For example, if your subdomain for marketing communications ends up being added to the block list by Internet Service Providers, your transactional communications subdomain will not be impacted, and will keep being able to send communications.
+
+**You can configure a subdomains for both Marketing and Transactional use cases**:
+
+* For Marketing use cases, subdomains will be configured on **MID** (Mid sourcing) instances.
+* For Transactional use cases, subdomains will be configured on ALL **RT** (Message Center / Real-time messaging) instances to ensure connectivity. The subdomains will therefore operate with all your RT instances.
+
+>[!NOTE]
+>
+>If you are using Campaign Classic, Control Panel allows you to see what RT/MID instances are connected to the Marketing instance that you are working with. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
 
 **Related topics:**
 
 * [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Delegating subdomains (tutorial video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [Monitoring your subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
