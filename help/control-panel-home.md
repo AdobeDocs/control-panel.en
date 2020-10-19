@@ -8,13 +8,14 @@ title: Product documentation
 
 ## What's new
 
-* **Subdomain deliverability audit**
 
-    After delegating a new subdomain, Control Panel now allows you to track the audit performed by the Deliverability team. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
+**Subdomain configuration using CNAMEs**
 
-* **GPG keys management**
+Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-    Install and/or generate GPG keys on a marketing instance, in order to encrypt data sent from Campaign and to decrypt incoming data. [Read more](instances-settings/using/gpg-keys-management.md)
+**Database monitoring enhancements**
+
+The **[!UICONTROL Database monitoring]** tab has been enhanced with additional metrics, allowing you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
 
 ## Additional Resources {#additional-resources}
 
