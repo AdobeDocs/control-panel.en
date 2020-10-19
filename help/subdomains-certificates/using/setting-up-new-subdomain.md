@@ -20,7 +20,7 @@ This page provides information on how to set up new subdomains using Full subdom
 **Related topics:**
 
 * [Delegating subdomains (tutorial video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-
+* [Configuring subdomains using CNAMEs](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Monitoring your subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Must-read {#must-read}
