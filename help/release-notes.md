@@ -18,7 +18,7 @@ Control Panel now allows you to configure a subdomain to work with Adobe using C
 
 **Database monitoring enhancements**
 
-The **[!UICONTROL Database monitoring]** tab has been enhanced with additional metrics, allowing you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
+Database monitoring has been enhanced with additional metrics that allow you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
 
 ## June 2020 {#june-2020}
 
