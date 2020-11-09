@@ -47,7 +47,7 @@ If you have any question regarding subdomain configuration methods, reach out to
 
 ## Subdomains' use cases (Campaign Classic) (#subdomains-use-cases)
 
-When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Possible use cases are:
 

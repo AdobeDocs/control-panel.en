@@ -15,7 +15,7 @@ description: Learn how to set up a new subdomain for your campaign instances
 >
 >Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
 
-This page provides information on how to set up new subdomains using Full subdomain delegation or CNAMEs. Global concepts on these two methods are presented in this section: [](../../subdomains-certificates/using/subdomains-branding.md).
+This page provides information on how to set up new subdomains using Full subdomain delegation or CNAMEs. Global concepts on these two methods are presented in this section: [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md).
 
 **Related topics:**
 
@@ -67,7 +67,7 @@ To fully delegate a subdomain to Adobe Campaign, follow these steps:
 
     ![](assets/subdomain6.png)
 
-Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see []((../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see [Subdomain checks and configuration](#subdomain-checks-and-configuration).
 
 ## Subdomain configuration using CNAMEs {#use-cnames}
 
@@ -105,7 +105,7 @@ To configure a subdomain using CNAMEs, follow these steps:
     >
     >Note that DNS records to be placed on your server will be kept by Control Panel 30 days. Beyond that period, you will have to configure the subdomain from scratch.
 
-Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see [Subdomain checks and configuration](#subdomain-checks-and-configuration).
 
 ## Subdomain checks and configuration {#subdomain-checks-and-configuration}
 
