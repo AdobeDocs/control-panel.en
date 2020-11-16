@@ -45,7 +45,7 @@ Additional information on domain configuration is available in [this documentati
 
 If you have any question regarding subdomain configuration methods, reach out to Adobe Deliverability team, or eventually contact Customer Care to request Deliverability consulting.
 
-## Subdomains' use cases (Campaign Classic) (#subdomains-use-cases)
+## Subdomains' use cases (Campaign Classic){#subdomains-use-cases}
 
 When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
