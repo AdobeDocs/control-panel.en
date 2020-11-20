@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Renewing a subdomain's SSL certificate
 description: Learn how to renew your subdomains' SSL certificates
 ---

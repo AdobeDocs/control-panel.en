@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Product documentation
 ---
 

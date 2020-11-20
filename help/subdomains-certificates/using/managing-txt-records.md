@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Managing TXT records
 description: Learn how to manage TXT records for domain ownership verification.
 ---

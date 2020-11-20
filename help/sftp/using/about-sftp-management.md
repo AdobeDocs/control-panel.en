@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: About SFTP management
 description: Learn more about SFTP management in the Control Panel
 testing: SSECD-836 2

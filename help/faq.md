@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Control Panel FAQ
 description: Common questions related to the Control Panel
 ---

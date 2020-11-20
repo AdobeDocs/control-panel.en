@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Logging into your SFTP server
 description: Learn how to log into your SFTP server
 ---

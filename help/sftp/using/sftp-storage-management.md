@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: SFTP storage management
 description: Learn how to monitor and manage your SFTP server's storage
 ---

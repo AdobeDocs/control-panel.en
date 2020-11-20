@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: GPG keys management
 description: Learn how to manage GPG keys to encrypt and decrypt data within Adobe Campaign.
 ---

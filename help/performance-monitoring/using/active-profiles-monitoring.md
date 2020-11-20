@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Active profiles monitoring
 description: Learn how to get real-time information on the latest and historical Active Profiles usage and evolution for each of your Campaign instances.
 ---

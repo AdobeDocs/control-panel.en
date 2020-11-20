@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Subdomains branding
 description: Learn more about subdomains branding
 ---

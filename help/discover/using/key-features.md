@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Accessing Control Panel
 description: Learn how to access the Control Panel
 ---

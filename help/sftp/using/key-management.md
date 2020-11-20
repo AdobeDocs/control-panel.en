@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Key management
 description: Learn how to manage keys to connect to SFTP servers
 ---

@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: About performance monitoring
 description: Learn how to monitor your instances performance in the Control Panel
 ---

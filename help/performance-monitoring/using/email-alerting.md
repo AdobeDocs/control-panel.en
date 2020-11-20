@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Email alerting
 description: Learn how to receive email notifications in case of issues with your Campaign instances
 ---

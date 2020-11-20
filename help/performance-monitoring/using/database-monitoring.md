@@ -1,4 +1,6 @@
 ---
+product: campaign
+solution: Campaign 
 title: Database monitoring
 description: Learn how to monitor your Campaign database in the Control Panel
 ---
