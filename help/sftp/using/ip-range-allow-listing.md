@@ -15,6 +15,8 @@ description: Learn how to add IP ranges to the allow list for SFTP servers acces
 
 SFTP servers are protected. In order to be able to access them in order to view files or write new ones, you need to add the public IP address of the system or client that accesses the servers to the allow list.
 
+![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+
 ## About the CIDR format {#about-cidr-format}
 
 CIDR (Classless Inter-Domain Routing) is the supported format when adding IP ranges with the Control Panel interface.

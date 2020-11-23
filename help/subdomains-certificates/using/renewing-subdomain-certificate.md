@@ -18,6 +18,8 @@ description: Learn how to renew your subdomains' SSL certificates
 >
 >Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
 
+![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+
 ## About certificates renewal {#about-certificate-renewal-process}
 
 The SSL certificate renewal process includes 3 steps:
@@ -131,6 +133,5 @@ Once the SSL certificate is installed, the certificate's expiration date and sta
 
 **Related topics:**
 
-* [Adding SSL certificates (tutorial video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md)
 * [Monitoring your subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)

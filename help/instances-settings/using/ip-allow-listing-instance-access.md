@@ -27,6 +27,8 @@ Control Panel allows you to set up new connections to your instances by adding I
 
 Once IP addresses are on the allow list, you can create and link Campaign operators to them so that the users can access the instance.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
+
 ## Best practices {#best-practices}
 
 Make sure you follow the recommendations and limitations below when adding IP addresses to the allow list in the Control Panel.
@@ -82,6 +84,6 @@ To add IP addresses to the allow list, follow these steps:
 
 To delete IP ranges from the allow list, select them then click the **[!UICONTROL Delete IP range]** button.
 
-**Related topics:**
-* [IP allow listing (tutorial video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+**Related topic:**
+
 * [Linking a security zone to an operator](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)

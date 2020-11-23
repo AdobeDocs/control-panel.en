@@ -25,11 +25,12 @@ By default, instances are not allowed to connect to outside URLs. The Control Pa
 
 Once a URL is added, it is referenced in the configuration file of the instance (serverConf.xml).
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+
 **Related topics:**
 
 * [Configuring Campaign server](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Outgoing connection protection](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [Adding URL Permissions (tutorial video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## Best practices {#best-practices}
 

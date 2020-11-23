@@ -71,5 +71,4 @@ Possible use cases are:
 **Related topics:**
 
 * [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [Monitoring your subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)

@@ -52,6 +52,5 @@ If one of your subdomain's SSL certificate is about to expire, you can renew it 
 
 **Related topics:**
 
-* [Adding SSL certificates (tutorial video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Renewing a subdomain's SSL certificate](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md)
