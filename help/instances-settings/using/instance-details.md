@@ -14,11 +14,11 @@ description: Learn how to monitor your instance details in the Control Panel
 >additional-url="https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic release notes"
 >additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard release notes"
 
+## About instance details {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >This feature is available for Campaign Classic instances only.
-
-## About instance details {#about-instance-details}
 
 Your Adobe Campaign Classic instance architecture can contain several servers to enable the flexibility of marketing activities. For example, you can have Marketing, Real Time (or Message Center) and Mid Sourcing servers supporting your instance. 
 

@@ -13,11 +13,11 @@ description: Learn more about subdomains branding
 >abstract="Monitor your subdomains and the associated SSL certificates."
 >additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="How to monitor your subdomains' SSL certificates"
 
+## Why setting up subdomains? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
-
-## Why setting up subdomains? {#why-setting-up-subdomains}
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
 

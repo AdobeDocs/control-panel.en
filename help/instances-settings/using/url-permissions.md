@@ -13,11 +13,11 @@ description: Learn how to manage URL permissions in the Control Panel
 >abstract="Manage the URLs that your Adobe Campaign instances can connect to."
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="Watch demo video"
 
+## About URL permissions {#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >This feature is available for Campaign Classic instances only, from build 8850. If you are using a previous build, you need to upgrade to use this feature.
-
-## About URL permissions {#about-url-permissions}
 
 The default list of URLs that can be called by JavaScript codes (workflows, etc.) by your Campaign Classic instances is limited. These are URLs that allow your instances to function properly.
 

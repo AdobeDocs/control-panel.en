@@ -14,13 +14,11 @@ description: Learn how to renew your subdomains' SSL certificates
 >additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generating a Certificate Signing Request (CSR)"
 >additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="How to install a SSL certificate"
 
+## About certificates renewal {#about-certificate-renewal-process}
+
 >[!IMPORTANT]
 >
 >Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
-
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
-
-## About certificates renewal {#about-certificate-renewal-process}
 
 The SSL certificate renewal process includes 3 steps:
 
@@ -30,6 +28,8 @@ The SSL certificate renewal process includes 3 steps:
     Once the CSR is generated, you can download it and use it to purchase the SSL certificate from the Certificate Authority that your company approves.
 1. **Installation of the SSL certificate**
     Once you purchase the SSL certificate, you can install it on the desired subdomain.
+
+![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Generating a Certificate Signing Request (CSR) {#generating-csr}
 
