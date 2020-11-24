@@ -9,7 +9,7 @@ description: Learn how to log into your SFTP server
 
 The steps below detail how to connect your SFTP server through your SFTP client application.
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in [video](https://video.tv.adobe.com/v/27263?quality=12)
 
 Before logging in to the server, make sure that:
 
