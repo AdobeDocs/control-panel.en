@@ -13,8 +13,6 @@ GPG encryption allows you to protect your data using a system of public-private 
 
 Once implemented, you can have incoming data decrypted and outgoing data encrypted before transfer occurs, to ensure that they will not be accessed by anyone without a valid matching key pair.
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
-
 To implement GPG encryption with Campaign, GPG keys must be installed and/or generated on a marketing instance by an Administrator user directly from the Control Panel.
 
 You will then be able to:
@@ -29,7 +27,7 @@ Control Panel allows you to encrypt data coming out from your Adobe Campaign ins
 
 To do this, you need to generate a GPG key pair from a PGP encryption tool, then install the public key into Control Panel. You will then be able to encrypt data before sending it from you instance. To do this, follow the steps below.
 
-![](assets/do-not-localize/how-to-video.png) Discover how to generate and install GPG keys in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in [video](#video-generate-key)
 
 1. Generate a public/private key pair using a PGP encryption tool following the [OpenPGP specification](https://www.openpgp.org/about/standard/). To do this, install a GPG utility or GNuGP software.
 
@@ -78,7 +76,7 @@ Once the public key is installed, it displays in the list. You can use the **...
 
 The key is then available for use in Adobe Campaign workflows. You can use it to encrypt data when using data extraction activities.
 
-![](assets/do-not-localize/how-to-video.png) Discover how to encrypt data in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in [video](#video-use-key)
 
 For more on this topic, refer to Adobe Campaign documentation:
 
@@ -101,7 +99,7 @@ To do this, you need to generate a GPG key pair directly from the Control Panel.
 * The **public key** will be shared with the external system, which will use it to encrypt the data to send to Campaign.
 * The **private key** will be used by Campaign to decrypt the incoming encrypted data.
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in [video](#video-decrypt)
 
 To generate a key pair in Control Panel, follow these steps:
 
@@ -168,3 +166,17 @@ As a best practice, we recommend that you remove any key that you do not need an
 >[!IMPORTANT]
 >
 >Before removing a key, make sure that it is not used in any Adobe Campaign workflow to prevent them from failing.
+
+## Tutorial videos {#video}
+
+### Generating and installing GPG keys for data encryption {#video-generate-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+
+### Using a GPG key to encrypt data {#video-use-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+### Decrypting data {#video-decrypt}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
