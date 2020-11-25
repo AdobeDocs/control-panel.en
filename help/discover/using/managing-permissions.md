@@ -5,11 +5,11 @@ title: Managing permissions to the Control Panel
 description: Learn how to manage permissions to the Control Panel
 ---
 
-# Managing permsissions to Control Panel {#managing-permissions-control-panel}
+# Managing permissions to Control Panel {#managing-permissions-control-panel}
 
 The Control Panel is available to all Admin users of a Campaign instance. Follow the steps below to assign users to the Administrators group and grant them an access to the Control Panel.
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) or [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in [video](#video)
 
 1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com/), then select the **[!UICONTROL Administration]** tab.
 
@@ -54,3 +54,7 @@ The Control Panel is available to all Admin users of a Campaign instance. Follow
 >[!NOTE]
 >
 >Once the access is configured, the user will have to log out of Adobe Experience Cloud and log back in again, in order to access Control Panel.
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
