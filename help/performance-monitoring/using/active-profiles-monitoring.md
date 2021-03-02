@@ -46,7 +46,7 @@ To do this, follow these steps:
 >Active profiles are counted based on dedicated technical workflows which run everyday on your instances:
 >
 >* The ["Billing"](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html) workflow for Campaign Standard,
->* The ["Number of active billing profiles"](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) workflow for Campaign Classic.
+>* The ["Number of active billing profiles"](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow for Campaign Classic.
 
 The lower area provides a graphical representation of active profiles usage over the last 30 days. You can change the displayed period of time to 1 year using the available filters in the upper-right corner.
 
