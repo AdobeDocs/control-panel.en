@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Discovering Control Panel interface
 description: Learn more about the Control Panel interface
+feature: Control Panel
+role: Architect
+level: Intermediate
 ---
 
 # Discovering Control Panel interface {#discovering-interface}

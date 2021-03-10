@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Subdomains branding
 description: Learn more about subdomains branding
+feature: Control Panel
+role: Architect
+level: Intermediate
 ---
 
 # Subdomains branding {#subdomains-branding}

@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: About performance monitoring
 description: Learn how to monitor your instances performance in the Control Panel
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # About performance monitoring {#about-performance-monitoring}

@@ -2,6 +2,9 @@
 product: campaign
 solution: Campaign 
 title: Control Panel releases
+feature: Control Panel
+role: Architect
+level: Beginner
 ---
 
 # Control Panel releases {#control-panel-releases}

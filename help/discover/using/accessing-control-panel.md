@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Accessing Control Panel
 description: Learn how to access the Control Panel
+feature: Control Panel
+role: Architect
+level: Beginner
 ---
 
 # Accessing Control Panel {#accessing-control-panel}

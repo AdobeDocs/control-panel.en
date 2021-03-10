@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Instance details
 description: Learn how to monitor your instance details in the Control Panel
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # Instance Details {#instance-details}

@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: IP allow listing
 description: Learn how to add IP addresses to the allow list in the Control Panel for instance access
+feature: Control Panel
+role: Architect
+level: Intermediate
 ---
 
 # IP allow listing {#ip-allow-listing}

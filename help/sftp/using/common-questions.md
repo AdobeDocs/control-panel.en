@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Common questions
 description: Learn more about common questions related to SFTP management
+feature: Control Panel
+role: Architect
+level: Intermediate
 ---
 
 # Common questions {#common-questions}

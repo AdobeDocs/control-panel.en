@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: URL permissions
 description: Learn how to manage URL permissions in the Control Panel
+feature: Control Panel
+role: Architect
+level: Intermediate
 ---
 
 # URL permissions {#url-permissions}

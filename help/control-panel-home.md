@@ -2,6 +2,9 @@
 product: campaign
 solution: Campaign 
 title: Product documentation
+feature: Control Panel
+role: Architect
+level: Beginner
 ---
 
 # Help Center {#control-panel-documentation}

@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Key management
 description: Learn how to manage keys to connect to SFTP servers
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # Key management {#key-management}
