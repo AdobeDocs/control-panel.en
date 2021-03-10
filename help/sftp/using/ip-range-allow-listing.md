@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: IP range allow listing
 description: Learn how to add IP ranges to the allow list for SFTP servers access
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # IP range allow listing {#ip-range-allow-listing}

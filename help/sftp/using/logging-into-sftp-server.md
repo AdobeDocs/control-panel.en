@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Logging into your SFTP server
 description: Learn how to log into your SFTP server
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # Logging into your SFTP server {#logging-into-sft-server}

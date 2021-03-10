@@ -3,6 +3,9 @@ product: adobe campaign
 sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Guide
+feature: Control Panel
+role: Architect
+level: Beginner
 ---
 
 # Control Panel Guide {#using}

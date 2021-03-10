@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Monitoring subdomains' SSL certificates
 description: Learn how to monitor your subdomains' SSL certificates
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # Monitoring your subdomains {#monitoring-subdomains}

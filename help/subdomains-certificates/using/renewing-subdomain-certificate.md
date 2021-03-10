@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Renewing a subdomain's SSL certificate
 description: Learn how to renew your subdomains' SSL certificates
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # Renewing a subdomain's SSL certificate {#renewing-subdomains-ssl-certificates}

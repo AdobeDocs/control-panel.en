@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: SFTP storage management
 description: Learn how to monitor and manage your SFTP server's storage
+feature: Control Panel
+role: Architect
+level: Experienced
 ---
 
 # SFTP storage management {#sftp-storage-management}

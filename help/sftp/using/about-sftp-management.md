@@ -4,6 +4,9 @@ solution: Campaign
 title: About SFTP management
 description: Learn more about SFTP management in the Control Panel
 testing: SSECD-836 2
+feature: Control Panel
+role: Architect
+level: Intermediate
 ---
 
 # About SFTP management {#about-sftp-management}

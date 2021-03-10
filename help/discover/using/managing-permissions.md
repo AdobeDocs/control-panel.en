@@ -3,6 +3,9 @@ product: campaign
 solution: Campaign 
 title: Managing permissions to the Control Panel
 description: Learn how to manage permissions to the Control Panel
+feature: Control Panel
+role: Architect
+level: Intermediate
 ---
 
 # Managing permissions to Control Panel {#managing-permissions-control-panel}
