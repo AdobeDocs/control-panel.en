@@ -25,9 +25,10 @@ Key benefits:
 * Enhance security by controlling access settings on a need-by-need basis.
 
 >[!NOTE]
->The Control Panel is accessible to Admin users only, and available for all customers hosted on AWS, except for hybrid environments which are not yet supported. The steps to grant Admin access to a user are detailed in [this section](../../discover/using/managing-permissions.md). To check if your instance is hosted on AWS, follow the steps detailed in [this section](../../faq.md).
 >
->Please note that upgrading to the latest Campaign build is not required to access the Control Panel.
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) build. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=en#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 <table>
 <tr>
