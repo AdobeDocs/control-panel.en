@@ -29,7 +29,7 @@ Key benefits:
 >
 >Please note that upgrading to the latest Campaign build is not required to access the Control Panel.
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="conditions" src="assets/do-not-localize/discover.png"/></a>
