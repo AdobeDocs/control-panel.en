@@ -14,9 +14,7 @@ level: Experienced
 
 >[!IMPORTANT]
 >
->Active profiles monitoring from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
->
->The feature is available to customers hosted on AWS from Campaign Standard 10368 build and Campaign Classic 8931 build. If you are using a previous build, you need to upgrade to use this feature.
+>Active profiles monitoring from the Control Panel is available in beta, and subject to frequent updates and modifications without notice. It is available from Campaign Standard 10368 build.
 
 According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles.
 
