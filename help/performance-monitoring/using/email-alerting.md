@@ -6,8 +6,8 @@ description: Learn how to receive email notifications in case of issues with you
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 ---
-
 # Email alerting {#email-alerting}
 
 In order to provide greater flexibility to your work, Control Panel is equipped with real-time email alerting functionality.
@@ -34,4 +34,3 @@ The list of alerts is as follows:
 * **Database usage**: One of your instances' databases has reached 80% or more of its capacity. See [Database monitoring](../../performance-monitoring/using/database-monitoring.md).
 
 * **SSL certificate expiration**: One of your subdomains' SSL certificates has expired or is going to expire in  60 days or less. See [Monitoring subdomains' SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
-

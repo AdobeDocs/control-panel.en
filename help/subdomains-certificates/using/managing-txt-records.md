@@ -6,8 +6,8 @@ description: Learn how to manage TXT records for domain ownership verification.
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 ---
-
 # Managing TXT records {#managing-txt-records}
 
 >[!CONTEXTUALHELP]

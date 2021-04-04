@@ -6,8 +6,8 @@ description: Learn how to add IP addresses to the allow list in the Control Pane
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 ---
-
 # IP allow listing {#ip-allow-listing}
 
 >[!CONTEXTUALHELP]

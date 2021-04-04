@@ -6,8 +6,8 @@ description: Learn how to monitor your instance details in the Control Panel
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 ---
-
 # Instance Details {#instance-details}
 
 >[!CONTEXTUALHELP]

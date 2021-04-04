@@ -7,8 +7,8 @@ testing: SSECD-836 2
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
 ---
-
 # About SFTP management {#about-sftp-management}
 
 In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. Most instances have connected SFTP servers (in some cases, development and stage instances may not be connected to any SFTP servers).

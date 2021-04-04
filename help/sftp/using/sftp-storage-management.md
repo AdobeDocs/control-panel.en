@@ -6,8 +6,8 @@ description: Learn how to monitor and manage your SFTP server's storage
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 ---
-
 # SFTP storage management {#sftp-storage-management}
 
 >[!CONTEXTUALHELP]

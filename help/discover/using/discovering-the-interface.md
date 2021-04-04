@@ -6,8 +6,8 @@ description: Learn more about the Control Panel interface
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 ---
-
 # Discovering Control Panel interface {#discovering-interface}
 
 The Control Panel home page gives you access to all actions that can be performed on your Campaign instances.

@@ -6,8 +6,8 @@ description: Learn how to access the Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
+exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 ---
-
 # Accessing Control Panel {#accessing-control-panel}
 
 The Control Panel is available directly from the Experience Cloud, or from the product itself.

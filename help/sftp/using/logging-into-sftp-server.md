@@ -6,8 +6,8 @@ description: Learn how to log into your SFTP server
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 ---
-
 # Logging into your SFTP server {#logging-into-sft-server}
 
 The steps below detail how to connect your SFTP server through your SFTP client application.

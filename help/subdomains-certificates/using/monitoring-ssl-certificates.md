@@ -6,8 +6,8 @@ description: Learn how to monitor your subdomains' SSL certificates
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 ---
-
 # Monitoring subdomains' SSL certificates {#monitoring-ssl-certificates}
 
 ## About SSL certificates {#about-ssl-certificates}

@@ -6,8 +6,8 @@ description: Learn how to manage keys to connect to SFTP servers
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 ---
-
 # Key management {#key-management}
 
 >[!CONTEXTUALHELP]

@@ -6,8 +6,8 @@ description: Learn how to monitor your instances performance in the Control Pane
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
 ---
-
 # About performance monitoring {#about-performance-monitoring}
 
 Control Panel provides several functionalities to help you monitor your instances and ensure optimal performances.
@@ -21,4 +21,3 @@ The **[!UICONTROL Performance monitoring]** card in the Control Panel home page 
 >With upcoming Control Panel releases, additional monitoring functionalities will be made available in this card.
 
 Moreover, Control Panel allows you to sign up to receive email notifications each time that an issue is detected on one of your Campaign instances. For more on this, refer to [this section](../../performance-monitoring/using/email-alerting.md).
-

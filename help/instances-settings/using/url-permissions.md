@@ -6,8 +6,8 @@ description: Learn how to manage URL permissions in the Control Panel
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 ---
-
 # URL permissions {#url-permissions}
 
 >[!CONTEXTUALHELP]

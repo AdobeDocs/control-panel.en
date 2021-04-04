@@ -6,8 +6,8 @@ description: Learn how to renew your subdomains' SSL certificates
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 ---
-
 # Renewing a subdomain's SSL certificate {#renewing-subdomains-ssl-certificates}
 
 >[!CONTEXTUALHELP]

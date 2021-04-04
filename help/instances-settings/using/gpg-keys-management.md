@@ -6,8 +6,8 @@ description: Learn how to manage GPG keys to encrypt and decrypt data within Ado
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 ---
-
 # GPG keys management {#gpg-keys-management}
 
 ## About GPG encryption {#about-gpg-encryption}
@@ -177,4 +177,3 @@ The video below shows how to generate and install GPG keys for data encryption.
 Additional how-to videos related to GPG keys management are available in  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) and [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) tutorials pages.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
-

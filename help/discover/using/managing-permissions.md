@@ -6,8 +6,8 @@ description: Learn how to manage permissions to the Control Panel
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 ---
-
 # Managing permissions to Control Panel {#managing-permissions-control-panel}
 
 The Control Panel is available to all Admin users of a Campaign instance. Follow the steps below to assign users to the Administrators group and grant them an access to the Control Panel.

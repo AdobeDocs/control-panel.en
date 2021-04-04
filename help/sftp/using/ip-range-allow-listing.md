@@ -6,8 +6,8 @@ description: Learn how to add IP ranges to the allow list for SFTP servers acces
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 ---
-
 # IP range allow listing {#ip-range-allow-listing}
 
 >[!CONTEXTUALHELP]

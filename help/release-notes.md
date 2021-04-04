@@ -5,8 +5,8 @@ title: Control Panel releases
 feature: Control Panel
 role: Architect
 level: Beginner
+exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 ---
-
 # Control Panel releases {#control-panel-releases}
 
 Here you will find information about the latest Control Panel releases.

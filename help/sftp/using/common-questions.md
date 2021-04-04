@@ -6,8 +6,8 @@ description: Learn more about common questions related to SFTP management
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50
 ---
-
 # Common questions {#common-questions}
 
 **My organization has two SFTP servers. How come I only see the one that is attached to my Production instance?**

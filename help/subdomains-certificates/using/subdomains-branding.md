@@ -6,8 +6,8 @@ description: Learn more about subdomains branding
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 ---
-
 # Subdomains branding {#subdomains-branding}
 
 >[!CONTEXTUALHELP]

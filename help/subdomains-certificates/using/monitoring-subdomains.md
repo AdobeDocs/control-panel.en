@@ -6,8 +6,8 @@ description: Learn how to monitor your subdomains' SSL certificates
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 ---
-
 # Monitoring your subdomains {#monitoring-subdomains}
 
 It is essential to monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.

@@ -6,8 +6,8 @@ description: Learn how to get real-time information on the latest and historical
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 ---
-
 # Active profiles monitoring {#active-profiles-monitoring}
 
 ## About active profiles {#about-active-profiles}
