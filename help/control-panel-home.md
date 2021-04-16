@@ -1,7 +1,6 @@
 ---
-product: campaign
-solution: Campaign 
 title: Product documentation
+description: Documentation for Control Panel.
 feature: Control Panel
 role: Architect
 level: Beginner
