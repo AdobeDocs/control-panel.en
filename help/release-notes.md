@@ -2,6 +2,7 @@
 product: campaign
 solution: Campaign 
 title: Control Panel releases
+description: Latest Control Panel release notes.
 feature: Control Panel
 role: Architect
 level: Beginner
