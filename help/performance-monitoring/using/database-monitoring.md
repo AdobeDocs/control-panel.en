@@ -22,7 +22,7 @@ Overflowing an instance database can lead to several issues (inability to login,
 
 >[!NOTE]
 >
->If the amount of provided database space provided as shown in the Control Panel does not reflect the amount specified in your contract, reach out to Customer Care.
+>If the amount of available database space as shown in the Control Panel does not reflect the amount specified in your contract, reach out to Customer Care.
 
 ## Monitoring database usage {#monitoring-instances-database}
 
@@ -38,7 +38,7 @@ Select the desired instance from the **[!UICONTROL Instance List]** to display i
 >
 >Note that data from this dashboard is updated based on the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance (see [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation).
 >
->You can check theditionally, you can receive notifications when one of your databases is reaching its c last time the workflow ran below the **[!UICONTROL Used Space]** and **[!UICONTROL Provided Space]** metrics. Note that, if the workflow has not been running since more than 3 days, we recommend reaching out to Adobe Customer care so that they investigate why the workflow is not running.
+>Additionally, you can receive notifications when one of your databases is reaching its c last time the workflow ran below the **[!UICONTROL Used Space]** and **[!UICONTROL Provided Space]** metrics. Note that, if the workflow has not been running since more than 3 days, we recommend reaching out to Adobe Customer care so that they investigate why the workflow is not running.
 
 Additional metrics, described below, are available in this dashboard to help you analyse the usage of the instance's database.
 
@@ -98,11 +98,13 @@ The **[!UICONTROL View all]** button allows you to access detailed information o
 
 ![](assets/database-top10-view.png)
 
->[!NOTE]
+The value in the **[!UICONTROL Keep interim results]** column indicates if the option is enabled ("1") or diabled ("0") in Campaign. This option allows you to save the results of the transitions between the various activities of a workflow (see [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) documentation).
+
+>[!IMPORTANT]
 >
->The value in the **[!UICONTROL Keep interim results]** column indicates if the option is enabled ("1") or diabled ("0") in Campaign. The **[!UICONTROL Keep interim results]** option is accessible in workflows' properties. It allows you to save the results of the transitions between the various activities of a workflow (see [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) documentation).
+>This option must never be checked in a production workflow. It is used to analyze the results and is designed only for testing purposes and hence must be used only on development or staging environments.
 >
->If the option is enabled for one of your workflows, the database cleanup workflow will not be able to reclaim the space consumed by interim results. We therefore recommend reviewing the workflow to check if the option can be turned off.
+>If the value in Control Panel indicates that the option is enabled for one of your workflows, we strongly recommend turning it off in Campaign.
 
 ## Preventing database overload {#preventing-database-overload}
 
