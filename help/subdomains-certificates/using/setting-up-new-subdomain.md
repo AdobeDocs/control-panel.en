@@ -60,7 +60,7 @@ To fully delegate a subdomain to Adobe Campaign, follow the steps below.
     
     >[!NOTE]
     >
-    > For Adobe Campaign Standard instance, subdomains will allow you to send both marketing and transactional communications.
+    > For Adobe Campaign Standard, subdomains delegated will allow you to send both **Marketing** and **Transactional** communications.
 
     ![](assets/subdomain4.png)
 
