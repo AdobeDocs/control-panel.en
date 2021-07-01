@@ -57,6 +57,10 @@ To fully delegate a subdomain to Adobe Campaign, follow the steps below.
     ![](assets/subdomain3.png)
 
 1. Create the desired subdomain and nameservers in the hosting solution used by your organization. To do this, copy-paste the Adobe Nameserver information displayed in the wizard. For more on how to create a subdomain in a hosting solution, refer to the [tutorial video](https://video.tv.adobe.com/v/30175).
+    
+    >[!NOTE]
+    >
+    > For Adobe Campaign Standard instance, subdomains will allow you to send both marketing and transactional communications.
 
     ![](assets/subdomain4.png)
 
