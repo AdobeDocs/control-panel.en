@@ -20,9 +20,9 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign Classic instances only.
+>This feature is available for Campaign Classic v7 and Campaign v8 instances only.
 
-By default, your Adobe Campaign Classic instance is not accessible from various IP addresses.
+By default, your Adobe Campaign instance is not accessible from various IP addresses.
 
 If your IP address has not been added to the allow list, you will not be able to login to the instance from this address. The same way, you may not be able to connect an API to your Message Center or Marketing instance if the IP address has not been added to the allow list with the instance explicitly.
 
@@ -75,7 +75,7 @@ To add IP addresses to the allow list, follow these steps:
 
 1. Specify the type of access that you want to grant to the IP addresses:
 
-    * **[!UICONTROL Campaign Console Access]**: The IP addresses will be allowed to connect to the Campaign Classic Console. Note that Console access is enabled for Marketing instances only. Access to MID and RT instance is not permitted and therefore not enabled.
+    * **[!UICONTROL Campaign Console Access]**: The IP addresses will be allowed to connect to the Campaign Client Console. Note that Console access is enabled for Marketing instances only. Access to MID and RT instance is not permitted and therefore not enabled.
     * **[!UICONTROL AEM connection]**: The specified AEM IP addresses will be allowed to connect to the Marketing instance.
     * **[!UICONTROL External API connection]**: External APIs with the specified IP addresses will be allowed to connect to the Marketing and/or Message Center (RT) instance. Note that connection to the console of RT instances is not enabled.
 

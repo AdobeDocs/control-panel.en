@@ -25,6 +25,8 @@ The **[!UICONTROL Database monitoring]** tab has been enhanced with additional m
 >* Control Panel is restricted to Admin users. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 >
 >* For Campaign Classic v7, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) build. Learn how to check your Campaign Classic version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your Campaign Classic instance is hosted on AWS, follow the steps detailed in [this page](faq.md).
+>
+>* The following capabilities are not available for Campaign v8: Sub-domain management and Certificate management.
 
 ## Additional Resources {#additional-resources}
 

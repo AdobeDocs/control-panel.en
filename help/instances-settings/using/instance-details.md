@@ -21,9 +21,9 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign Classic instances only.
+>This feature is available for Campaign Classic v7 and Campaign v8 instances only.
 
-Your Adobe Campaign Classic instance architecture can contain several servers to enable the flexibility of marketing activities. For example, you can have Marketing, Real Time (or Message Center) and Mid Sourcing servers supporting your instance. 
+Your Adobe Campaign instance architecture can contain several servers to enable the flexibility of marketing activities. For example, you can have Marketing, Real Time (or Message Center) and Mid Sourcing servers supporting your instance. 
 
 The Instance Details functionality allows you to view flat architecture of your instance. In addition to server information, it also lets you know whether or not your instance build is current, as well as recommends upgrades when needed. 
 
@@ -46,7 +46,7 @@ To get information on the servers connected to your instances, follow these step
     >
     >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign Classic instances
 
-1. Select in the left pane the desired Campaign Classic instance.
+1. Select in the left pane the desired Campaign instance.
 
     >[!NOTE]
     >

@@ -20,9 +20,9 @@ exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign Classic instances only, from build 8850. If you are using a previous build, you need to upgrade to use this feature.
+>This feature is available for Campaign v8 and Campaign Classic v7 instances only, from build 8850. If you are using a previous build, you need to upgrade to use this feature.
 
-The default list of URLs that can be called by JavaScript codes (workflows, etc.) by your Campaign Classic instances is limited. These are URLs that allow your instances to function properly.
+The default list of URLs that can be called by JavaScript codes (workflows, etc.) by your Campaign instances is limited. These are URLs that allow your instances to function properly.
 
 By default, instances are not allowed to connect to outside URLs. The Control Panel allows you to add some outside URLs to the list of authorized URLs, so that your instance can connect to them. This allows you to connect your Campaign instances to outside systems like, for example, SFTP servers or websites in order to enable file and/or data transfer.
 
@@ -54,7 +54,7 @@ To add a URL that your instance can connect to, follow these steps:
 
     >[!NOTE]
     >
-    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign Classic instances
+    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign instances
     >
     >The <b><span class="uicontrol">URL permissions</span></b> tab lists all outside URLs that your instance can connect to. This list does not include URLs that are required for Campaign to work (e.g., connections between infrastructure pieces).
 
