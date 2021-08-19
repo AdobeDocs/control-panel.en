@@ -15,6 +15,10 @@ exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 >title="Managing TXT records"
 >abstract="Some services like Google require that you add a TXT record to your domain settings in order to verify that you own the domain."
 
+>[!AVAILABILITY]
+>
+>This capability is not available for Campaign v8.
+
 ## About TXT records {#about-txt-records}
 
 TXT records are a type of DNS records used to provide text information about a domain, that can be read by external sources.
