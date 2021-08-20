@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 ---
-# FAQ {#faq}
+# Frequently Asked Questions {#faq}
 
 ## IMS Organization ID {#ims-org-id}
 
