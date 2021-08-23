@@ -14,7 +14,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 >id="cp_certificate_management"
 >title="About subdomains and SSL certificates"
 >abstract="Monitor your subdomains and the associated SSL certificates."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="How to monitor your subdomains' SSL certificates"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="How to monitor your subdomains' SSL certificates"
 
 
 ## Why setting up subdomains? {#why-setting-up-subdomains}

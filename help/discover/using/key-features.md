@@ -14,7 +14,7 @@ exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 >id="cp_overview"
 >title="About Control Panel"
 >abstract="The Control Panel home page gives you access to all actions that can be performed on your Campaign instances."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Discovering the interface"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Discovering the interface"
 
 The Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign Standard and/or Classic, by allowing you to manage settings and track usages for each of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
 
