@@ -56,11 +56,11 @@ No, there is no extra cost if you are a current customer of Adobe Campaign.
 
 It is a unique ID that is given to your instance when you first log onto Adobe Experience Cloud. It should be in the format: xxx@AdobeOrg.
 
-For more information, please refer to [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+For more information, please refer to [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Where can I find my IMS Organization ID?
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. You can find more detailed information in the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. You can find more detailed information in the [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 The other way is to launch **Admin Console**. Your IMS Organization ID will be visible in your URL, it should look something like: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
