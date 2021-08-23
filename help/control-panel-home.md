@@ -34,19 +34,19 @@ The **[!UICONTROL Database monitoring]** tab has been enhanced with additional m
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Control Panel tutorial videos for Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Control Panel tutorial videos</a></li>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard product documentation</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Control Panel tutorial videos for Campaign Classic v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Control Panel tutorial videos</a></li>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign Classic v7 product documentation</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Control Panel tutorial videos for Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Control Panel tutorial videos</a></li>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign v8 product documentation</a></li>
         </ul>
         </td>
