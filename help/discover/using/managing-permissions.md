@@ -14,21 +14,30 @@ The Control Panel is available to all Admin users of a Campaign instance. Follow
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in [video](../../discover/using/managing-permissions.md#video)
 
-1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com/), then select the **[!UICONTROL Administration]** tab.
+<!--Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com/), then select the **[!UICONTROL Administration]** tab.
 
     ![](assets/do-not-localize/control_panel_add_user1.png)
 
     >[!NOTE]
     >
-    >If the <b>Administration</b> tab is not visible, this means that you don't have Admin rights for your organization. Contact your Organization Administrators to perform the steps with them.
+    >If the **Administration** tab is not visible, this means that you don't have Admin rights for your organization. Contact your Organization Administrators to perform the steps with them.
+-->
 
-1. Launch the **Admin Console** by clicking the available links.
+1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com/), and launch the **Admin Console** by clicking the available links.
 
-    ![](assets/do-not-localize/control_panel_admin1.png)
+    ![](assets/do-not-localize/control_panel_admin-console.png)
 
-1. Select the desired Campaign product.
+    >[!NOTE]
+    >
+    >If the Admin Console link is not visible in the **Quick Access** section, this means that you don't have Admin rights for your organization. Contact your Organization Administrators to perform the steps with them.
 
-    ![](assets/do-not-localize/control_panel_add_user3.png)
+    <!--![](assets/do-not-localize/control_panel_admin1.png)-->
+
+1. Select the desired Campaign product from the Admin Console list.
+
+    ![](assets/do-not-localize/control_panel_product-list.png)
+
+    <!--![](assets/do-not-localize/control_panel_add_user3.png)-->
 
     >[!NOTE]
     >
