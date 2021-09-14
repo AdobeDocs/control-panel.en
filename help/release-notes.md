@@ -20,7 +20,7 @@ Here you will find information about the latest Control Panel releases.
 
 ## August 2021 {#august-2021}
 
-Control Panel is now available for Adobe Campaign v8, except the Subdomain management and Certificate management capabilities, which are not yet supported. Learn more in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target="_blank"}
+Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported. Learn more in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target="_blank"}
 
 ## October 2020 {#october-2020}
 
