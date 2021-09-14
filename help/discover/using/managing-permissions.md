@@ -29,11 +29,11 @@ The Control Panel is available to all Admin users of a Campaign instance. Follow
 
     >[!NOTE]
     >
-    >If the Admin Console link is not visible in the **Quick Access** section, this means that you don't have Admin rights for your organization. Contact your Organization Administrators to perform the steps with them.
+    >If the **Admin Console** link is not visible in the **Quick Access** section, this means that you don't have Admin rights for your organization. Contact your Organization Administrators to perform the steps with them.
 
     <!--![](assets/do-not-localize/control_panel_admin1.png)-->
 
-1. Select the desired Campaign product from the Admin Console list.
+1. In the **Admin Console**, select the desired Campaign product from the **[!UICONTROL Products and services]** list.
 
     ![](assets/do-not-localize/control_panel_product-list.png)
 
