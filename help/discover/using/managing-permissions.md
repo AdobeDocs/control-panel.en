@@ -14,21 +14,19 @@ The Control Panel is available to all Admin users of a Campaign instance. Follow
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in [video](../../discover/using/managing-permissions.md#video)
 
-1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com/), then select the **[!UICONTROL Administration]** tab.
+1. Navigate to the [Adobe Experience Cloud homepage](https://experiencecloud.adobe.com/){target="_blank"}.
 
-    ![](assets/do-not-localize/control_panel_add_user1.png)
+1. Launch the **Admin Console** by clicking the available link from the **Quick Access** section or the top right menu.
+
+    ![](assets/do-not-localize/control_panel_admin-console.png)
 
     >[!NOTE]
     >
-    >If the <b>Administration</b> tab is not visible, this means that you don't have Admin rights for your organization. Contact your Organization Administrators to perform the steps with them.
+    >If the **Admin Console** link is not visible, this means that you do not have Admin rights for your organization. Contact your Organization Administrators to perform the steps with them.
 
-1. Launch the **Admin Console** by clicking the available links.
+1. From the **Admin Console**, select the desired Campaign product from the **[!UICONTROL Products and services]** list.
 
-    ![](assets/do-not-localize/control_panel_admin1.png)
-
-1. Select the desired Campaign product.
-
-    ![](assets/do-not-localize/control_panel_add_user3.png)
+    ![](assets/do-not-localize/control_panel_product-list.png)
 
     >[!NOTE]
     >
@@ -36,13 +34,13 @@ The Control Panel is available to all Admin users of a Campaign instance. Follow
 
 1. The list of instances for your Campaign product displays. Select the instance to which you want to add an Admin user.
 
-    ![](assets/do-not-localize/control_panel_add_user4.png)
+    ![](assets/do-not-localize/control_panel_add_user_4.png)
 
     >[!NOTE]
     >
-    >You can add different Admin users for each Campaign instance. In that case, Admin users will access the Control Panel of the instance to which they belong only.
+    >You can add different Admin users for each Campaign instance. Admin users will access the Control Panel of the instance to which they belong only.
 
-1. The list of Product Profiles for the selected instance displays. Click the **[!UICONTROL Administrators]** product profile to access the list of Admin users.
+1. The list of **[!UICONTROL Product Profiles]** for the selected instance displays. Click the **[!UICONTROL Administrators]** product profile to access the list of Admin users.
 
     ![](assets/do-not-localize/control_panel_add_user_5.png)
 

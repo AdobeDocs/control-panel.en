@@ -16,13 +16,17 @@ It is accessible to **Admin users** only. For more on how to assign users to the
 
 ## Access from the Experience Cloud Platform {#access-experience-cloud-platform}
 
-To access the Control Panel from the Experience Cloud Platform,  navigate to the [Experience Cloud Platform homepage](https://experiencecloud.adobe.com/), then click the dedicated link in the **Quick Access** section.
+To access the Control Panel from the Adobe Experience Cloud Platform, follow the steps below.
 
-![](assets/do-not-localize/quickaccess.png)
+1. Navigate to the [Experience Cloud homepage](https://experiencecloud.adobe.com/){target="_blank"}.
+
+1. Click the dedicated link in the **Quick Access** section.
+
+    ![](assets/do-not-localize/quickaccess.png)
 
 The Control Panel is also accessible from the Experience Cloud Platform **solution picker**:
 
-1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com/), then select **Campaign** from the solution picker.
+1. From the [Adobe Experience Cloud homepage](https://experiencecloud.adobe.com/){target="_blank"}, select **Campaign** from the **Quick Access** section or the top menu on the right.
 
     ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -34,9 +38,11 @@ The Control Panel is also accessible from the Experience Cloud Platform **soluti
 
 >[!NOTE]
 >
->Access from within the product is available for Campaign Standard only.
+>Access from within the product is available for [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=en){target="_blank"} only.
 
-1. Open your Campaign Standard product, then select the **[!UICONTROL Administration]** menu from the **[!UICONTROL Navigation]** pane.
+1. Open your Campaign Standard product.
+
+1. Select the **[!UICONTROL Administration]** menu from the **Navigation** pane.
 
     ![](assets/control_panel_access3.png)
 
