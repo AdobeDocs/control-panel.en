@@ -22,9 +22,7 @@ The steps to generate a public SSH key and add it to access the SFTP server are 
 
 Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. For more on this, refer to [this section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
->[!NOTE]
->
->It is currently not possible to delete a SSH public key.
+<!--It is currently not possible to delete a SSH public key.-->
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
@@ -98,3 +96,17 @@ You can use fingerprints to match the Private keys that are saved on your comput
 The "**...**" button allows you to delete an existing key, or to copy its associated fingerprint into your clipboard.
 
 ![](assets/key_options.png)
+
+If the key you created is used to establish a connection with a system that has never been connected to the selected SFTP server before, you will need to add a public IP of that system to the allow list before you are able to use this system with the SFTP server. See [this section](ip-range-allow-listing.md).
+
+## Editing SSH keys
+
+To edit public keys, select one or more items from the **[!UICONTROL Key management]** list, then click the **[!UICONTROL Update x public key(s)]** button.
+
+>[!NOTE]
+>
+>You can only edit the public key expiry duration and/or add a new comment. To modify the , delete the public key and create a new one corresponding to your needs.
+
+To delete on or more public keys from the list, select them, then click the **[!UICONTROL Delete public key]** button.
+
+
