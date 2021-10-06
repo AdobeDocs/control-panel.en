@@ -41,8 +41,8 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Add New IP Range"
->abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP servers."
+>title="Create IP range"
+>abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP server."
 
 To add an IP range to the allow list, follow these steps:
 
@@ -76,7 +76,9 @@ To add an IP range to the allow list, follow these steps:
 
     ![](assets/control_panel_add_range5.png)
 
-    By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the IP range never expires.
+    >[!NOTE]
+    >
+    >By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the IP range never expires.
 
 1. If needed, you can type a comment in the corresponding field.
 
@@ -88,36 +90,44 @@ If you are trying to connect your SFTP servers to a new system, you might need t
 
 ## IP Allow Listing
 
-The new IP range displays in the **[!UICONTROL IP Allow Listing]** list.
+The IP ranges that you create display in the **[!UICONTROL IP Allow Listing]** tab.
 
-You can sort the items based on the creation date, edition date, by whom it was created or edited, and on the expiry date.
+You can sort the items based on the creation date, edition date, the user who created or edited it, and the expiry date.
+
+![](assets/control_panel_allow_listing_sort.png)
 
 You can also search an IP range by starting to type a label.
 
 The **[!UICONTROL Expires]** column shows how many days remains until the IP range will expire.
 
-You will receive notifications by email 7 days before an IP range will expire? Do you need to subscribe or is it automatic?
+If you subscribe to [email alerting](../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend the expiry duration if needed.
 
 An expired IP range will be automatically deleted after 7 days.
 
-## Editing IP ranges
+## Editing IP ranges {#editing-ip-ranges}
 
 >[!CONTEXTUALHELP]
->id="cp_sftp_iprange_edit"
->title="Edit IP Ranges"
->abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP servers."
+>id="cp_sftp_iprange_update"
+>title="Update IP ranges"
+>abstract="Update the selected IP ranges allowed to connect to your SFTP server."
 
-To edit IP ranges, select one or more IP ranges from the **[!UICONTROL IP Allow Listing]** list, then click the **[!UICONTROL Update x IP range(s)]** button.
+To edit IP ranges:
 
-![](assets/control_panel_edit_range.png)
+1. Select one or more IP ranges from the **[!UICONTROL IP Allow Listing]** list.
 
-![](assets/control_panel_edit_range2.png)
+1. Click the **[!UICONTROL Update x IP range(s)]** button.
+
+    ![](assets/control_panel_edit_range.png)
+
+1. You can only edit the IP range expiry and/or add a new comment.
 
 >[!NOTE]
 >
->You can only edit the IP range expiry duration and/or add a new comment. To modify the CIDR format, its label or edit the related instance(s), delete the IP range and create a new one corresponding to your needs.
+>To modify the CIDR format, its label or edit the related instance(s), you must first delete the IP range and create a new one corresponding to your needs.
 
-To delete on or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
+![](assets/control_panel_edit_range2.png)
+
+To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
 
 ![](assets/control_panel_delete_range.png)
 
