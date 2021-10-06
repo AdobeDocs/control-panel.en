@@ -26,7 +26,6 @@ To subscribe to these alerts follow these steps:
 
     ![](assets/alert_sample.png)
 
-
 The list of alerts is as follows:
 
 * **SFTP storage usage**: One of your SFTP servers has reached 80% or more of its capacity. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
@@ -34,3 +33,7 @@ The list of alerts is as follows:
 * **Database usage**: One of your instances' databases has reached 80% or more of its capacity. See [Database monitoring](../../performance-monitoring/using/database-monitoring.md).
 
 * **SSL certificate expiration**: One of your subdomains' SSL certificates has expired or is going to expire in  60 days or less. See [Monitoring subdomains' SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+
+* **SFTP IP allow listing expiration**: One of the IP ranges you defined has expired or is going to expire in 10 days or less. See [IP range allow listing](../../sftp/using/ip-range-allow-listing.md)
+
+* **SFTP public key expiration**: One of the public keys you defined has expired or is going to expire in 10 days or less. [Key management](../../sftp/using/key-management.md)
