@@ -44,8 +44,8 @@ In very rare cases password based authentication is enabled on some SFTP servers
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Add New Public Key"
->abstract="Add a new public key for an instance."
+>title="Create public key"
+>abstract="Define a new public key for an instance to establish connection to your SFTP server."
 
 >[!IMPORTANT]
 >
