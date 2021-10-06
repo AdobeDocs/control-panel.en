@@ -87,6 +87,16 @@ In very rare cases password based authentication is enabled on some SFTP servers
 
     ![](assets/publickey.png)
 
+1. To make sure that unused public keys are automatically disabled once you do not need them anymore, you can set an expiration date. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field.
+
+    ![](assets/control_panel_add_range5.png)
+
+    >[!NOTE]
+    >
+    >By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the IP range never expires.
+
+1. If needed, you can type a comment in the corresponding field.
+
 1. Click the **[!UICONTROL Save]** button to create the key. Control Panel saves the Public key and its associated Fingerprint, encrypted with the SHA256 format.
 
 You can use fingerprints to match the Private keys that are saved on your computer with the corresponding Public keys saved in Control Panel.
@@ -99,7 +109,28 @@ The "**...**" button allows you to delete an existing key, or to copy its associ
 
 If the key you created is used to establish a connection with a system that has never been connected to the selected SFTP server before, you will need to add a public IP of that system to the allow list before you are able to use this system with the SFTP server. See [this section](ip-range-allow-listing.md).
 
-## Editing SSH keys
+## Key Management
+
+The public keys that you create display in the **[!UICONTROL Key Management]** tab.
+
+You can sort the items based on the creation date, edition date, the user who created or edited it, and the expiry date.
+
+![](assets/control_panel_allow_listing_sort.png)
+
+You can also search a public key by starting to type a label.
+
+The **[!UICONTROL Expires]** column shows how many days remains until the public key will expire.
+
+If you subscribe to [email alerting](../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before a public key will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend the expiry duration if needed.
+
+An expired public key will be automatically deleted after 7 days.
+
+## Editing public keys {#editing-public-keys}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_publickey_update"
+>title="Edit public keys"
+>abstract="Update the selected public keys to access your SFTP server."
 
 To edit public keys, select one or more items from the **[!UICONTROL Key management]** list, then click the **[!UICONTROL Update x public key(s)]** button.
 
