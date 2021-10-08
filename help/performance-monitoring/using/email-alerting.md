@@ -34,6 +34,6 @@ The list of alerts is as follows:
 
 * **SSL certificate expiration**: One of your subdomains' SSL certificates has expired or is going to expire in  60 days or less. See [Monitoring subdomains' SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
-* **SFTP IP allow listing expiration**: One of the IP ranges you defined has expired or is going to expire in 10 days or less. See [IP range allow listing](../../sftp/using/ip-range-allow-listing.md)
+* **SFTP IP allow listing expiration**: One of the IP ranges you defined has expired or is going to expire in 10 days or less. See [IP range allow listing](../../sftp/using/ip-range-allow-listing.md)<!--TO REVIEW-->
 
-* **SFTP public key expiration**: One of the public keys you defined has expired or is going to expire in 10 days or less. [Key management](../../sftp/using/key-management.md)
+* **SFTP public key expiration**: One of the public keys you defined has expired or is going to expire in 10 days or less. [Key management](../../sftp/using/key-management.md)<!--TO REVIEW-->

@@ -86,7 +86,9 @@ To add an IP range to the allow list, follow these steps:
 
 ![](assets/control_panel_add_range6.png)
 
-If you are trying to connect your SFTP servers to a new system, you might need to enter new public keys to complete the connection. When adding new IPs, you need to enter new public keys. For more on this, see [this section](key-management.md).
+>[!NOTE]
+>
+>If you are trying to connect your SFTP servers to a new system, you might need to enter new public keys to complete the connection. When adding new IPs, you need to enter new public keys. For more on this, see [this section](key-management.md).<!--TO REVIEW-->
 
 ## IP Allow Listing
 
