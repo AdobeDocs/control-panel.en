@@ -12,11 +12,13 @@ exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 
 In order to provide greater flexibility to your work, Control Panel is equipped with real-time email alerting functionality.
 
-To subscribe to these alerts follow these steps:
+To subscribe to these alerts, follow these steps:
 
 1. Click the **[!UICONTROL Alerting notifications]** button available from any location in the Control Panel, then click **[!UICONTROL Subscribe]**.
 
     ![](assets/subscribing.png)
+    
+    <!--update screen when UI is final/correct-->
 
 1. An email is sent to confirm your subscription.
 
@@ -34,6 +36,6 @@ The list of alerts is as follows:
 
 * **SSL certificate expiration**: One of your subdomains' SSL certificates has expired or is going to expire in  60 days or less. See [Monitoring subdomains' SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
-* **SFTP IP allow listing expiration**: One of the IP ranges you defined has expired or is going to expire in 10 days or less. See [IP range allow listing](../../sftp/using/ip-range-allow-listing.md)<!--TO REVIEW-->
+* **SFTP IP allow listing expiration**: One of the IP ranges you defined has expired or is going to expire in 10 days or less. See [IP range allow listing](../../sftp/using/ip-range-allow-listing.md).
 
-* **SFTP public key expiration**: One of the public keys you defined has expired or is going to expire in 10 days or less. [Key management](../../sftp/using/key-management.md)<!--TO REVIEW-->
+* **SFTP public key expiration**: One of the public keys you defined has expired or is going to expire in 10 days or less. See [Key management](../../sftp/using/key-management.md).
