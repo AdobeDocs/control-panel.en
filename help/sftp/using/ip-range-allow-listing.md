@@ -16,7 +16,7 @@ exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 >abstract="In this tab, you can add IP ranges to the allow list, in order to establish a connection to your SFTP servers. Only SFTP servers that you have access to are shown here. Please contact your Administrator to request access to other SFTP servers."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Watch demo video"
 
-SFTP servers are protected. In order to be able to access them in order to view files or write new ones, you need to add the public IP address of the system or client that accesses the servers to the allow list.
+SFTP servers are protected. In order to be able to access them to view files or write new ones, you need to add the public IP address of the system or client that accesses the servers to the allow list.
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
 
@@ -24,9 +24,9 @@ SFTP servers are protected. In order to be able to access them in order to view 
 
 CIDR (Classless Inter-Domain Routing) is the supported format when adding IP ranges with the Control Panel interface.
 
-The syntax consists of an IP address, followed by a '/' character, and a decimal number. The format and its syntax are fully detailed in [this article](https://whatismyipaddress.com/cidr).
+The syntax consists of an IP address, followed by a '/' character, and a decimal number. The format and its syntax are fully detailed in [this article](https://whatismyipaddress.com/cidr){target="_blank"}.
 
-You can search on the internet for free online tools that will help you convert the IP range that you have in hand to CIDR format.
+You can search on the Internet for free online tools that will help you convert the IP range that you have in hand to CIDR format.
 
 ## Best practices {#best-practices}
 
@@ -35,14 +35,14 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 * **Add IP ranges to the allow list** rather than single IP addresses. To add a single IP address to the allow list, append a '/32' to it to indicate that the range only includes a single IP.
 * **Do not add very wide ranges to the allow list**, for example including > 265 IP addresses. The Control Panel will reject any CIDR-format ranges that are between /0 and /23.
 * Only **public IP addresses** can be added to the allow list.
-* Make sure to **regularly delete IP addresses** that you don't need anymore from the allow list.
+* Make sure to **set an expiry for your IP addresses**. This way, unused IP ranges are automatically disabled once you do not need them anymore.
 
 ## Adding IP addresses to the allow list {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Add New Ip Range"
->abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP servers."
+>title="Create IP range"
+>abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP server."
 
 To add an IP range to the allow list, follow these steps:
 
@@ -51,32 +51,85 @@ To add an IP range to the allow list, follow these steps:
 
     ![](assets/control_panel_add_range.png)
 
-1. Define the IP Range that you want to add to the allow list, in the CIDR format, then define the label that will display in the list.
+1. Define the IP range that you want to add to the allow list. This field only accepts IP ranges in CIDR format, such as *192.150.5.0/24*.
 
-    >[!NOTE]
-    >
-    >These special characters are allowed in the Label field:
-    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
-
-    ![](assets/control_panel_add_range2.png)
+    ![](assets/control_panel_add_range4.png)
 
     >[!IMPORTANT]
     >
     >An IP range cannot overlap an existing range on the allow list. In that case, first delete the range that contains the overlapping IP.
-    >
-    >It is possible to add a range on the allow list for multiple instances. To do this, press the down arrow key or type the first letters of the desired instance, then select it from the suggestions list.
+    
+1. It is possible to add a range to the allow list for multiple instances. To do this, press the down arrow key or type the first letters of the desired instance, then select it from the suggestions list.
 
     ![](assets/control_panel_add_range3.png)
 
-1. Click the **[!UICONTROL Save]** button. IP addition to the allow list will be displayed as PENDING until the request is fully processed. This should only take a few seconds.
+1. Define the label that will display for this IP range in the list.
 
-To delete IP ranges from the allow list, select them then click the **[!UICONTROL Delete IP range]** button.
+    ![](assets/control_panel_add_range2.png)
 
-![](assets/control_panel_delete_range2.png)
+    >[!NOTE]
+    >
+    >The following special characters are allowed in the **[!UICONTROL Label]** field:
+    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
->[!NOTE]
+1. To make sure that unused IP ranges are automatically disabled once you do not need them anymore, you can set an expiry. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field.
+
+    ![](assets/control_panel_add_range5.png)
+
+    >[!NOTE]
+    >
+    >By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the IP range never expires.
+
+1. If needed, you can type a comment in the corresponding field.
+
+1. Click the **[!UICONTROL Save]** button. The IP range addition to the allow list will be displayed as **[!UICONTROL Pending]** until the request is fully processed, which should only take a few seconds.
+
+![](assets/control_panel_add_range6.png)
+
+>[!IMPORTANT]
 >
->It is currently not possible to edit a range on the allow list. To modify an IP range, delete it, then create a one corresponding to your needs.
+>If you are trying to connect your SFTP servers to a new system, and thus adding new IP ranges to the allow list, you might need to enter new public keys to complete the connection. For more on this, see [this section](key-management.md).
+
+## IP Allow Listing
+
+The IP ranges that you create display in the **[!UICONTROL IP Allow Listing]** tab.
+
+You can sort the items based on the creation date, edition date, the user who created or edited it, and the expiry date. You can also search an IP range by starting to type a label.
+
+![](assets/control_panel_allow_list_sort.png)
+
+The **[!UICONTROL Expires]** column shows how many days remains until the IP range will expire.
+
+If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity duration if needed.
+
+An expired IP range will be automatically deleted after 7 days.
+
+## Editing IP ranges {#editing-ip-ranges}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_iprange_update"
+>title="Update IP ranges"
+>abstract="Update the selected IP ranges allowed to connect to your SFTP server."
+
+To edit IP ranges:
+
+1. Select one or more IP ranges from the **[!UICONTROL IP Allow Listing]** list.
+
+1. Click the **[!UICONTROL Update x IP range(s)]** button.
+
+    ![](assets/control_panel_edit_range.png)
+
+1. You can only edit the IP range expiry and/or add a new comment.
+
+    >[!NOTE]
+    >
+    >To modify the CIDR format, its label or edit the related instance(s), you must first delete the IP range and create a new one corresponding to your needs.
+
+    ![](assets/control_panel_edit_range2.png)
+
+To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete x IP range(s)]** button.
+
+![](assets/control_panel_delete_range.png)
 
 ## Monitoring changes {#monitoring-changes}
 
