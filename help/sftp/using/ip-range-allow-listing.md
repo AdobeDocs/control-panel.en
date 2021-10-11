@@ -100,7 +100,7 @@ You can sort the items based on the creation date, edition date, the user who cr
 
 The **[!UICONTROL Expires]** column shows how many days remains until the IP range will expire.
 
-If you subscribed to [email alerting](../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity duration if needed.
+If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity duration if needed.
 
 An expired IP range will be automatically deleted after 7 days.
 

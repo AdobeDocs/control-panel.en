@@ -119,7 +119,7 @@ You can sort the items based on the creation date, edition date, the user who cr
 
 The **[!UICONTROL Expires]** column shows how many days remains until the public key will expire.
 
-If you subscribed to [email alerting](../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before a public key will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend the expiry duration if needed.
+If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before a public key will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend the expiry duration if needed.
 
 An expired public key will be automatically deleted after 7 days.
 
