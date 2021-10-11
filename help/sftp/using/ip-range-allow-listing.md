@@ -26,7 +26,7 @@ CIDR (Classless Inter-Domain Routing) is the supported format when adding IP ran
 
 The syntax consists of an IP address, followed by a '/' character, and a decimal number. The format and its syntax are fully detailed in [this article](https://whatismyipaddress.com/cidr){target="_blank"}.
 
-You can search on the internet for free online tools that will help you convert the IP range that you have in hand to CIDR format.
+You can search on the Internet for free online tools that will help you convert the IP range that you have in hand to CIDR format.
 
 ## Best practices {#best-practices}
 
@@ -35,7 +35,7 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 * **Add IP ranges to the allow list** rather than single IP addresses. To add a single IP address to the allow list, append a '/32' to it to indicate that the range only includes a single IP.
 * **Do not add very wide ranges to the allow list**, for example including > 265 IP addresses. The Control Panel will reject any CIDR-format ranges that are between /0 and /23.
 * Only **public IP addresses** can be added to the allow list.
-* Make sure to **regularly delete IP addresses** that you don't need anymore from the allow list.
+* Make sure to **set an expiry for your IP addresses**. This way, unused IP ranges are automatically disabled once you do not need them anymore.
 
 ## Adding IP addresses to the allow list {#adding-ip-addresses-allow-list}
 
@@ -51,7 +51,7 @@ To add an IP range to the allow list, follow these steps:
 
     ![](assets/control_panel_add_range.png)
 
-1. Define the IP Range that you want to add to the allow list, in CIDR format. For example: *192.150.5.0/24*.
+1. Define the IP range that you want to add to the allow list. This field only accepts IP ranges in CIDR format, such as *192.150.5.0/24*.
 
     ![](assets/control_panel_add_range4.png)
 
@@ -59,20 +59,20 @@ To add an IP range to the allow list, follow these steps:
     >
     >An IP range cannot overlap an existing range on the allow list. In that case, first delete the range that contains the overlapping IP.
     
-1. It is possible to add a range on the allow list for multiple instances. To do this, press the down arrow key or type the first letters of the desired instance, then select it from the suggestions list.
+1. It is possible to add a range to the allow list for multiple instances. To do this, press the down arrow key or type the first letters of the desired instance, then select it from the suggestions list.
 
     ![](assets/control_panel_add_range3.png)
 
-1. Define the label that will display in the list.
+1. Define the label that will display for this IP range in the list.
 
     ![](assets/control_panel_add_range2.png)
 
     >[!NOTE]
     >
-    >These special characters are allowed in the Label field:
+    >The following special characters are allowed in the **[!UICONTROL Label]** field:
     > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. To make sure that unused IP ranges are automatically disabled once you do not need them anymore, you can set an expiration date. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field.
+1. To make sure that unused IP ranges are automatically disabled once you do not need them anymore, you can set an expiry. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field.
 
     ![](assets/control_panel_add_range5.png)
 
@@ -82,27 +82,25 @@ To add an IP range to the allow list, follow these steps:
 
 1. If needed, you can type a comment in the corresponding field.
 
-1. Click the **[!UICONTROL Save]** button. IP range addition to the allow list will be displayed as **[!UICONTROL Pending]** until the request is fully processed. This should only take a few seconds.
+1. Click the **[!UICONTROL Save]** button. The IP range addition to the allow list will be displayed as **[!UICONTROL Pending]** until the request is fully processed, which should only take a few seconds.
 
 ![](assets/control_panel_add_range6.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->If you are trying to connect your SFTP servers to a new system, you might need to enter new public keys to complete the connection. When adding new IPs, you need to enter new public keys. For more on this, see [this section](key-management.md).<!--TO REVIEW-->
+>If you are trying to connect your SFTP servers to a new system, and thus adding new IP ranges to the allow list, you might need to enter new public keys to complete the connection. For more on this, see [this section](key-management.md).
 
 ## IP Allow Listing
 
 The IP ranges that you create display in the **[!UICONTROL IP Allow Listing]** tab.
 
-You can sort the items based on the creation date, edition date, the user who created or edited it, and the expiry date.
+You can sort the items based on the creation date, edition date, the user who created or edited it, and the expiry date. You can also search an IP range by starting to type a label.
 
-![](assets/control_panel_allow_listing_sort.png)
-
-You can also search an IP range by starting to type a label.
+![](assets/control_panel_allow_list_sort.png)
 
 The **[!UICONTROL Expires]** column shows how many days remains until the IP range will expire.
 
-If you subscribe to [email alerting](../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend the expiry duration if needed.
+If you subscribed to [email alerting](../performance-monitoring/using/email-alerting.md), you receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity duration if needed.
 
 An expired IP range will be automatically deleted after 7 days.
 
@@ -123,11 +121,11 @@ To edit IP ranges:
 
 1. You can only edit the IP range expiry and/or add a new comment.
 
->[!NOTE]
->
->To modify the CIDR format, its label or edit the related instance(s), you must first delete the IP range and create a new one corresponding to your needs.
+    >[!NOTE]
+    >
+    >To modify the CIDR format, its label or edit the related instance(s), you must first delete the IP range and create a new one corresponding to your needs.
 
-![](assets/control_panel_edit_range2.png)
+    ![](assets/control_panel_edit_range2.png)
 
 To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
 
