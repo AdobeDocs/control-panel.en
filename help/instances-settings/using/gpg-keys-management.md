@@ -86,7 +86,7 @@ For more on this topic, refer to Adobe Campaign documentation:
 **Campaign Classic v7 and Campaign v8:**
 
 * [Zipping or encrypting a file](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Use case: Encrypting and exporting data using a key installed on Control Panel](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Use case: Encrypting and exporting data using a key installed on Control Panel](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
