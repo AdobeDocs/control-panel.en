@@ -56,6 +56,11 @@ For more details on a specific period of time, hover over the graph to display i
 
 ### Storage overview {#storage-overview}
 
+>[!CONTEXTUALHELP]
+>id="cp_dbdetails_storagedetails"
+>title="About Storage overview"
+>abstract="In this tab, you can get detailed information on the different Campaign resources that are consuming database space."
+
 The **[!UICONTROL Storage overview]** area provides a graphical representation of the space occupied by:
 
 * **[!UICONTROL System resources]**

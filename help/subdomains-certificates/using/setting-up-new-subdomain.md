@@ -14,8 +14,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 >id="cp_subdomain_management"
 >title="Setup new subdomains and manage certificates"
 >abstract="You need to setup a new subdomain and manage your subdomains' SSL certificates to start sending emails or publish landing pages with Adobe Campaign."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="How to monitor your subdomains' SSL certificates"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="How to monitor your subdomains' SSL certificates"
 
 ## Must-read {#must-read}
 
@@ -46,6 +45,21 @@ When configuring nameservers, make sure you **never delegate your root subdomain
 Moreover, **do not create a separate zone file** for this new subdomain.
 
 ## Full subdomain delegation {#full-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_new_subdomain"
+>title="Add new subdomain"
+>abstract="Adobe recommends full subdomain delegation. However, you can use CNAMEs or custom method to set up your subdomains."
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_create_delegate"
+>title="Create and delegate your subdomain"
+>abstract="Create the subdomain you wish to use with Adobe Campaign in your hosting solution and delegate it to Adobe."
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_submit"
+>title="Submit your subdomain"
+>abstract="Confirm and submit the subdomain that has been configured in the previous steps."
 
 To fully delegate a subdomain to Adobe Campaign, follow the steps below.
 
@@ -82,6 +96,21 @@ To fully delegate a subdomain to Adobe Campaign, follow the steps below.
 Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see [Subdomain checks and configuration](#subdomain-checks-and-configuration).
 
 ## Subdomain configuration using CNAMEs {#use-cnames}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_subdomain_create_delegate"
+>title="Configure your subdomain"
+>abstract="In this screen, specify the subdomain you want to configure using CNAMEs."
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_records"
+>title="Submit your subdomain"
+>abstract="Navigate to your hosting solution in order to generate the list of DNS records shown in this screen."
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_subdomain_submit"
+>title="Submit your subdomain"
+>abstract="Confirm and submit the subdomain that has been configured in the previous steps."
 
 To configure a subdomain using CNAMEs, follow the steps below.
 
