@@ -26,9 +26,15 @@ Profiles are considered active if they have been targeted or communicated with i
 >
 >Facebook and Twitter channels are not taken into account.
 
-For more on Active profiles, refer to [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) and [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentations.
+For more on active profiles, refer to [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) and [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentations.
 
 ## Monitoring active profiles {#monitoring-active-profiles}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_active_profile"
+>title="About active profiles monitoring"
+>abstract="In this tab, you can get real-time information on the latest and historical active profiles usage and evolution for each of your Campaign instances."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="About performance monitoring"
 
 Control Panel allows you to monitor the active profiles usage for each of your Campaign instances.
 

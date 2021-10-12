@@ -12,8 +12,8 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="About Key Management"
->abstract="In this tab you can manage your public keys."
+>title="About public key management"
+>abstract="In this tab you can create, manage, and edit your public keys."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Watch demo video"
 
 Adobe recommends that all customers establish connection to their SFTP servers with a **public and private key pair**.
@@ -45,9 +45,9 @@ In very rare cases password based authentication is enabled on some SFTP servers
 ## Installing the SSH key {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
->id="cp_sftp_publickey_add"
->title="Add New Public Key"
->abstract="Add a new public key for an instance."
+>id="cp_sftp_publicKey_add"
+>title="Public key addition"
+>abstract="Generate a public SSH key for an instance and add it to Control Panel to access the SFTP server."
 
 >[!IMPORTANT]
 >

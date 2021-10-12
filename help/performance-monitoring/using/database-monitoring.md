@@ -26,6 +26,12 @@ Overflowing an instance database can lead to several issues (inability to login,
 
 ## Monitoring database usage {#monitoring-instances-database}
 
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_database"
+>title="About database monitoring"
+>abstract="In this tab, you can get real-time information on the latest and historical database usage and evolution for each of your Campaign instances."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="About performance monitoring"
+
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 Control Panel allows you to monitor the database usage for each of your Campaign instances. To do this, open the **[!UICONTROL Performance Monitoring]** card, then select the **[!UICONTROL Databases]** tab.

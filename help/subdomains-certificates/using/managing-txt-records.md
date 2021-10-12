@@ -14,6 +14,7 @@ exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 >id="cp_siteverification_add"
 >title="Managing TXT records"
 >abstract="Some services like Google require that you add a TXT record to your domain settings in order to verify that you own the domain."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
 
 ## About TXT records {#about-txt-records}
 

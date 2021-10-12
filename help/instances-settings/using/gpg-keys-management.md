@@ -10,6 +10,12 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 ---
 # GPG keys management {#gpg-keys-management}
 
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="About GPG keys"
+>abstract="In this tab, you can install and/or generate GPG keys on a marketing instance, in order to encrypt data sent from Campaign and decrypt incoming data."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="About performance monitoring"
+
 ## About GPG encryption {#about-gpg-encryption}
 
 GPG encryption allows you to protect your data using a system of public-private keys pairs that follow the [OpenPGP](https://www.openpgp.org/about/standard/) specification.
