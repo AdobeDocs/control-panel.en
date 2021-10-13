@@ -30,7 +30,7 @@ Control Panel allows you to set up new connections to your instances by adding I
 
 Once IP addresses are on the allow list, you can create and link Campaign operators to them so that the users can access the instance.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
 
 ## Best practices {#best-practices}
 

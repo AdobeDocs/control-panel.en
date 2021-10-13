@@ -38,7 +38,7 @@ The Control Panel is also accessible from the Experience Cloud Platform **soluti
 
 >[!NOTE]
 >
->Access from within the product is available for [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=en){target="_blank"} only.
+>Access from within the product is available for [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html){target="_blank"} only.
 
 1. Open your Campaign Standard product.
 
