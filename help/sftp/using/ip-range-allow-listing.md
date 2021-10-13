@@ -41,7 +41,7 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Add New Ip Range"
+>title="IP range configuration"
 >abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP servers."
 
 To add an IP range to the allow list, follow these steps:

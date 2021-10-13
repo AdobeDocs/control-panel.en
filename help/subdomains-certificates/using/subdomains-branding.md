@@ -14,8 +14,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 >id="cp_certificate_management"
 >title="About subdomains and SSL certificates"
 >abstract="Monitor your subdomains and the associated SSL certificates."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="How to monitor your subdomains' SSL certificates"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Monitoring SSL certificates"
 
 ## Why setting up subdomains? {#why-setting-up-subdomains}
 
@@ -54,6 +53,13 @@ Additional information on domain configuration is available in [this documentati
 If you have any question regarding subdomain configuration methods, reach out to Adobe Deliverability team, or eventually contact Customer Care to request Deliverability consulting.
 
 ## Subdomains' use cases (Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="Select the use case for your subdomain"
+>abstract="Breaking down your subdomains by use cases is a best practice for deliverability. By doing so, the reputation of each subdomain is isolated and protected."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Subdomains branding"
 
 When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 

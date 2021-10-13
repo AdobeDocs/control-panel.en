@@ -45,7 +45,7 @@ Once a URL is added, it is referenced in the configuration file of the instance 
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="Add new URL"
+>title="URL definition"
 >abstract="Add URLs to allow connections to your Campaign instance."
 
 To add a URL that your instance can connect to, follow these steps:

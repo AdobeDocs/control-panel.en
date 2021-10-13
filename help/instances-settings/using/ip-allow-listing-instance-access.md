@@ -40,11 +40,11 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 * **If you temporarily enabled access to your instance for an IP address**, make sure to remove the IP addresses from the allow list once you don't it need anymore to connect to your instance.
 * **We do not recommend adding IP addresses of public places to the allow list** (airports, hotels, etc.). Please use your company VPN address to keep your instance secure at all times.
 
-## Adding IP addresses to the allow list for Instance access {#adding-ip-addresses-allow-list}
+## Adding IP addresses to the allow list for instance access {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Add New Ip Range"
+>title="IP range configuration"
 >abstract="Define the IP range that you want to add to the allow list to connect to your instance."
 
 To add IP addresses to the allow list, follow these steps:
