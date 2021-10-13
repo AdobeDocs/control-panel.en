@@ -106,16 +106,19 @@ Once the subdomain is submitted, various checks and configuration steps  will be
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Configure your subdomain"
 >abstract="In this screen, specify the subdomain you want to configure using CNAMEs."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
->title="Submit your subdomain"
+>title="Generate records"
 >abstract="Navigate to your hosting solution in order to generate the list of DNS records shown in this screen."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Submit your subdomain"
 >abstract="Confirm and submit the subdomain that has been configured in the previous steps."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
 
 To configure a subdomain using CNAMEs, follow the steps below.
 
