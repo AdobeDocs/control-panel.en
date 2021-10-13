@@ -45,7 +45,7 @@ In very rare cases password based authentication is enabled on some SFTP servers
 ## Installing the SSH key {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
->id="cp_sftp_publicKey_add"
+>id="cp_sftp_publickey_add"
 >title="Public key addition"
 >abstract="Generate a public SSH key for an instance and add it to Control Panel to access the SFTP server."
 
