@@ -84,7 +84,7 @@ To add an IP range to the allow list, follow these steps:
 
 1. Click the **[!UICONTROL Save]** button. The IP range addition to the allow list will be displayed as **[!UICONTROL Pending]** until the request is fully processed, which should only take a few seconds.
 
-![](assets/control_panel_add_range6.png)
+    ![](assets/control_panel_add_range6.png)
 
 >[!IMPORTANT]
 >
@@ -112,11 +112,11 @@ If you subscribed to [email alerting](../../performance-monitoring/using/email-a
 
 An expired IP range will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within those 7 days:
 
-* The expired IP range cannot be used anymore to access the SFTP servers.
+* An expired IP range cannot be used anymore to access the SFTP servers.
 
-* You cannnot create another IP range that overlaps the expired range. You need to first delete the expired IP range before creating the new one.
+* You cannnot create another IP range that overlaps an expired range. You need to first delete the expired IP range before creating the new one.
 
-* You can [edit](#editing-ip-ranges) the expired IP and update its duration to make it available again.
+* You can [edit](#editing-ip-ranges) an expired IP range and update its duration to make it available again.
 
 * You can delete it from the allow list before it expires.
 
