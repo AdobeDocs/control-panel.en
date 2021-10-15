@@ -35,7 +35,7 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 * **Add IP ranges to the allow list** rather than single IP addresses. To add a single IP address to the allow list, append a '/32' to it to indicate that the range only includes a single IP.
 * **Do not add very wide ranges to the allow list**, for example including > 265 IP addresses. The Control Panel will reject any CIDR-format ranges that are between /0 and /23.
 * Only **public IP addresses** can be added to the allow list.
-* Make sure to **set an expiry for your IP addresses**. This way, unused IP ranges are automatically disabled once you do not need them anymore.
+* Make sure to **regularly delete IP addresses** that you do not need anymore from the allow list.
 
 ## Adding IP addresses to the allow list {#adding-ip-addresses-allow-list}
 
@@ -72,7 +72,7 @@ To add an IP range to the allow list, follow these steps:
     >The following special characters are allowed in the **[!UICONTROL Label]** field:
     > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. To make sure that unused IP ranges are automatically disabled once you do not need them anymore, you can set an expiry. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field.
+1. To better manage your IP allow list, you can set a duration for the availability of each IP range. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field. For more on IP range expiry, see [this section](#managing-ip-ranges).
 
     ![](assets/control_panel_add_range5.png)
 
@@ -80,7 +80,7 @@ To add an IP range to the allow list, follow these steps:
     >
     >By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the IP range never expires.
 
-1. If needed, you can type a comment in the corresponding field.
+1. In the **[!UICONTROL Comment]** field, you can indicate a reason for allowing this IP range (why, for whom, etc.).
 
 1. Click the **[!UICONTROL Save]** button. The IP range addition to the allow list will be displayed as **[!UICONTROL Pending]** until the request is fully processed, which should only take a few seconds.
 
@@ -90,19 +90,35 @@ To add an IP range to the allow list, follow these steps:
 >
 >If you are trying to connect your SFTP servers to a new system, and thus adding new IP ranges to the allow list, you might need to enter new public keys to complete the connection. For more on this, see [this section](key-management.md).
 
-## IP Allow Listing
+## Managing IP ranges {#managing-ip-ranges}
 
 The IP ranges that you create display in the **[!UICONTROL IP Allow Listing]** tab.
 
-You can sort the items based on the creation date, edition date, the user who created or edited it, and the expiry date. You can also search an IP range by starting to type a label.
+You can sort the items based on the creation date or edition date, on the user who created or edited it, and on the IP range expiry.
+
+You can also search an IP range by starting to type a label or a comment.
 
 ![](assets/control_panel_allow_list_sort.png)
 
-The **[!UICONTROL Expires]** column shows how many days remains until the IP range will expire.
+To edit one or more IP ranges, see [this section](#editing-ip-ranges).
 
-If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity duration if needed.
+To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete x IP range(s)]** button.
 
-An expired IP range will be automatically deleted after 7 days.
+![](assets/control_panel_delete_range.png)
+
+The **[!UICONTROL Expires]** column shows how many days remain until the IP range will expire.
+
+If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity period if needed.
+
+An expired IP range will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within those 7 days:
+
+* The expired IP range cannot be used anymore to access the SFTP servers.
+
+* You cannnot create another IP range that overlaps the expired range. You need to first delete the expired IP range before creating the new one.
+
+* You can [edit](#editing-ip-ranges) the expired IP and update its duration to make it available again.
+
+* You can delete it from the allow list before it expires.
 
 ## Editing IP ranges {#editing-ip-ranges}
 
@@ -111,7 +127,13 @@ An expired IP range will be automatically deleted after 7 days.
 >title="Update IP ranges"
 >abstract="Update the selected IP ranges allowed to connect to your SFTP server."
 
-To edit IP ranges:
+To edit IP ranges, follow the steps below.
+
+>[!NOTE]
+>
+>You can only edit IP ranges that have been created since the Control Panel October 2021 release.
+
+<!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
 1. Select one or more IP ranges from the **[!UICONTROL IP Allow Listing]** list.
 
@@ -123,17 +145,15 @@ To edit IP ranges:
 
     >[!NOTE]
     >
-    >To modify the CIDR format, its label or edit the related instance(s), you must first delete the IP range and create a new one corresponding to your needs.
+    >To modify the CIDR format, its label or edit the related instance(s), you must first delete the IP range and create a new one corresponding to your needs.
 
     ![](assets/control_panel_edit_range2.png)
 
-To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete x IP range(s)]** button.
-
-![](assets/control_panel_delete_range.png)
+1. Save your changes.
 
 ## Monitoring changes {#monitoring-changes}
 
-The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to IP addresses on the allow list.
+The **[!UICONTROL Job Logs]** in the Control Panel home page let you track and monitor all changes that have been made to IP addresses on the allow list.
 
 For more on the Control Panel interface, refer to [this section](../../discover/using/discovering-the-interface.md).
 

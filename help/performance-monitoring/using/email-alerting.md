@@ -17,8 +17,6 @@ To subscribe to these alerts, follow these steps:
 1. Click the **[!UICONTROL Alerting notifications]** button available from any location in the Control Panel, then click **[!UICONTROL Subscribe]**.
 
     ![](assets/subscribing.png)
-    
-    <!--update screen when UI is final/correct-->
 
 1. An email is sent to confirm your subscription.
 

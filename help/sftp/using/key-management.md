@@ -59,11 +59,11 @@ In very rare cases, password-based authentication is enabled on some SFTP server
 
     >[!NOTE]
     >
-    >The interface will check if a given username is active on a given instance and give you an option to activate the key on one or several instances.
+    >Control Panel will check if a given username is active on a given instance and give you an option to activate the key on one or several instances.
     >
     >One or more public SSH keys can be added for each user.
 
-1. To make sure that unused public keys are automatically disabled once you do not need them anymore, you can set an expiry. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field.
+1. To make sure that unused public keys are automatically disabled once you do not need them anymore, you can set an expiry. You can set a duration for the avalabitty of the To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field.
 
     ![](assets/key_expiry.png)
 
@@ -71,7 +71,7 @@ In very rare cases, password-based authentication is enabled on some SFTP server
     >
     >By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the public key never expires.
 
-1. If needed, you can type a comment in the corresponding field.
+1. If needed, you can type a comment in the corresponding field. Why you created it, for whom, what, reason etc.
 
 1. To be able to fill in the **[!UICONTROL Public Key]** field, you need to generate a public SSH key. Follow the steps below corresponding to your operating system.
 
@@ -109,7 +109,7 @@ The "**...**" button allows you to delete an existing key, or to copy its associ
 >
 >If the key you created is used to establish a connection with a system that has never been connected to the selected SFTP server before, you will need to add a public IP of that system to the allow list before you are able to use this system with the SFTP server. See [this section](ip-range-allow-listing.md).
 
-## Public key management
+## Managing public keys {#managing-public-keys}
 
 The public keys that you create display in the **[!UICONTROL Key Management]** tab.
 
@@ -122,6 +122,8 @@ The **[!UICONTROL Expires]** column shows how many days remains until the public
 If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before a public key will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend the expiry duration if needed.
 
 An expired public key will be automatically deleted after 7 days.
+
+Note: 
 
 ## Editing public keys {#editing-public-keys}
 
