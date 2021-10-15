@@ -32,6 +32,8 @@ It is now possible to set a duration for the availability of IP ranges and publi
 
 The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration. [Read more](performance-monitoring/using/email-alerting.md)
 
+**Full support with Campaign v8**
+
 The **Subdomain** and **Certificate** management capabilities are now supported by Adobe Campaign v8.
 
 ## August 2021 {#august-2021}
