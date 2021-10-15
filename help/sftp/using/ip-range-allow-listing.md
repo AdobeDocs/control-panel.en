@@ -18,7 +18,7 @@ exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 
 SFTP servers are protected. In order to be able to access them to view files or write new ones, you need to add the public IP address of the system or client that accesses the servers to the allow list.
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
 
 ## About the CIDR format {#about-cidr-format}
 
@@ -41,8 +41,8 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Create IP range"
->abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP server."
+>title="IP range configuration"
+>abstract="Define the IP ranges that you want to add to the allow list in order to connect to your SFTP servers."
 
 To add an IP range to the allow list, follow these steps:
 

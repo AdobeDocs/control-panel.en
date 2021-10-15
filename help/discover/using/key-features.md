@@ -10,12 +10,6 @@ exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 ---
 # Key features {#key-features}
 
->[!CONTEXTUALHELP]
->id="cp_overview"
->title="About Control Panel"
->abstract="The Control Panel home page gives you access to all actions that can be performed on your Campaign instances."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Discovering the interface"
-
 The Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign Standard and/or Classic, by allowing you to manage settings and track usages for each of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
 
 Key benefits:
@@ -26,7 +20,7 @@ Key benefits:
 
 >[!NOTE]
 >
->Control Panel is restricted to Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Control Panel is restricted to Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 >
 >For Campaign Classic, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) build. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](../../faq.md).
 

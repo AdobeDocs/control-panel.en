@@ -12,8 +12,8 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="About Key Management"
->abstract="In this tab, manage the public keys to connect to your SFTP servers."
+>title="About public key management"
+>abstract="In this tab, create, manage, and edit your public keys."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Watch demo video"
 
 Adobe recommends that all customers establish connection to their SFTP servers with a **public and private key pair**.
@@ -22,7 +22,7 @@ The steps to generate a public SSH key and add it to access the SFTP server are 
 
 Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. For more on this, refer to [this section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management)
 
 ## Best practices {#best-practices}
 
@@ -42,8 +42,8 @@ In very rare cases, password-based authentication is enabled on some SFTP server
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Create public key"
->abstract="Define a new public key for an instance to establish connection to your SFTP server."
+>title="Public key addition"
+>abstract="Generate a public SSH key for an instance and add it to Control Panel to access the SFTP server."
 
 >[!IMPORTANT]
 >
