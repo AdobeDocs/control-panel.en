@@ -129,13 +129,13 @@ The **[!UICONTROL Expires]** column shows how many days remain until the public 
 
 If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before a public key will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend its validity period if needed.
 
-An expired public key will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within those 7 days:
+An expired public key will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within this 7 day-period:
 
 * An expired public key cannot be used anymore to connect to the SFTP server.
 
 * You can [edit](#editing-public-keys) an expired public key and update its duration to make it available again.
 
-* You can delete it from the list before it expires.
+* You can delete it from the list.
 
 ## Editing public keys {#editing-public-keys}
 
