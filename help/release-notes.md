@@ -20,15 +20,23 @@ Here you will find information about the latest Control Panel releases.
 
 ## October 2021 {#october-2021}
 
+**IP range and public key edition**
+
 You can now edit the [IP ranges](../../sftp/using/ip-range-allow-listing.md#editing-ip-ranges) and [public keys](../../sftp/using/key-management.md#editing-public-keys) that you create. Note that this feature is not available for the items created before the current Control Panel release.
 
+**IP range and public key validity period**
+
 It is now possible to set a duration for the availability of IP ranges and public keys. Read more in the [IP range allow listing](../../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](../../sftp/using/key-management.md#installing-ssh-key) sections
+
+**Alerting on SFTP IP range and publick key expiry**
 
 The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration. [Read more](performance-monitoring/using/email-alerting.md)
 
 The **Subdomain** and **Certificate** management capabilities are now supported by Adobe Campaign v8.
 
 ## August 2021 {#august-2021}
+
+**Support with Campaign v8**
 
 Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported. Learn more in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target="_blank"}
 
