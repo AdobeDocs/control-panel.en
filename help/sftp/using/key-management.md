@@ -115,7 +115,7 @@ The public keys that you create display in the **[!UICONTROL Key Management]** t
 
 You can sort the items based on the creation date or edition date, on the user who created or edited it, and on the IP range expiry.
 
-You can also search a public key by starting to type a label or a comment.
+You can also search a public key by starting to type a name or a comment.
 
 ![](assets/control_panel_key_management_sort.png)
 

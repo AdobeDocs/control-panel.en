@@ -85,9 +85,11 @@ To add IP addresses to the allow list, follow these steps:
 
 1. Click the **[!UICONTROL Save]** button. The IP Range is added to the allow list.
 
-    ![](assets/ip_whitelist_added.png)
+    <!--![](assets/ip_whitelist_added.png)-->
 
-To delete IP ranges from the allow list, select them then click the **[!UICONTROL Delete IP range]** button.
+To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
+
+![](assets/ip_whitelist_delete.png)
 
 **Related topic:**
 

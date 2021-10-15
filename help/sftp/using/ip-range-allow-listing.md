@@ -96,7 +96,7 @@ The IP ranges that you create display in the **[!UICONTROL IP Allow Listing]** t
 
 You can sort the items based on the creation date or edition date, on the user who created or edited it, and on the IP range expiry.
 
-You can also search an IP range by starting to type a label or a comment.
+You can also search an IP range by starting to type a label, a range, a name or a comment.
 
 ![](assets/control_panel_allow_list_sort.png)
 
