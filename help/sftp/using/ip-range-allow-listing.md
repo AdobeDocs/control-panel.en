@@ -110,15 +110,15 @@ The **[!UICONTROL Expires]** column shows how many days remain until the IP rang
 
 If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity period if needed.
 
-An expired IP range will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within those 7 days:
+An expired IP range will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within this 7 day-period:
 
 * An expired IP range cannot be used anymore to access the SFTP servers.
 
-* You cannnot create another IP range that overlaps an expired range. You need to first delete the expired IP range before creating the new one.
+* You cannot create another IP range that overlaps an expired range. You need to first delete the expired IP range before creating the new one.
 
 * You can [edit](#editing-ip-ranges) an expired IP range and update its duration to make it available again.
 
-* You can delete it from the allow list before it expires.
+* You can delete it from the allow list.
 
 ## Editing IP ranges {#editing-ip-ranges}
 

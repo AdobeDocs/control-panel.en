@@ -28,11 +28,13 @@ You can now edit the [IP ranges](sftp/using/ip-range-allow-listing.md#editing-ip
 
 It is now possible to set a duration for the availability of IP ranges and public keys. Read more in the [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](sftp/using/key-management.md#installing-ssh-key) sections
 
-**Alerting on SFTP IP range and publick key expiry**
+**Alerting on SFTP IP range and public key expiry**
 
 The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration. [Read more](performance-monitoring/using/email-alerting.md)
 
-The **Subdomain** and **Certificate** management capabilities are now supported by Adobe Campaign v8.
+**Full support with Campaign v8**
+
+The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.
 
 ## August 2021 {#august-2021}
 
