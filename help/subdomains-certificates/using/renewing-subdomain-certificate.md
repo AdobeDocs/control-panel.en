@@ -47,7 +47,6 @@ The SSL certificate renewal process includes 3 steps:
 >id="cp_select_subdomains"
 >title="Select the subdomains for your CSR"
 >abstract="You can choose to include all or only specific subdomains into your Certificate Signing Request. Only selected subdomains will be certified through purchased SSL certificate."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generating a Certificate Signing Request (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="About subdomains branding"
 
 To generate a Certificate Signing Request (CSR), follow these steps:
