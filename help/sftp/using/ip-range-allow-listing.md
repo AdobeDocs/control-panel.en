@@ -114,7 +114,7 @@ An expired IP range will be automatically deleted after 7 days. It is shown as 
 
 * An expired IP range cannot be used anymore to access the SFTP servers.
 
-* You cannnot create another IP range that overlaps an expired range. You need to first delete the expired IP range before creating the new one.
+* You cannot create another IP range that overlaps an expired range. You need to first delete the expired IP range before creating the new one.
 
 * You can [edit](#editing-ip-ranges) an expired IP range and update its duration to make it available again.
 
