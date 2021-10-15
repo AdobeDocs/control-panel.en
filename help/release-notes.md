@@ -14,13 +14,23 @@ Here you will find information about the latest Control Panel releases.
 
 >[!NOTE]
 >
->Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 >
 >For Campaign Classic v7, note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) build or the [latest GA build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md).
 
+## October 2021 {#october-2021}
+
+You can now edit the [IP ranges](../../sftp/using/ip-range-allow-listing.md#editing-ip-ranges) and [public keys](../../sftp/using/key-management.md#editing-public-keys) that you create. Note that this feature is not available for the items created before the current Control Panel release.
+
+It is now possible to set a duration for the availability of IP ranges and public keys. Read more in the [IP range allow listing](../../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](../../sftp/using/key-management.md#installing-ssh-key) sections
+
+The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration. [Read more](performance-monitoring/using/email-alerting.md)
+
+The **Subdomain** and **Certificate** management capabilities are now supported by Adobe Campaign v8.
+
 ## August 2021 {#august-2021}
 
-Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported. Learn more in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target="_blank"}
+Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported. Learn more in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target="_blank"}
 
 ## October 2020 {#october-2020}
 

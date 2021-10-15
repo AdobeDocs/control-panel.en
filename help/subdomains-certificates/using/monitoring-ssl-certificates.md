@@ -31,7 +31,7 @@ Adobe Campaign recommends that you secure the subdomains that host your landing 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="Subdomain details"
->abstract="Retrieve information on your subdomains."
+>abstract="Retrieve information on your subdomains' SSL certificates."
 
 The status of your subdomains' SSL certificates is available directly from the list of subdomains when selecting the **[!UICONTROL Subdomains & Certificates]** card.
 

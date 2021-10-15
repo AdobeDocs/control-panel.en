@@ -12,10 +12,10 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
->title="Add SSL certificate"
->abstract="To add an SSL certificate, you need to generate a CSR, purchase the SSL certificate for your subdomains and install the Certificate Bundle."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generating a Certificate Signing Request (CSR)"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="How to install a SSL certificate"
+>title="SSL certificate renewal"
+>abstract="To renew an SSL certificate, you need to generate a CSR, purchase the SSL certificate for your subdomains, and install the Certificate Bundle."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generating a Certificate Signing Request (CSR)"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Installing an SSL certificate"
 
 ## About certificates renewal {#about-certificate-renewal-process}
 
@@ -34,21 +34,20 @@ The SSL certificate renewal process includes 3 steps:
 1. **Installation of the SSL certificate**
     Once you purchase the SSL certificate, you can install it on the desired subdomain.
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
 
 ## Generating a Certificate Signing Request (CSR) {#generating-csr}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="Generate CSR"
+>title="CSR generation"
 >abstract="Certificate Signing Request has to be generated for the instance and subdomains you are planning to secure prior to purchasing a certificate."
 
 >[!CONTEXTUALHELP]
 >id="cp_select_subdomains"
 >title="Select the subdomains for your CSR"
 >abstract="You can choose to include all or only specific subdomains into your Certificate Signing Request. Only selected subdomains will be certified through purchased SSL certificate."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generating a Certificate Signing Request (CSR)"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="About subdomains branding"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="About subdomains branding"
 
 To generate a Certificate Signing Request (CSR), follow these steps:
 
@@ -96,9 +95,9 @@ After obtaining a Certificate Signing Request CSR from the Control Panel, purcha
 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
->title="Install SSL Certificate"
+>title="SSL Certificate installation"
 >abstract="Install the SSL Certificate that you purchased from the Certificate Authority approved by your organization."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="About subdomains branding"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="About subdomains branding"
 
 Once an SSL certificate has been purchased, you can install it on your instance. Before proceeding, make sure you are aware of the prerequisites below:
 

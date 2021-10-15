@@ -30,7 +30,7 @@ Control Panel allows you to set up new connections to your instances by adding I
 
 Once IP addresses are on the allow list, you can create and link Campaign operators to them so that the users can access the instance.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
 
 ## Best practices {#best-practices}
 
@@ -40,20 +40,22 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 * **If you temporarily enabled access to your instance for an IP address**, make sure to remove the IP addresses from the allow list once you don't it need anymore to connect to your instance.
 * **We do not recommend adding IP addresses of public places to the allow list** (airports, hotels, etc.). Please use your company VPN address to keep your instance secure at all times.
 
-## Adding IP addresses to the allow list for Instance access {#adding-ip-addresses-allow-list}
+## Adding IP addresses to the allow list for instance access {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Add New Ip Range"
+>title="IP range configuration"
 >abstract="Define the IP range that you want to add to the allow list to connect to your instance."
+
+>[!NOTE]
+>
+>If the **[!UICONTROL Instance Settings]** card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign Classic v7 or Campaign v8 instances.
 
 To add IP addresses to the allow list, follow these steps:
 
 1. Open the **[!UICONTROL Instances Settings card]** to access the IP allow listing tab, then click **[!UICONTROL Add new IP Range]**.
 
-    >[!NOTE]
-    >
-    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign Classic instances
+    
 
     ![](assets/ip_whitelist_list1.png)
 
@@ -83,9 +85,11 @@ To add IP addresses to the allow list, follow these steps:
 
 1. Click the **[!UICONTROL Save]** button. The IP Range is added to the allow list.
 
-    ![](assets/ip_whitelist_added.png)
+    <!--![](assets/ip_whitelist_added.png)-->
 
-To delete IP ranges from the allow list, select them then click the **[!UICONTROL Delete IP range]** button.
+To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
+
+![](assets/ip_whitelist_delete.png)
 
 **Related topic:**
 
