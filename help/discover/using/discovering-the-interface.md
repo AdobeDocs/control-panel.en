@@ -12,9 +12,9 @@ exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 
 The Control Panel home page gives you access to all actions that can be performed on your Campaign instances.
 
-They are represented by cards that are organized into topics, for example **Storage & Database Management**.
+They are represented by cards that are organized into topics, for example **Performance monitoring**.
 
-With upcoming Campaign releases, more topics and cards will be made available.
+<!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
 ![](assets/control_panel_interface.png)
 
