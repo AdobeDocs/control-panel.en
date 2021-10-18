@@ -63,7 +63,7 @@ In very rare cases, password-based authentication is enabled on some SFTP server
     >
     >One or more public SSH keys can be added for each user.
 
-1. To better manage your public keys, you can set a duration for the availability of each key. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field. For more on public key expiry, see [this section](#managing-public-keys).
+1. To better manage your public keys, you can set a duration for the availability of each key. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field. For more on public key expiry, see [this section](#expiry).
 
     ![](assets/key_expiry.png)
 
@@ -124,6 +124,8 @@ To edit one or more IP ranges, see [this section](#editing-public-keys).
 To delete on or more public keys from the list, select them, then click the **[!UICONTROL Delete public key]** button.
 
 ![](assets/control_panel_delete_key.png)
+
+### Expiry {#expiry}
 
 The **[!UICONTROL Expires]** column shows how many days remain until the public key will expire.
 
