@@ -102,7 +102,7 @@ You can also search an IP range by starting to type a label, a range, a name or 
 
 To edit one or more IP ranges, see [this section](#editing-ip-ranges).
 
-To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete x IP range(s)]** button.
+To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
 
 ![](assets/control_panel_delete_range.png)
 
@@ -137,7 +137,7 @@ To edit IP ranges, follow the steps below.
 
 1. Select one or more IP ranges from the **[!UICONTROL IP Allow Listing]** list.
 
-1. Click the **[!UICONTROL Update x IP range(s)]** button.
+1. Click the **[!UICONTROL Update IP range]** button.
 
     ![](assets/control_panel_edit_range.png)
 
