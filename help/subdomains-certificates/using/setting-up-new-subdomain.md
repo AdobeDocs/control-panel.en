@@ -21,8 +21,6 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 >[!IMPORTANT]
 >
 >Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
->
->This capability is not available for Campaign v8.
 
 This page provides information on how to set up new subdomains using Full subdomain delegation or CNAMEs. Global concepts on these two methods are presented in this section: [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md).
 
