@@ -19,21 +19,23 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 
 ## What's new
 
-**Subdomain configuration using CNAMEs**
+**Full support with Campaign v8**
 
-Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
+All capabilities, including **Subdomain** and **Certificate** management, are now supported by Control Panel on Adobe Campaign v8. [Read more](faq.md#v8-restrictions)
 
-**Database monitoring enhancements**
+**IP range validity period and edition**
 
-The **[!UICONTROL Database monitoring]** tab has been enhanced with additional metrics, allowing you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
+It is now possible to set a duration for the availability of IP ranges and to edit the IP ranges that you create. [Read more](sftp/using/ip-range-allow-listing.md)
+
+**Public key validity period and edition**
+
+Similarly, you can now set a duration for the availability of public keys and edit the public keys that you create. [Read more](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
 >* Control Panel is restricted to Admin users. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* For Campaign Classic v7, deployment restrictions apply. [Learn more](faq.md#v7-restrictions)
->
->* For Campaign v8, some capabilities are not available. [Learn more](faq.md#v8-restrictions)
 
 ## Additional Resources {#additional-resources}
 
