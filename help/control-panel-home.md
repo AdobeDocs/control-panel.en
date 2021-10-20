@@ -19,6 +19,10 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 
 ## What's new
 
+**Support with Campaign v8**
+
+Control Panel is now available for Adobe Campaign v8. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html)
+
 **Subdomain configuration using CNAMEs**
 
 Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
