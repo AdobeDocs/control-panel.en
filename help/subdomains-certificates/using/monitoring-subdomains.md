@@ -10,10 +10,6 @@ exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 ---
 # Monitoring your subdomains {#monitoring-subdomains}
 
->[!AVAILABILITY]
->
->This capability is not available for Campaign v8.
-
 It is essential to monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
 
 The list of subdomains for each of your production instances is accessible directly when selecting the **[!UICONTROL Subdomains & Certificates]** card.

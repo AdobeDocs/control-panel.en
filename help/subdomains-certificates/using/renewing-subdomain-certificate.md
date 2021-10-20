@@ -22,8 +22,6 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 >[!IMPORTANT]
 >
 >Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
->
->This capability is not available for Campaign v8.
 
 The SSL certificate renewal process includes 3 steps:
 
