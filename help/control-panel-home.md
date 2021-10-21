@@ -19,13 +19,17 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 
 ## What's new
 
-**Subdomain configuration using CNAMEs**
+**IP range validity period and edition**
 
-Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
+It is now possible to set a duration for the availability of IP ranges and to edit the IP ranges that you create. [Read more](sftp/using/ip-range-allow-listing.md)
 
-**Database monitoring enhancements**
+**Public key validity period and edition**
 
-The **[!UICONTROL Database monitoring]** tab has been enhanced with additional metrics, allowing you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
+Similarly, you can now set a duration for the availability of public keys and edit the public keys that you create. [Read more](sftp/using/key-management.md)
+
+**Support with Campaign v8**
+
+Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported.
 
 >[!CAUTION]
 >
