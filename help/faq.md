@@ -22,9 +22,9 @@ Control Panel allows you to track storage, add IPs to the allow list, and manage
 
 For more information, refer to the Control Panel supported actions documentation.
 
-### Are there some capabilities not yet supported on Campaign v8 but available on Campaign Classic v7{#v8-restrictions}
+### Which capabilities are not supported on Campaign v8 but available on Campaign Classic v7{#v8-restrictions}
 
-No. All capabilities available on Campaign Classic v7 are also now supported through Control Panel on Campaign v8, including Subdomain and Certificate Management related functions.
+Sub-Domain and Certificate Management related functions are not yet supported through Control Panel on Campaign v8. Contact Campaign Customer Care for any related support.
 
 ### Is the Control Panel only for Adobe Campaign?
 
