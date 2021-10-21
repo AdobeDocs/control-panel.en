@@ -21,6 +21,8 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 >[!IMPORTANT]
 >
 >Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
+>
+>This capability is not available for Campaign v8.
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
 
