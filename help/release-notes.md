@@ -32,9 +32,9 @@ You can now edit the [IP ranges](sftp/using/ip-range-allow-listing.md#editing-ip
 
 The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration. [Read more](performance-monitoring/using/email-alerting.md)
 
-**Full support with Campaign v8**
+<!--**Full support with Campaign v8**
 
-The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.
+The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
 
 ## August 2021 {#august-2021}
 
