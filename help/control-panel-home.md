@@ -19,6 +19,10 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 
 ## What's new
 
+**Full support with Campaign v8**
+
+All capabilities, including **Subdomain** and **Certificate** management, are now supported by Control Panel on Adobe Campaign v8. [Read more](faq.md#v8-restrictions)
+
 **IP range validity period and edition**
 
 It is now possible to set a duration for the availability of IP ranges and to edit the IP ranges that you create. [Read more](sftp/using/ip-range-allow-listing.md)
@@ -27,17 +31,11 @@ It is now possible to set a duration for the availability of IP ranges and to ed
 
 Similarly, you can now set a duration for the availability of public keys and edit the public keys that you create. [Read more](sftp/using/key-management.md)
 
-**Support with Campaign v8**
-
-Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported.
-
 >[!CAUTION]
 >
 >* Control Panel is restricted to Admin users. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* For Campaign Classic v7, deployment restrictions apply. [Learn more](faq.md#v7-restrictions)
->
->* For Campaign v8, some capabilities are not available. [Learn more](faq.md#v8-restrictions)
 
 ## Additional Resources {#additional-resources}
 

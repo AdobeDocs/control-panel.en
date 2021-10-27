@@ -10,10 +10,6 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 ---
 # Monitoring subdomains' SSL certificates {#monitoring-ssl-certificates}
 
->[!AVAILABILITY]
->
->This capability is not available for Campaign v8.
-
 ## About SSL certificates {#about-ssl-certificates}
 
 Adobe Campaign recommends that you secure the subdomains that host your landing pages, especially those that are gathering sensitive information of your customers.
