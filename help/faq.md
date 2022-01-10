@@ -38,9 +38,9 @@ If you're not an admin, but would like access, please contact your product admin
 
 ### As a Campaign Classic v7 user, what are the conditions to access Control Panel? {#v7-restrictions}
 
-Control Panel is restricted to Admin users. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
+Control Panel is restricted to Admin users. [Learn more](discover/using/managing-permissions.md).
 
-For Campaign Classic v7, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) build. Learn how to check your Campaign Classic version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your Campaign Classic instance is hosted on AWS, follow the steps detailed in [this section](#hosted-aws).
+For Campaign Classic v7, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) or to build 9032 or higher. Learn how to check your Campaign Classic version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your Campaign Classic instance is hosted on AWS, follow the steps detailed in [this section](#hosted-aws).
 
 ### How can I access the Control Panel?
 
