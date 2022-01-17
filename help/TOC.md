@@ -35,6 +35,7 @@ level: Beginner
   + [About perfomance monitoring](performance-monitoring/using/about-performance-monitoring.md)
   + [Database monitoring](performance-monitoring/using/database-monitoring.md)
   + [Active profiles monitoring](performance-monitoring/using/active-profiles-monitoring.md)
+  + [Throughputs and latencies monitoring](performance-monitoring/using/thoughputs-latencies-monitoring.md)
   + [Email alerting](performance-monitoring/using/email-alerting.md)
 + Instances settings {#instances-settings}
   + [IP allow listing for instance access](instances-settings/using/ip-allow-listing-instance-access.md)
