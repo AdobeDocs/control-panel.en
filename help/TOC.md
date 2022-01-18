@@ -40,7 +40,7 @@ level: Beginner
     + [Top 10 temporary resources](performance-monitoring/using/database-top-ten-resources.md)
     + [Preventing database overload](performance-monitoring/using/database-preventing-overload.md)
   + [Active profiles monitoring](performance-monitoring/using/active-profiles-monitoring.md)
-  + [Throughputs and latencies monitoring](performance-monitoring/using/thoughputs-latencies-monitoring.md)
+  + [Throughputs and latencies monitoring](performance-monitoring/using/thoughputs-latencies.md)
   + [Email alerting](performance-monitoring/using/email-alerting.md)
 + Instances settings {#instances-settings}
   + [IP allow listing for instance access](instances-settings/using/ip-allow-listing-instance-access.md)
