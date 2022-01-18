@@ -63,7 +63,7 @@ In very rare cases, password-based authentication is enabled on some SFTP server
     >
     >One or more public SSH keys can be added for each user.
 
-1. To better manage your public keys, you can set a duration for the availability of each key. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field. For more on public key expiry, see [this section](#managing-public-keys).
+1. To better manage your public keys, you can set a duration for the availability of each key. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field. For more on public key expiry, see [this section](#expiry).
 
     ![](assets/key_expiry.png)
 
@@ -97,6 +97,10 @@ In very rare cases, password-based authentication is enabled on some SFTP server
 
 1. Click the **[!UICONTROL Save]** button to create the key. Control Panel saves the public key and its associated fingerprint, encrypted with the SHA256 format.
 
+>[!IMPORTANT]
+>
+>If the key you created is used to establish a connection with a system that has never been connected to the selected SFTP server before, you will need to add a public IP of that system to the allow list before you are able to use this system with the SFTP server. See [this section](ip-range-allow-listing.md).
+
 You can use fingerprints to match the private keys that are saved on your computer with the corresponding public keys saved in Control Panel.
 
 ![](assets/fingerprint_compare.png)
@@ -104,10 +108,6 @@ You can use fingerprints to match the private keys that are saved on your comput
 The "**...**" button allows you to delete an existing key, or to copy its associated fingerprint into your clipboard.
 
 ![](assets/key_options.png)
-
->[!IMPORTANT]
->
->If the key you created is used to establish a connection with a system that has never been connected to the selected SFTP server before, you will need to add a public IP of that system to the allow list before you are able to use this system with the SFTP server. See [this section](ip-range-allow-listing.md).
 
 ## Managing public keys {#managing-public-keys}
 
@@ -121,9 +121,11 @@ You can also search a public key by starting to type a name or a comment.
 
 To edit one or more IP ranges, see [this section](#editing-public-keys).
 
-To delete on or more public keys from the list, select them, then click the **[!UICONTROL Delete xx public key(s)]** button.
+To delete on or more public keys from the list, select them, then click the **[!UICONTROL Delete public key]** button.
 
 ![](assets/control_panel_delete_key.png)
+
+### Expiry {#expiry}
 
 The **[!UICONTROL Expires]** column shows how many days remain until the public key will expire.
 
@@ -151,7 +153,7 @@ To edit public keys, follow the steps below.
 >You can only edit public keys that have been created since the Control Panel October 2021 release.
 
 1. Select one or more items from the **[!UICONTROL Key Management]** list.
-1. Click the **[!UICONTROL Update x public key(s)]** button.
+1. Click the **[!UICONTROL Update public key]** button.
 
     ![](assets/control_panel_edit_key.png)
 
@@ -159,6 +161,6 @@ To edit public keys, follow the steps below.
 
     >[!NOTE]
     >
-    >To modify the usernam, instance and public key in OpenSSH format, delete the public key and create a new one corresponding to your needs.
+    >To modify the username, instance and public key in OpenSSH format, delete the public key and create a new one corresponding to your needs.
 
 1. Save your changes.

@@ -72,7 +72,7 @@ To add an IP range to the allow list, follow these steps:
     >The following special characters are allowed in the **[!UICONTROL Label]** field:
     > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. To better manage your IP allow list, you can set a duration for the availability of each IP range. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field. For more on IP range expiry, see [this section](#managing-ip-ranges).
+1. To better manage your IP allow list, you can set a duration for the availability of each IP range. To do so, select a unit in the **[!UICONTROL Type]** drop-down list and define a duration in the corresponding field. For more on IP range expiry, see [this section](#expiry).
 
     ![](assets/control_panel_add_range5.png)
 
@@ -102,9 +102,11 @@ You can also search an IP range by starting to type a label, a range, a name or 
 
 To edit one or more IP ranges, see [this section](#editing-ip-ranges).
 
-To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete x IP range(s)]** button.
+To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
 
 ![](assets/control_panel_delete_range.png)
+
+### Expiry {#expiry}
 
 The **[!UICONTROL Expires]** column shows how many days remain until the IP range will expire.
 
@@ -137,7 +139,7 @@ To edit IP ranges, follow the steps below.
 
 1. Select one or more IP ranges from the **[!UICONTROL IP Allow Listing]** list.
 
-1. Click the **[!UICONTROL Update x IP range(s)]** button.
+1. Click the **[!UICONTROL Update IP range]** button.
 
     ![](assets/control_panel_edit_range.png)
 

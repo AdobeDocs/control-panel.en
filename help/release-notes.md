@@ -14,19 +14,19 @@ Here you will find information about the latest Control Panel releases.
 
 >[!NOTE]
 >
->Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
+>Control Panel is accessible to Admin users only. Learn more about permissions in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 >
->For Campaign Classic v7, note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) build or the [latest GA build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md).
+>For Campaign Classic v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
 
 ## October 2021 {#october-2021}
+
+**IP range and public key validity period**
+
+It is now possible to set a duration for the availability of IP ranges and public keys. Read more in the [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](sftp/using/key-management.md#installing-ssh-key) sections.
 
 **IP range and public key edition**
 
 You can now edit the [IP ranges](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) and [public keys](sftp/using/key-management.md#editing-public-keys) that you create. Note that this feature is not available for the items created before the current Control Panel release.
-
-**IP range and public key validity period**
-
-It is now possible to set a duration for the availability of IP ranges and public keys. Read more in the [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](sftp/using/key-management.md#installing-ssh-key) sections
 
 **Alerting on SFTP IP range and public key expiry**
 
