@@ -14,7 +14,7 @@ Monitoring how delivery throughputs and latencies are trending over a period of 
 
 These information are available in Control Panel for each of your Campaign instances in the **[!UICONTROL Performance Monitoring]** card, **[!UICONTROL Throughputs & Latencies]** tab.
 
->[NOTE]
+>[!NOTE]
 >
 >By default, data is displayed for the current day. You can change the displayed period of time using the **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** and **[!UICONTROL 7 days]** buttons.
 
