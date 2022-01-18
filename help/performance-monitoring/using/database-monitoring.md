@@ -47,6 +47,5 @@ Additional metrics are available in this dashboard to help you analyse the usage
 * [Database utilization](../../performance-monitoring/using/database-utilization.md)
 * [Storage overview](../../performance-monitoring/using/database-storage-overview.md)
 * [Top 10 temporary resources](../../performance-monitoring/using/database-top-ten-resources.md)
-* [Top 5 long-running queries](../../performance-monitoring/using/database-long-running-queries.md)
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring)
