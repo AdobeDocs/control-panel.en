@@ -14,11 +14,13 @@ Monitoring how delivery throughputs and latency are trending over a period of ti
 
 This information is made available in Control Panel for each of your Campaign instances in the **[!UICONTROL Performance Monitoring]** card, **[!UICONTROL Throughputs & Latencies]** tab.
 
-![](assets/throughput-latencies-overview.png)
-
 >[!NOTE]
 >
->By default, data is displayed for the current day. You can change the displayed period of time using the **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** and **[!UICONTROL 7 days]** buttons.
+>All figures presented in this area are approximate and for information purposes only.
+
+![](assets/throughput-latencies-overview.png)
+
+By default, data is displayed for the current day. You can change the displayed period of time using the **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** and **[!UICONTROL 7 days]** buttons.
 
 The **[!UICONTROL Throughput]** area provides information regarding the number of messages sent per hour from the selected Campaign instance for all the communication channels that you are entitled to.
 
