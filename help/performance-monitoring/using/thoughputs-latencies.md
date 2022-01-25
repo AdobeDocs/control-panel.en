@@ -10,6 +10,11 @@ exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 ---
 # Throughtputs and latency monitoring {#throughputs-latency-monitoring}
 
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_throughputslatencies"
+>title="About throughputs and latency monitoring "
+>abstract="In this tab, you can monitor how delivery throughputs and latency are trending over a period of time on your instances."
+
 Monitoring how delivery throughputs and latency are trending over a period of time is essential to understand the usage of your instances and ensure they are performing well.
 
 This information is made available in Control Panel for each of your Campaign instances in the **[!UICONTROL Performance Monitoring]** card, **[!UICONTROL Throughputs & Latencies]** tab.
