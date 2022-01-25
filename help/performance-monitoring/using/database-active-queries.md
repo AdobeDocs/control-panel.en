@@ -12,7 +12,6 @@ exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 
 The **[!UICONTROL Active queries]** area from the **[!UICONTROL Performance Monitoring]** tab lists the five queries that have been running for the longest time on the selected intance.
 
-
 ![](assets/active-queries.png)
 
 The **[!UICONTROL Duration]** columns specifies for how long a query has been running on the instance. Duration displays in this format: `hh:mm:ss.ms`.
