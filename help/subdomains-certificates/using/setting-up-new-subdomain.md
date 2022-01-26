@@ -160,7 +160,7 @@ Once the subdomain is submitted, various checks and configuration steps  will be
 
     >[!NOTE]
     >
-    >Note that while subdomain configuration runs, other Control Panel requests (except for SSL certificates installation) will be entered into a queue and performed only after the subdomain configuration completes, to prevent any performance issues.
+    >Note that while subdomain configuration runs, other Control Panel requests will be entered into a queue and performed only after the subdomain configuration completes, to prevent any performance issues.
 
 1. If the checks are successful, the Control Panel will start setting up the subdomain with DNS records, additional URLs, inboxes etc.
 
@@ -175,6 +175,8 @@ Once the subdomain is submitted, various checks and configuration steps  will be
     >[!IMPORTANT]
     >
     >The deliverability checks that are performed include feedback loops and spam complaint loops testing. We therefore do not recommend using the subdomain before the audit has been completed, as it could result in bad subdomain reputation.
+    >
+    >However, note that you can perform operations related to SSL certificates on your subdomain, even if the deliverability audit is still processing.
 
 1. At the end of the process, the subdomains will be configured to work with your Adobe Campaign instance and the elements below will be created:
 
