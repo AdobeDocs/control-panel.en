@@ -33,8 +33,14 @@ level: Beginner
   + [Managing TXT records](subdomains-certificates/using/managing-txt-records.md)
 + Performance monitoring {#performance-monitoring}
   + [About perfomance monitoring](performance-monitoring/using/about-performance-monitoring.md)
-  + [Database monitoring](performance-monitoring/using/database-monitoring.md)
+  + Database monitoring {#database-monitoring}
+    + [About database monitoring](performance-monitoring/using/database-monitoring.md)    
+    + [Database utilization](performance-monitoring/using/database-utilization.md)
+    + [Storage overview](performance-monitoring/using/database-storage-overview.md)
+    + [Top 10 temporary resources](performance-monitoring/using/database-top-ten-resources.md)
+    + [Preventing database overload](performance-monitoring/using/database-preventing-overload.md)
   + [Active profiles monitoring](performance-monitoring/using/active-profiles-monitoring.md)
+  + [Throughputs and latency monitoring](performance-monitoring/using/thoughputs-latencies.md)
   + [Email alerting](performance-monitoring/using/email-alerting.md)
 + Instances settings {#instances-settings}
   + [IP allow listing for instance access](instances-settings/using/ip-allow-listing-instance-access.md)
