@@ -32,9 +32,7 @@ This page provides information on how to set up new subdomains using Full subdom
 
 Subdomain configuration is available for **production** instances only.
 
-If the instance that you select in the wizard has no previously setup subdomains, the first configured subdomain will become the **primary subdomain** for that instance and you will not be able to change it in the future.
-
-As a result, **reverse DNS records** will be created for other subdomains using this primary subdomain. **Reply-to, and bounce addresses** for other subdomains will be generated from the primary subdomain.
+If the instance that you select in the wizard has no previously setup subdomains, the first configured subdomain will become the **primary subdomain** for that instance and you will not be able to change it in the future. As a result, **reverse DNS records** will be created for other subdomains using this primary subdomain. **Reply-to, and bounce addresses** for other subdomains will be generated from the primary subdomain.
 
 ### Nameservers configuration
 
@@ -162,7 +160,7 @@ Once the subdomain is submitted, various checks and configuration steps  will be
 
     >[!NOTE]
     >
-    >Note that while subdomain configuration runs, other requests through the Control Panel will be entered into a queue and performed only after the subdomain configuration completes, to prevent any performance issues.
+    >Note that while subdomain configuration runs, other Control Panel requests (except for SSL certificates installation) will be entered into a queue and performed only after the subdomain configuration completes, to prevent any performance issues.
 
 1. If the checks are successful, the Control Panel will start setting up the subdomain with DNS records, additional URLs, inboxes etc.
 
