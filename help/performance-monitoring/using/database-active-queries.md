@@ -10,7 +10,7 @@ exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 ---
 # Monitoring active queries {#long-running-queries}
 
-The **[!UICONTROL Active queries]** area from the **[!UICONTROL Performance Monitoring]** tab lists the five queries that have been running for the longest time on the selected intance.
+The **[!UICONTROL Active queries]** area from the **[!UICONTROL Databases]** tab lists the five queries that have been running for the longest time on the selected intance.
 
 ![](assets/active-queries.png)
 
