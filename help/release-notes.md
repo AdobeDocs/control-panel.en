@@ -18,6 +18,20 @@ Here you will find information about the latest Control Panel releases.
 >
 >For Campaign Classic v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
 
+## January 2022 {#january-2022}
+
+**Active queries monitoring**
+
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)
+
+**Throughputs and latency monitoring**
+
+You can now monitor how delivery throughputs and latency are trending over a period of time on your instances. [Read more](performance-monitoring/using/thoughputs-latencies.md)
+
+**SSL certificates operations on new subdomains**
+
+SSL certificates operations can now be performed on a newly set up subdomain, even if the deliverability audit is still in progress. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 ## October 2021 {#october-2021}
 
 **IP range and public key validity period**
