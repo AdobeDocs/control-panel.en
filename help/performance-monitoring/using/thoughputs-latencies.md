@@ -17,7 +17,7 @@ exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 
 Monitoring how delivery throughputs and latency are trending over a period of time is essential to understand the usage of your instances and ensure they are performing well.
 
-This information is made available in Control Panel for each of your Campaign instances in the **[!UICONTROL Performance Monitoring]** card, **[!UICONTROL Throughputs & Latencies]** tab (note that the Control Panel may take up to 1 hour to display the figures).
+This information is made available in Control Panel for each of your Campaign instances in the **[!UICONTROL Performance Monitoring]** card, **[!UICONTROL Throughputs & Latency]** tab (note that the Control Panel may take up to 1 hour to display the figures).
 
 * The **[!UICONTROL Throughput]** area provides information regarding the number of messages sent per hour from the selected Campaign instance for all the communication channels that you are entitled to.
 
