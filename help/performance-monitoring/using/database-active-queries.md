@@ -18,4 +18,6 @@ The **[!UICONTROL Duration]** columns specifies for how long a query has been ru
 
 >[!IMPORTANT]
 >
->If one of the queries has been active for more than 24 hours, reach out to Customer Care so that they identify and resolve the issue. In that case, you will need to provide them with the **[!UICONTROL PID]** column value, which is a unique identifier for the query.
+>If one of the queries has been active for more than 24 hours, you will be notified by email if you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md). 
+>
+>In that case, reach out to Customer Care so that they identify and resolve the issue. You will need to provide them with the **[!UICONTROL PID]** column value, which is a unique identifier for the query.
