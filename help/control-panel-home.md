@@ -19,17 +19,14 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 
 ## What's new
 
-**Full support with Campaign v8**
+**Active queries monitoring**
 
-All capabilities, including **Subdomain** and **Certificate** management, are now supported by Control Panel on Adobe Campaign v8. [Read more](faq.md#v8-restrictions)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)
 
-**IP range validity period and edition**
+**Throughputs and latency monitoring**
 
-It is now possible to set a duration for the availability of IP ranges and to edit the IP ranges that you create. [Read more](sftp/using/ip-range-allow-listing.md)
+You can now monitor how delivery throughputs and latency are trending over a period of time on your instances. [Read more](performance-monitoring/using/thoughputs-latencies.md)
 
-**Public key validity period and edition**
-
-Similarly, you can now set a duration for the availability of public keys and edit the public keys that you create. [Read more](sftp/using/key-management.md)
 
 >[!CAUTION]
 >

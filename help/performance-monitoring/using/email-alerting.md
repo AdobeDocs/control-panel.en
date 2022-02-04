@@ -37,3 +37,5 @@ The list of alerts is as follows:
 * **SFTP IP allow listing expiration**: One of the IP ranges you defined has expired or is going to expire in 10 days or less. See [IP range allow listing](../../sftp/using/ip-range-allow-listing.md).
 
 * **SFTP public key expiration**: One of the public keys you defined has expired or is going to expire in 10 days or less. See [Key management](../../sftp/using/key-management.md).
+
+* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).
