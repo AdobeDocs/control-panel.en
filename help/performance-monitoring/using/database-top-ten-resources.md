@@ -6,7 +6,6 @@ description: Learn how to monitor in the Control Panel the 10 largest temporary 
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 ---
 # Top 10 temporary resources {#top-10}
 
