@@ -1,11 +1,12 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Monitoring active queries
 description: Learn how to monitor active queries on your Campaign instances in the Control Panel.
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 ---
 # Monitoring active queries {#long-running-queries}
 

@@ -1,11 +1,12 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Preventing database overload
 description: Access resources from Campaign documentations to help you prevent database overload on your instances.
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 ---
 # Preventing database overload {#preventing-database-overload}
 
