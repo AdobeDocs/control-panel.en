@@ -20,9 +20,9 @@ Here you will find information about the latest Control Panel releases.
 
 ## January 2022 {#january-2022}
 
-**Active queries monitoring**
+<!-- **Active queries monitoring**
 
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
 **Throughputs and latency monitoring**
 
