@@ -19,9 +19,9 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 
 ## What's new
 
-<!--**Active queries monitoring**
+**Active queries monitoring**
 
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)
 
 **Throughputs and latency monitoring**
 
