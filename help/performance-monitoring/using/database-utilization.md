@@ -6,7 +6,6 @@ description: Learn how to monitor your Campaign database utilization in the Cont
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 ---
 # Database utilization {#database-utilization}
 
