@@ -6,6 +6,7 @@ description: Access resources from Campaign documentations to help you prevent d
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
 ---
 # Preventing database overload {#preventing-database-overload}
 
