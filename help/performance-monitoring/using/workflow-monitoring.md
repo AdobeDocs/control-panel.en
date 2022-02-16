@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 ---
-# Monitor workflows' resources {#monitor-workflows}
+# Monitor workflows' temporary resources {#monitor-workflows}
 
 ## Clean paused and completed workflows
 
@@ -35,9 +35,19 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-<!--## Monitor workflows' parameters 
+## Monitor workflows' parameters 
 
-some options on workflows consume space and lead to performance issues
+In Adobe Campaign, the **[!UICONTROL Keep interim results]** option allows you to save the results of the transitions between the various activities of a workflow (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) documentation).
+
+>[!IMPORTANT]
+>
+>This option must never be checked in a production workflow. It is used to analyze the results and is designed only for testing purposes and hence must be used only on development or staging environments.
+
+In Control Panel, the **[!UICONTROL Storage overview]** details allow you to check if the option is enabled ("1") or diabled ("0") for each workflow If the value indicates that the option is enabled for one of your workflows, we strongly recommend turning it off in Campaign.
+
+![](assets/database-top10-view.png)
+
+<!--some options on workflows consume space and lead to performance issues
 
 deactivated by default. CP allows to monitor if some have been activated + to deactivate them
 
@@ -45,6 +55,4 @@ deactivated by default. CP allows to monitor if some have been activated + to de
 * Show SQL- The option "Log SQL result" is checked. This could impact platform performances and fill in the log files on the server, which should not be on production.
 * Production no supervisor-Workflows with a "Production" flag, but no supervisor operator in the setup to be alerted if the workflow crash.
 * A notification/alert, when the temp tables occupy more than 25% of the total allotted DB size. (Example - 500GB of the 2TB).
-
-
 )-->
