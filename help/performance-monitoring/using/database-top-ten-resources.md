@@ -16,14 +16,10 @@ Monitoring workflows and deliveries that are creating large temporary resources 
 
 >[!IMPORTANT]
 >
->General recommendation is to avoid having **more than 40 columns** in non out of the box resources.
+>General recommendation is to avoid having **more than 40 columns** in non out of the box resources. If a workflow is found to have a large number of table counts or database size, we recommend reviewing the workflow in order to investigate why it is generating so much data.
+>
+>Campaign Standard and Classic guidelines are also available in [this page](database-preventing-overload.md) to help you prevent database overload.
 
 ![](assets/database-top10.png)
-
->[!NOTE]
->
->If a workflow is found to have a large number of table counts or database size, we recommend reviewing the workflow in order to investigate why it is generating so much data.
->
->Campaign Standard and Classic resources are also available at the end of this page to help you prevent database overload.
 
 The **[!UICONTROL View all]** button allows you to access the **[!UICONTROL Storage overview]** details to get detailed information on these temporary resources. For more on this, refer to [this page](database-storage-overview.md).
