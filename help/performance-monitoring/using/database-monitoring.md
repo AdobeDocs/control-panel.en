@@ -1,12 +1,12 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: About database monitoring
 description: Learn how to monitor your Campaign database in the Control Panel
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 ---
 # About database monitoring {#database-monitoring}
 
@@ -47,6 +47,6 @@ Additional metrics are available in this dashboard to help you analyse the usage
 * [Database utilization](../../performance-monitoring/using/database-utilization.md)
 * [Storage overview](../../performance-monitoring/using/database-storage-overview.md)
 * [Top 10 temporary resources](../../performance-monitoring/using/database-top-ten-resources.md)
-<!--* [Active queries](../../performance-monitoring/using/database-active-queries.md)-->
+* [Active queries](../../performance-monitoring/using/database-active-queries.md)
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring)
