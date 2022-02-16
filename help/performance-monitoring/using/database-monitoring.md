@@ -1,12 +1,12 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: About database monitoring
 description: Learn how to monitor your Campaign database in the Control Panel
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 ---
 # About database monitoring {#database-monitoring}
 
