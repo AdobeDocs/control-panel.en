@@ -39,7 +39,7 @@ level: Beginner
     + [Storage overview](performance-monitoring/using/database-storage-overview.md)
     + [Top 10 temporary resources](performance-monitoring/using/database-top-ten-resources.md)
     + [Active queries](performance-monitoring/using/database-active-queries.md)
-    + [Monitor workflows' temporary resources](performance-monitoring/using/workflow-monitoring.md)
+    + [Monitor workflows](performance-monitoring/using/workflow-monitoring.md)
     + [Preventing database overload](performance-monitoring/using/database-preventing-overload.md)
   + [Active profiles monitoring](performance-monitoring/using/active-profiles-monitoring.md)
   + [Throughputs and latency monitoring](performance-monitoring/using/thoughputs-latencies.md)
