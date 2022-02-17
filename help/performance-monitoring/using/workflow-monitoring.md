@@ -35,24 +35,34 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-## Monitor workflows' parameters 
+## Monitor workflow parameters 
 
-In Adobe Campaign, the **[!UICONTROL Keep interim results]** option allows you to save the results of the transitions between the various activities of a workflow (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) documentation).
+In Adobe Campaign, some worklow parameters may require specific attention to avoid any issues on your instances.
+
+The Control Panel **[!UICONTROL Storage overview]** details allow you to check if any of these options are enabled for your workflows.
+
+![](assets/wkf-monitoring-parameters.png)
+
+### **[!UICONTROL Keep interim results]** {#keep-results}
+
+When enabled (value "1"), this option saves the results of the transitions between the various activities of a workflow. Learn more in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) documentation.
 
 >[!IMPORTANT]
 >
->This option must never be checked in a production workflow. It is used to analyze the results and is designed only for testing purposes and hence must be used only on development or staging environments.
+>This option must never be checked in a production workflow. It is used for analysis and testing purposes, and must therefore only be used on development or staging environments. We strongly recommend turning it off in Campaign.
 
-In Control Panel, the **[!UICONTROL Storage overview]** details allow you to check if the option is enabled ("1") or diabled ("0") for each workflow If the value indicates that the option is enabled for one of your workflows, we strongly recommend turning it off in Campaign.
+### **[!UICONTROL Save SQL log]** {#sql}
 
-![](assets/database-top10-view.png)
+When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in Adobe Campaign.
 
-<!--some options on workflows consume space and lead to performance issues
+The value "1" indicates that the worklow has the **Severity** field set to "Production", and that the SQL query log option is enabled. 
 
-deactivated by default. CP allows to monitor if some have been activated + to deactivate them
+>[!IMPORTANT]
+>
+>Activating this option may impact performances and fill in the log files on the server. It should be used for analysis and diagnostic purposes only.
 
-* Keep Result-The option "Keep interim results" of the workflow is checked. This should not be used on production as it could increase drastically database usage.
-* Show SQL- The option "Log SQL result" is checked. This could impact platform performances and fill in the log files on the server, which should not be on production.
-* Production no supervisor-Workflows with a "Production" flag, but no supervisor operator in the setup to be alerted if the workflow crash.
-* A notification/alert, when the temp tables occupy more than 25% of the total allotted DB size. (Example - 500GB of the 2TB).
-)-->
+### **[!UICONTROL Supervisors]** {#supervisors}
+
+This field allows you to assign an operator to a workflow. If the workflow fails, the associated operator will be alerted.
+
+The value "1" indicates that the worklow has the **Severity** field set to "Production" and that no supervisor group has been assigned to the workflow.
