@@ -41,7 +41,7 @@ In Adobe Campaign, some worklow parameters may require specific attention to avo
 
 ![](assets/wkf-monitoring-parameters.png)
 
-### **[!UICONTROL Keep interim results]** {#keep-results}
+## **[!UICONTROL Keep interim results]** {#keep-results}
 
 When enabled (value "1"), this option saves the results of the transitions between the various activities of a workflow. Learn more in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) documentation.
 
@@ -51,7 +51,7 @@ When enabled (value "1"), this option saves the results of the transitions betwe
 
 ![](assets/wkf-monitoring-keep.png)
 
-### **[!UICONTROL Show SQL log]** {#sql}
+## **[!UICONTROL Show SQL log]** {#sql}
 
 When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in Adobe Campaign. Learn more in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) documentation.
 
@@ -63,7 +63,7 @@ The value "1" indicates that the worklow has the **Severity** field set to "Prod
 
 ![](assets/wkf-monitoring-sql.png)
 
-### **[!UICONTROL Supervisors]** {#supervisors}
+## **[!UICONTROL Supervisors]** {#supervisors}
 
 This field allows you to assign an operator to a workflow. If the workflow fails, the associated operator will be alerted. Learn more in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) documentation.
 
