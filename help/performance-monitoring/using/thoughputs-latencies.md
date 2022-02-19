@@ -6,6 +6,7 @@ description: Learn how to monitor your Campaign instances throughputs and latenc
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 ---
 # Throughtputs and latency monitoring {#throughputs-latency-monitoring}
 
