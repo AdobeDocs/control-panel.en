@@ -33,4 +33,4 @@ You can use the drop-down list to refine your search and display tables from a s
 
 ![](assets/database-storage-details.png)
 
-Note that this screen also allows you to monitor workflow parameters that may require specific attention to avoid any issues on your instances. Learn more in  [this page](workflow-monitoring.md).
+Note that this screen also allows you to monitor workflow parameters that may require specific attention to avoid any issues on your instances. Learn more in [this page](workflow-monitoring.md).
