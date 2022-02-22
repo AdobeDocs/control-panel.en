@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Monitor workflows {#monitor-workflows}
 
-<!--## Clean paused and completed workflows
+<!-- Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -35,7 +35,7 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-## Monitor workflow parameters -->
+Monitor workflow parameters -->
 
 In Adobe Campaign, some worklow parameters may require specific attention to avoid any issues on your instances. The Control Panel **[!UICONTROL Storage overview]** details allow you to check if any of these options are enabled for your workflows.
 
