@@ -4,6 +4,7 @@ description: Learn how to monitor specific workflow parameters that may require 
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
 ---
 # Monitor workflows {#monitor-workflows}
 
