@@ -16,24 +16,10 @@ Monitoring workflows and deliveries that are creating large temporary resources 
 
 >[!IMPORTANT]
 >
->General recommendation is to avoid having **more than 40 columns** in non out of the box resources.
+>General recommendation is to avoid having **more than 40 columns** in non out of the box resources. If a workflow is found to have a large number of table counts or database size, we recommend reviewing the workflow in order to investigate why it is generating so much data.
+>
+>Campaign Standard and Classic guidelines are also available in [this page](database-preventing-overload.md) to help you prevent database overload.
 
 ![](assets/database-top10.png)
 
->[!NOTE]
->
->If a workflow is found to have a large number of table counts or database size, we recommend reviewing the workflow in order to investigate why it is generating so much data.
->
->Campaign Standard and Classic resources are also available at the end of this page to help you prevent database overload.
-
-The **[!UICONTROL View all]** button allows you to access detailed information on these temporary resources.  
-
-![](assets/database-top10-view.png)
-
-The value in the **[!UICONTROL Keep interim results]** column indicates if the option is enabled ("1") or diabled ("0") in Campaign. This option allows you to save the results of the transitions between the various activities of a workflow (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) documentation).
-
->[!IMPORTANT]
->
->This option must never be checked in a production workflow. It is used to analyze the results and is designed only for testing purposes and hence must be used only on development or staging environments.
->
->If the value in Control Panel indicates that the option is enabled for one of your workflows, we strongly recommend turning it off in Campaign.
+The **[!UICONTROL View all]** button allows you to access the **[!UICONTROL Storage overview]** details to get detailed information on these temporary resources. For more on this, refer to [this page](database-storage-overview.md).

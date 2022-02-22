@@ -29,8 +29,8 @@ The **[!UICONTROL Storage overview]** area provides a graphical representation o
 
 Click the **[!UICONTROL View details]** button to get more details on the different assets that are consuming database space.
 
+You can use the drop-down list to refine your search and display tables from a specific asset type only (worklows, deliveries, recipients).  
+
 ![](assets/database-storage-details.png)
 
-Use the filter to refine your search and display tables from a specific asset type only. 
-
-![](assets/database-storage-overview-filter.png)
+Note that this screen also allows you to monitor workflow parameters that may require specific attention to avoid any issues on your instances. Learn more in [this page](workflow-monitoring.md).
