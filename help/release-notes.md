@@ -18,6 +18,12 @@ Here you will find information about the latest Control Panel releases.
 >
 >For Campaign Classic v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
 
+## February 2022 {#february-2022}
+
+**Workflow parameters monitoring**
+
+You can now monitor workflow parameters that may require specific attention to avoid any issues on your instances. [Read more](performance-monitoring/using/workflow-monitoring.md).
+
 ## January 2022 {#january-2022}
 
 **Active queries monitoring**
