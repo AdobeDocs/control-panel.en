@@ -22,7 +22,7 @@ Key benefits:
 >
 >Control Panel is restricted to Admin users. The steps to grant Admin access to a user are detailed in [this section](managing-permissions.md).
 >
->For Campaign Classic, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) or to build 9032 or higher. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](../../faq.md#hosted-aws).
+>For Campaign v7/v8, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) or to build 9032 or higher. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
@@ -44,7 +44,7 @@ Key benefits:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Manage your instance settings</strong></a></div>
-        <br/><em>Learn how to manage your instances settings (Campaign Classic only).</em>
+        <br/><em>Learn how to manage your instances settings (Campaign v7/v8 only).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>

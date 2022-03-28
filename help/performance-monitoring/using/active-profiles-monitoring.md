@@ -26,7 +26,7 @@ Profiles are considered active if they have been targeted or communicated with i
 >
 >Facebook and Twitter channels are not taken into account.
 
-For more on active profiles, refer to [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) and [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentations.
+For more on active profiles, refer to [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) and [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentations.
 
 ## Monitoring active profiles {#monitoring-active-profiles}
 
@@ -53,7 +53,7 @@ To do this, follow these steps:
 >Active profiles are counted based on dedicated technical workflows which run everyday on your instances:
 >
 >* The ["Billing"](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) workflow for Campaign Standard,
->* The ["Number of active billing profiles"](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow for Campaign Classic.
+>* The ["Number of active billing profiles"](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow for Campaign v7/v8.
 
 The lower area provides a graphical representation of active profiles usage over the last 30 days. You can change the displayed period of time to 1 year using the available filters in the upper-right corner.
 

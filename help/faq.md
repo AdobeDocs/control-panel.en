@@ -24,7 +24,7 @@ For more information, refer to the Control Panel supported actions documentation
 
 ### Are there some capabilities not yet supported on Campaign v8 but available on Campaign Classic v7{#v8-restrictions}
 
-No. All capabilities available on Campaign Classic v7 are also now supported through Control Panel on Campaign v8, including Subdomain and Certificate Management related functions.
+No. All capabilities available on Campaign v7 are also now supported through Control Panel on Campaign v8, including Subdomain and Certificate Management related functions.
 
 ### Is the Control Panel only for Adobe Campaign?
 
@@ -40,7 +40,7 @@ If you're not an admin, but would like access, please contact your product admin
 
 Control Panel is restricted to Admin users. [Learn more](discover/using/managing-permissions.md).
 
-For Campaign Classic v7, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) or to build 9032 or higher. Learn how to check your Campaign Classic version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your Campaign Classic instance is hosted on AWS, follow the steps detailed in [this section](#hosted-aws).
+For Campaign v7, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) or to build 9032 or higher. Learn how to check your Campaign Classic v7 version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your Campaign Classic instance is hosted on AWS, follow the steps detailed in [this section](#hosted-aws).
 
 ### How can I access the Control Panel?
 

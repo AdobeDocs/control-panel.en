@@ -20,7 +20,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign Classic v7 and Campaign v8 instances only.
+>This feature is available for Campaign v7/v8 instances only.
 
 By default, your Adobe Campaign instance is not accessible from various IP addresses.
 
@@ -49,7 +49,7 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 
 >[!NOTE]
 >
->If the **[!UICONTROL Instance Settings]** card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign Classic v7 or Campaign v8 instances.
+>If the **[!UICONTROL Instance Settings]** card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign v7/v8 instances.
 
 To add IP addresses to the allow list, follow these steps:
 
