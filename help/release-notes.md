@@ -17,8 +17,6 @@ This page lists all the new features and improvements for Control Panel.
 
 ## March 2022 {#march-2022}
 
-### New capabilities 
-
 <table>
 <thead>
 <tr>
