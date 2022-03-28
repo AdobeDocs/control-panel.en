@@ -2,15 +2,12 @@
 product: campaign
 solution: Campaign 
 title: Control Panel releases
-description: Latest Control Panel release notes.
-feature: Control Panel
-role: Architect
-level: Beginner
+description: This page lists all the new features and improvements for Control Panel
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 ---
 # Control Panel releases {#control-panel-releases}
 
-Here you will find information about the latest Control Panel releases.
+This page lists all the new features and improvements for Control Panel.
 
 >[!NOTE]
 >
@@ -18,73 +15,256 @@ Here you will find information about the latest Control Panel releases.
 >
 >For Campaign Classic v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
 
+## March 2022 {#march-2022}
+
+### New capabilities 
+
+<table>
+<thead>
+<tr>
+<th><strong>Clean paused and completed workflows</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Control Panel now allows you to identify paused and completed workflows and clean the temporary resources generated on your instances.</p><p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+>[!IMPORTANT]
+>
+>This feature is only available to Campaign Classic v8 and Campaign Standard customers.
+
+### Improvements
+
+* xxxx
+* xxxx
+* xxxx
+
 ## February 2022 {#february-2022}
 
-**Workflow parameters monitoring**
-
-You can now monitor workflow parameters that may require specific attention to avoid any issues on your instances. [Read more](performance-monitoring/using/workflow-monitoring.md).
+<table>
+<thead>
+<tr>
+<th><strong>Workflow parameters monitoring</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now monitor workflow parameters that may require specific attention to avoid any issues on your instances. </p><p>For more information, refer to the <a href="performance-monitoring/using/workflow-monitoring.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## January 2022 {#january-2022}
 
-**Active queries monitoring**
+<table>
+<thead>
+<tr>
+<th><strong>Active queries monitoring</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Control Panel now allows you to monitor queries that have been running for the longest time on your instances.</p><p>For more information, refer to the <a href="performance-monitoring/using/database-active-queries.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)
+<table>
+<thead>
+<tr>
+<th><strong>Throughputs and latency monitoring</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now monitor how delivery throughputs and latency are trending over a period of time on your instances.</p><p>For more information, refer to the <a href="performance-monitoring/using/thoughputs-latencies.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-**Throughputs and latency monitoring**
-
-You can now monitor how delivery throughputs and latency are trending over a period of time on your instances. [Read more](performance-monitoring/using/thoughputs-latencies.md)
-
-**SSL certificates operations on new subdomains**
-
-SSL certificates operations can now be performed on a newly set up subdomain, even if the deliverability audit is still in progress. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
+<table>
+<thead>
+<tr>
+<th><strong>SSL certificates operations on new subdomains</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>SSL certificates operations can now be performed on a newly set up subdomain, even if the deliverability audit is still in progress.</p><p>For more information, refer to the <a href="subdomains-certificates/using/renewing-subdomain-certificate.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## October 2021 {#october-2021}
 
-**IP range and public key validity period**
+<table>
+<thead>
+<tr>
+<th><strong>IP range and public key validity period</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>It is now possible to set a duration for the availability of IP ranges and public keys. </p><p>For more information, refer to the <a href="sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP range allow listing</a> and <a href="sftp/using/key-management.md#installing-ssh-key">Key management</a> sections.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-It is now possible to set a duration for the availability of IP ranges and public keys. Read more in the [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](sftp/using/key-management.md#installing-ssh-key) sections.
+<table>
+<thead>
+<tr>
+<th><strong>IP range and public key edition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now edit the <a href="sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP ranges</a> and <a href="sftp/using/key-management.md#editing-public-keys">public keys</a> that you create. Note that this feature is not available for the items created before the current Control Panel release.
+</td>
+</tr>
+</tbody>
+</table>
 
-**IP range and public key edition**
+<table>
+<thead>
+<tr>
+<th><strong>Alerting on SFTP IP range and public key expiry</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration.</p><p>For more information, refer to the <a href="performance-monitoring/using/email-alerting.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-You can now edit the [IP ranges](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) and [public keys](sftp/using/key-management.md#editing-public-keys) that you create. Note that this feature is not available for the items created before the current Control Panel release.
-
-**Alerting on SFTP IP range and public key expiry**
-
-The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration. [Read more](performance-monitoring/using/email-alerting.md)
-
-**Full support with Campaign v8**
-
-The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.
+<table>
+<thead>
+<tr>
+<th><strong>Full support with Campaign v8</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The <strong>Subdomain</strong> and <strong>Certificate</strong> management capabilities are now supported by Control Panel on Adobe Campaign v8.</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## August 2021 {#august-2021}
 
-**Support with Campaign v8**
-
-Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported. Learn more in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target="_blank"}
+<table>
+<thead>
+<tr>
+<th><strong>Support with Campaign v8</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Control Panel is now available for Adobe Campaign v8, except the <strong>Subdomain</strong> and <strong>Certificate</strong> management capabilities, which are not yet supported.</p><p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html" target="blank">Campaign v8 documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## October 2020 {#october-2020}
 
-**Subdomain configuration using CNAMEs**
+<table>
+<thead>
+<tr>
+<th><strong>Subdomain configuration using CNAMEs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface.</p><p>For more information, refer to the <a href="subdomains-certificates/using/setting-up-new-subdomain.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Control Panel now allows you to configure a subdomain to work with Adobe using CNAMEs directly from the interface. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
-
-**Database monitoring enhancements**
-
-Database monitoring has been enhanced with additional metrics that allow you to get detailed information on the resources that are consuming space on your database. [Read more](performance-monitoring/using/database-monitoring.md)
+<table>
+<thead>
+<tr>
+<th><strong>Database monitoring enhancements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Database monitoring has been enhanced with additional metrics that allow you to get detailed information on the resources that are consuming space on your database.</p><p>For more information, refer to the <a href="performance-monitoring/using/database-monitoring.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## June 2020 {#june-2020}
 
-**Subdomain deliverability audit**
+<table>
+<thead>
+<tr>
+<th><strong>Subdomain deliverability audit</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>After delegating a new subdomain, Control Panel now allows you to track the audit performed by the Deliverability team.</p><p>For more information, refer to the <a href="subdomains-certificates/using/setting-up-new-subdomain.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-After delegating a new subdomain, Control Panel now allows you to track the audit performed by the Deliverability team. [Read more](subdomains-certificates/using/setting-up-new-subdomain.md)
+<table>
+<thead>
+<tr>
+<th><strong>GPG keys management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Control Panel now allows you to generate a pair of GPG keys, so you can easily decrypt the data coming to Campaign from the outside. In addition, we have added a capability so you can install a public GPG key to encrypt data leaving Campaign.</p><p>For more information, refer to the <a href="instances-settings/using/gpg-keys-management.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-**GPG keys management** 
-
-Control Panel now allows you to generate a pair of GPG keys, so you can easily decrypt the data coming to Campaign from the outside. In addition, we have added a capability so you can install a public GPG key to encrypt data leaving Campaign. [Read more](instances-settings/using/gpg-keys-management.md)
-
-**Active profiles monitoring**
-
-Control Panel now allows you to monitor the number of active profiles that are used by your instances and counted for billing purposes. [Read more](performance-monitoring/using/active-profiles-monitoring.md)
+<table>
+<thead>
+<tr>
+<th><strong>Active profiles monitoring</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Control Panel now allows you to monitor the number of active profiles that are used by your instances and counted for billing purposes.</p><p>For more information, refer to the <a href="performance-monitoring/using/active-profiles-monitoring.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 >[!IMPORTANT]
 >
@@ -92,27 +272,69 @@ Control Panel now allows you to monitor the number of active profiles that are u
 
 ## May 2020 {#may-2020}
 
-**Certificate management for CNAME subdomains**
-
-Control Panel now allows you to renew the SSL certificates of your subdomains that have been configured with the CNAME method. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
+<table>
+<thead>
+<tr>
+<th><strong>Certificate management for CNAME subdomains</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Control Panel now allows you to renew the SSL certificates of your subdomains that have been configured with the CNAME method.</p><p>For more information, refer to the <a href="subdomains-certificates/using/renewing-subdomain-certificate.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## April 2020 {#april-2020}
 
-**Google TXT record management**
+<table>
+<thead>
+<tr>
+<th><strong>Google TXT record management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Add Google TXT site verification record to all your subdomains used to send emails to Gmail addresses through the Campaign Control Panel.</p><p>For more information, refer to the <a href="subdomains-certificates/using/managing-txt-records.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Add Google TXT site verification record to all your subdomains used to send emails to Gmail addresses through the Campaign Control Panel. [Read more](subdomains-certificates/using/managing-txt-records.md)
+<table>
+<thead>
+<tr>
+<th><strong>Database space monitoring</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign Control Panel is equipped with database monitoring capabilities, allowing you to view your database space utilization on-demand and over time.</p><p>For more information, refer to the <a href="performance-monitoring/using/database-monitoring.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-**Database space monitoring**
-
-Campaign Control Panel is equipped with database monitoring capabilities, allowing you to view your database space utilization on-demand and over time. [Read more](performance-monitoring/using/database-monitoring.md)
-
-**Email alerting**
-
-Campaign Control Panel is equipped with real-time email alerting capabilities, allowing you to login to the Control Panel and sign up to receive alerts when your system is at risk of performance deterioration, or an action is required to ensure high performance for the future. [Read more](performance-monitoring/using/email-alerting.md)
+<table>
+<thead>
+<tr>
+<th><strong>Email alerting</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign Control Panel is equipped with real-time email alerting capabilities, allowing you to login to the Control Panel and sign up to receive alerts when your system is at risk of performance deterioration, or an action is required to ensure high performance for the future.</p><p>For more information, refer to the <a href="performance-monitoring/using/email-alerting.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## January 2020 {#january-2020}
-
-*January 22, 2020*
 
 We’ve added new capabilities for Admin users to configure subdomains and renew SSL certificates from Control Panel.
 
@@ -125,8 +347,6 @@ For more information, refer to these pages:
 >These features will be available in beta, and subject to frequent updates and modifications without notice.
 
 ## September 2019 {#september-2019}
-
-*September 16, 2019*
 
 We’ve added new capabilities for Admin users to add IP addresses to the allow list in order to connect to Campaign Classic instances.
 Additionally, Admin users can now view the list of Campaign Classic instances and eligibility for build upgrades.
