@@ -13,7 +13,7 @@ This page lists all the new features and improvements for Control Panel.
 >
 >Control Panel is accessible to Admin users only. Learn more about permissions in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 >
->For Campaign Classic v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
+>For Campaign v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
 
 ## March 2022 {#march-2022}
 
@@ -28,7 +28,7 @@ This page lists all the new features and improvements for Control Panel.
 <tbody>
 <tr>
 <td>
-<p>Control Panel now allows you to identify paused and completed workflows and clean the temporary resources generated on your instances.</p><p>For more information, refer to the detailed documentation.</p>
+<p>Control Panel now allows you to identify paused and completed workflows and clean the temporary resources generated on your instances.</p><p>For more information, refer to the <a href="performance-monitoring/using/workflow-monitoring.md#clean">detailed documentation.</a></p>
 </td>
 </tr>
 </tbody>
@@ -36,7 +36,7 @@ This page lists all the new features and improvements for Control Panel.
 
 >[!IMPORTANT]
 >
->This feature is only available to Campaign Classic v8 and Campaign Standard customers.
+>This feature is only available to Campaign v8 and Campaign Standard customers.
 
 ### Improvements
 
@@ -348,8 +348,8 @@ For more information, refer to these pages:
 
 ## September 2019 {#september-2019}
 
-We’ve added new capabilities for Admin users to add IP addresses to the allow list in order to connect to Campaign Classic instances.
-Additionally, Admin users can now view the list of Campaign Classic instances and eligibility for build upgrades.
+We’ve added new capabilities for Admin users to add IP addresses to the allow list in order to connect to Campaign v7/v8 instances.
+Additionally, Admin users can now view the list of Campaign v7/v8 instances and eligibility for build upgrades.
 
 For more information, refer to the [dedicated documentation](instances-settings/using/ip-allow-listing-instance-access.md).
 
@@ -361,6 +361,6 @@ Additionally, Admin users can now delete SSH keys that were added to access SFTP
 
 ## July 2019 {#july-2019}
 
-We've added new features to empower Admin users to take greater control of Campaign Classic instance settings. New Control Panel capabilities include the ability to add URLs that Adobe Campaign connect to for data/file transfers.
+We've added new features to empower Admin users to take greater control of Campaign v7/v8 instance settings. New Control Panel capabilities include the ability to add URLs that Adobe Campaign connect to for data/file transfers.
 
 For more information, refer to the [detailed documentation](instances-settings/using/url-permissions.md).

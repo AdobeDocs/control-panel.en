@@ -20,7 +20,7 @@ exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign v8 and Campaign Classic v7 instances only, from build 8850. If you are using a previous build, you need to upgrade to use this feature.
+>This feature is available for Campaign v7/v8 instances only, from build 8850. If you are using a previous build, you need to upgrade to use this feature.
 
 The default list of URLs that can be called by JavaScript codes (workflows, etc.) by your Campaign instances is limited. These are URLs that allow your instances to function properly.
 
@@ -66,7 +66,7 @@ To add a URL that your instance can connect to, follow these steps:
     >
     >All your Campaign instances display in the left pane list.
     >
-    >As URL Permissions management is dedicated to Campaign Classic instances only, the "Non-Applicable Instance" message displays if you select a Campaign Standard instance.  
+    >As URL Permissions management is dedicated to Campaign v7/v8 instances only, the "Non-Applicable Instance" message displays if you select a Campaign Standard instance.  
 
 1. Type the URL to authorize, with its associated protocol (http, https or sftp).
 

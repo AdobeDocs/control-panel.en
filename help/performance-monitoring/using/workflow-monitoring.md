@@ -14,7 +14,7 @@ In Adobe Campaign, some worklow parameters may require specific attention to avo
 
 ### **[!UICONTROL Keep interim results]** {#keep-results}
 
-When enabled (value "1"), this option saves the results of the transitions between the various activities of a workflow. Learn more in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) documentation.
+When enabled (value "1"), this option saves the results of the transitions between the various activities of a workflow. Learn more in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) and [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) documentation.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ When enabled (value "1"), this option saves the results of the transitions betwe
 
 ### **[!UICONTROL Show SQL log]** {#sql}
 
-When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in Adobe Campaign. Learn more in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) documentation.
+When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in Adobe Campaign. Learn more in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) and [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) documentation.
 
 The value "1" indicates that the worklow has the **Severity** field set to "Production", and that the SQL query log option is enabled. 
 
@@ -36,7 +36,7 @@ The value "1" indicates that the worklow has the **Severity** field set to "Prod
 
 ### **[!UICONTROL Supervisors]** {#supervisors}
 
-This field allows you to assign an operator to a workflow. If the workflow fails, the associated operator will be alerted. Learn more in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) documentation.
+This field allows you to assign an operator to a workflow. If the workflow fails, the associated operator will be alerted. Learn more in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) and [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) documentation.
 
 The value "1" indicates that the worklow has the **Severity** field set to "Production" and that no supervisor group has been assigned to the workflow.
 
@@ -46,13 +46,13 @@ The value "1" indicates that the worklow has the **Severity** field set to "Prod
 
 >[!IMPORTANT]
 >
->This feature is available to Campaign Classic v8 and Campaign Standard customers.
+>This feature is available to Campaign v8 and Campaign Standard customers.
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
 Control Panel allows you to identify those workflows and clean the temporary resources generated on your instances.
 
-Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation). 
+Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation). 
 
 To clean paused and completed workflows, follow these steps:
 

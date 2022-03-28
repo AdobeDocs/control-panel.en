@@ -50,7 +50,7 @@ Additional information on domain configuration is available in [this documentati
 
 If you have any question regarding subdomain configuration methods, reach out to Adobe Deliverability team, or eventually contact Customer Care to request Deliverability consulting.
 
-## Subdomains' use cases (Campaign Classic){#subdomains-use-cases}
+## Subdomains' use cases (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -59,7 +59,7 @@ If you have any question regarding subdomain configuration methods, reach out to
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Subdomains branding"
 
-When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+When setting up subdomains for Campaign v7/v8 instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Possible use cases are:
 
@@ -76,7 +76,7 @@ Possible use cases are:
 
 >[!NOTE]
 >
->If you are using Campaign Classic, Control Panel allows you to see what RT/MID instances are connected to the Marketing instance that you are working with. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
+>If you are using Campaign v7/v8, Control Panel allows you to see what RT/MID instances are connected to the Marketing instance that you are working with. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
 
 **Related topics:**
 
