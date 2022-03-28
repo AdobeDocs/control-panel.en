@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign 
-title: Monitoring subdomains' SSL certificates
-description: Learn how to monitor your subdomains' SSL certificates
+title: Monitoring your subdomains
+description: Monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced

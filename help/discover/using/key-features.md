@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign 
-title: Accessing Control Panel
+title: The Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign Standard and/or Classic.
 description: Learn how to access the Control Panel
 feature: Control Panel
 role: Architect
