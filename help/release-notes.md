@@ -34,15 +34,6 @@ This page lists all the new features and improvements for Control Panel.
 </tbody>
 </table>
 
->[!IMPORTANT]
->
->This feature is only available to Campaign v8 and Campaign Standard customers.
-
-### Improvements
-
-* xxxx
-* xxxx
-* xxxx
 
 ## February 2022 {#february-2022}
 
