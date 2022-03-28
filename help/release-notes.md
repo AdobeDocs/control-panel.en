@@ -22,18 +22,17 @@ This page lists all the new features and improvements for Control Panel.
 <table>
 <thead>
 <tr>
-<th><strong>Clean paused and completed workflows</strong><br/></th>
+<th><strong>Throughputs and latency monitoring availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Control Panel now allows you to identify paused and completed workflows and clean the temporary resources generated on your instances.</p><p>For more information, refer to the <a href="performance-monitoring/using/workflow-monitoring.md#clean">detailed documentation.</a></p>
+<p>Throughputs and latency monitoring is now available to all Campaign Standard and v7/v8 customers from build numbers 9032 or 9330 that have standalone deployments (without any mid instance).</p><p>For more information, refer to the <a href="performance-monitoring/using/thoughputs-latencies.md">detailed documentation.</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ## February 2022 {#february-2022}
 
