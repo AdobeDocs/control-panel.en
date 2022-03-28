@@ -15,6 +15,8 @@ exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 >title="About throughputs and latency monitoring "
 >abstract="In this tab, you can monitor how delivery throughputs and latency are trending over a period of time on your instances."
 
+Control Panel allows you to monitor delivery throughputs and latency for each of your instances.
+
 >[!IMPORTANT]
 >
 >This feature is available to all Campaign Standard and v8 customers, and to Campaign V7 customers from build numbers 9032 or 9330 that have standalone deployments (without any mid instance).
