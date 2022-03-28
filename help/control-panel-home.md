@@ -17,16 +17,13 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 
 ![](assets/do-not-localize/banner.png)
 
+Campaign Control Panel helps you increase efficiency in your work as a product admin of Campaign Standard and V7/v8, by allowing you to manage settings and track usages for each of your Campaign instances.
+
 ## What's new
 
 **Workflow parameters monitoring**
 
 You can now monitor workflow parameters that may require specific attention to avoid any issues on your instances. [Read more](performance-monitoring/using/workflow-monitoring.md)
-
-
-**Active queries monitoring**
-
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)
 
 **Throughputs and latency monitoring**
 
