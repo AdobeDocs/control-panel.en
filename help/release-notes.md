@@ -28,7 +28,7 @@ This page lists all the new features and improvements for Control Panel.
 <tbody>
 <tr>
 <td>
-<p>Control Panel now allows you to identify paused and completed workflows and clean the temporary resources generated on your instances.</p><p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
+<p>Control Panel now allows you to identify paused and completed workflows and clean the temporary resources generated on your instances.</p><p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
