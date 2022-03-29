@@ -26,7 +26,7 @@ This page lists all the new features and improvements for Control Panel.
 <tbody>
 <tr>
 <td>
-<p>Throughputs and latency monitoring is now available to all Campaign Standard and v8 customers with build numbers 9032,9330, 9346 or 9349 that have standalone deployments (without any mid instance).</p><p>For more information, refer to the <a href="performance-monitoring/using/thoughputs-latencies.md">detailed documentation.</a></p>
+<p>Throughputs and latency monitoring is now available to all Campaign Standard and v8 customers, and to Campaign V7 customers with build numbers 9032,9330, 9346 or 9349 that have standalone deployments (without any mid instance).</p><p>For more information, refer to the <a href="performance-monitoring/using/thoughputs-latencies.md">detailed documentation.</a></p>
 </td>
 </tr>
 </tbody>
