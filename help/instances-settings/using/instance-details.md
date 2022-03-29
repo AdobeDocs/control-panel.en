@@ -14,14 +14,12 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 >id="cp_instancesettings_instancedetails"
 >title="About Instance details"
 >abstract="View the details of your Adobe Campaign instances: types, names, build information, and possible upgrade recommendations."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic release notes"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard release notes"
 
 ## About instance details {#about-instance-details}
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign Classic v7 and Campaign v8 instances only.
+>This feature is available for Campaign v7/v8 instances only.
 
 Your Adobe Campaign instance architecture can contain several servers to enable the flexibility of marketing activities. For example, you can have Marketing, Real Time (or Message Center) and Mid Sourcing servers supporting your instance. 
 
@@ -29,7 +27,7 @@ The Instance Details functionality allows you to view flat architecture of your 
 
 >[!NOTE]
 >
->We recommend that your instances are upgraded at least once a year in order to avoid performance degradation, and be able to take the advantage of the newest features and fixes Adobe Campaign Classic has to offer.
+>We recommend that your instances are upgraded at least once a year in order to avoid performance degradation, and be able to take the advantage of the newest features and fixes Adobe Campaign v7/v8 has to offer.
 
 **Related topics:**
 
@@ -44,13 +42,13 @@ To get information on the servers connected to your instances, follow these step
 
     >[!NOTE]
     >
-    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign Classic instances
+    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign v7/v8 instances
 
 1. Select in the left pane the desired Campaign instance.
 
     >[!NOTE]
     >
-    >All your Campaign instances display in the left pane list. As the Instance Details feature is dedicated to Campaign Classic instances only, the "Non-Applicable Instance" message displays if you select a Campaign Standard instance.  
+    >All your Campaign instances display in the left pane list. As the Instance Details feature is dedicated to Campaign v7/v8 instances only, the "Non-Applicable Instance" message displays if you select a Campaign Standard instance.  
 
 1. The servers connected to the instance display.
 
