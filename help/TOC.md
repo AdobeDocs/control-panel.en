@@ -49,4 +49,5 @@ level: Beginner
   + [URL permissions](instances-settings/using/url-permissions.md)
   + [Instance details](instances-settings/using/instance-details.md)
   + [GPG Keys management](instances-settings/using/gpg-keys-management.md)
++ [Identify key contacts and events on your instances](service-events/service-events.md)
 + [FAQ](faq.md)
