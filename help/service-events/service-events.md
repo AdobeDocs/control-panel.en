@@ -14,6 +14,10 @@ level: Intermediate
 >title="xxxx"
 >abstract="xxxx"
 
+>[!IMPORTANT]
+>
+>Service Calendar is available in beta, and subject to frequent updates and modifications without notice.
+
 Identifying events planned on your instances is essential to monitor your Campaign instances.
 
 With Control Panel, you can monitor releases and service reviews occurring on your instances and access a list of key contacts at Adobe for any request or issue.
