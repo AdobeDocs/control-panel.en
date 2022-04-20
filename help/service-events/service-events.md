@@ -28,6 +28,10 @@ These information are accessible from the **[!UICONTROL Service Calendar]** card
 
 The **[!UICONTROL Key contacts]** section lists the persons at Adobe that you can contact for any request or issue on your instances.
 
+>[!NOTE]
+>
+>This section will show information only for Managed Service Accounts.
+
 ![](assets/service-events-contacts.png)
 
 Key contacts include the following roles:
