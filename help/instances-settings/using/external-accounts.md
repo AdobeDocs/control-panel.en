@@ -37,17 +37,6 @@ To provide a MID/RT instance in the Control Panel, follow these steps:
 
     ![](assets/external-account-addbutton.png)
 
-1. Provide information about the MID/RT instance to connect:
-
-    * **[!UICONTROL URL]**: URL of the instance,
-    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: Credentials of the operator used in the Client Console to add the MID/RT instance in the marketing instance.
-
-    ![](assets/external-account-add.png)
-
-1. Click **[!UICONTROL Save]** to confirm.
-
-Your instance is now connected to the Control Panel. You can remove or deactivate a connection at any time by selecting it from the list.
-
 ![](assets/external-account-edit.png)
 
 ## Capabilities available for MID/RT instances {#capabilities}
