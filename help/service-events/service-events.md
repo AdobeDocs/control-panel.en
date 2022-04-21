@@ -10,9 +10,9 @@ level: Intermediate
 # Identify key contacts and events on your instances {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
->id="xxxx"
->title="xxxx"
->abstract="xxxx"
+>id="cp_servicecalendar_serviceevents"
+>title="Service Calendar"
+>abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify all past and upcoming releases and service reviews for the selected instance."
 
 >[!IMPORTANT]
 >
