@@ -15,6 +15,23 @@ This page lists all the new features and improvements for Control Panel.
 >
 >For Campaign v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
 
+## April 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitor key contacts and events on your instances</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now monitor past and upcoming releases and service reviews occurring on your instances, as well as access a list of key contacts at Adobe for any request or issue.</p><p>For more information, refer to the <a href="service-events/service-events.md">detailed documentation.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## March 2022 {#march-2022}
 
 <table>
