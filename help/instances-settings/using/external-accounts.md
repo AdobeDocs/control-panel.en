@@ -15,9 +15,7 @@ level: Intermediate
 >title="Subdomain details"
 >abstract="In this screen, you can connect a hybrid instance to the Control Panel in order to monitor it and perform specific actions directly from the Control Panel interface."
 
-Control Panel allows you to monitor and manage your hybrid instances directly from the Control Panel interface. For more information on  hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
-
-To do this, you need to connect your hybrid instance to the Control Panel. Once done, you will be able to leverage Control Panel's capabilities to perform specific actions [listed here](#capabilities).
+Control Panel allows you to connect hybrid instances in order to monitor them and perform specific actions [listed here](#capabilities) directly from the Control Panel interface. For more information on  hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
 
 ## Connect an hybrid instance {#connect}
 
