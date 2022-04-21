@@ -13,11 +13,11 @@ level: Intermediate
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_url"
 >title="Subdomain details"
->abstract="In this screen, you can connect a hybrid instance to the Control Panel in order to monitor it and perform specific actions directly from the Control Panel interface."
+>abstract="In this screen, customers with an hybrid hosting model can provide their MID/RT instances present in their marketing instance in order to perform specific actions in Control Panel."
 
 Control Panel allows customers with an hybrid hosting model to perform specific action in Control Panel by providing their MID/RT instances present in their marketing instance. For more information on hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
 
-## Connect MID/RT instance {#connect}
+## Connect a MID/RT instance {#connect}
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_operator"
@@ -29,15 +29,15 @@ Control Panel allows customers with an hybrid hosting model to perform specific 
 >title="Subdomain details"
 >abstract="Password of the operator used in the Client Console to add the MID/RT instance in the marketing instance."
 
-To connect an hybrid instance to the Control Panel, follow these steps:
+To provide a MID/RT instance in the Control Panel, follow these steps:
 
 1. In the **[!UICONTROL Instances Settings]** card, select the **[!UICONTROL External Accounts]** tab.
 
-1. Select the MID/RT instance to connect to your hybrid instance, then click **[!UICONTROL Add new URL]**.
+1. Select the desired marketing instance from the drop-down list, then click **[!UICONTROL Add new URL]**.
 
     ![](assets/external-account-addbutton.png)
 
-1. Provide information about the hybrid instance to connect:
+1. Provide information about the MID/RT instance to connect:
 
     * **[!UICONTROL URL]**: URL of the instance,
     * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: Credentials of the operator used in the Client Console to add the MID/RT instance in the marketing instance.
@@ -50,11 +50,11 @@ Your instance is now connected to the Control Panel. You can remove or deactivat
 
 ![](assets/external-account-edit.png)
 
-## Capabilities available to hybrid instances {#capabilities}
+## Capabilities available for MID/RT instances {#capabilities}
 
-Once an hybrid instance is connected to the Control Panel, you can leverage the Control Panel capabilities listed below to monitor it:
+Once an MID/RT instance is connected to the Control Panel, you can leverage the capabilities listed below to monitor it:
 
-* [Delegate subdomains](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [View your instance details](../../instances-settings/using/instance-details.md)
-* [Add IP addresses to the allow list to access your instances](../../instances-settings/using/ip-allow-listing-instance-access.md)
-* [Monitor and install SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [View your instance details](../../instances-settings/using/instance-details.md),
+* [Add IP addresses to the allow list to access your instances](../../instances-settings/using/ip-allow-listing-instance-access.md),
+* [View information about delegated subdomains](../../subdomains-certificates/using/setting-up-new-subdomain.md),
+* [View information about SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
