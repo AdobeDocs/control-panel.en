@@ -21,14 +21,9 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 ## What's new
 
-**Workflow parameters monitoring**
+**Monitor key contacts and events on your instances**
 
-You can now monitor workflow parameters that may require specific attention to avoid any issues on your instances. [Read more](performance-monitoring/using/workflow-monitoring.md)
-
-**Throughputs and latency monitoring**
-
-You can now monitor how delivery throughputs and latency are trending over a period of time on your instances. [Read more](performance-monitoring/using/thoughputs-latencies.md)
-
+You can now monitor past and upcoming releases and service reviews occurring on your instances, as well as access a list of key contacts at Adobe for any request or issue. [Read more](service-events/service-events.md)
 
 >[!CAUTION]
 >
