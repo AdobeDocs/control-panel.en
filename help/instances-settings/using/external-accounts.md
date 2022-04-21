@@ -1,23 +1,23 @@
 ---
 product: campaign
 solution: Campaign 
-title: Connect hybrid instances
-description: Learn how to connect instances with an hybrid hosting model to Control Panel
+title: Connect MID/RT instances
+description: Learn how to connect MID/RT instances to Control Panel.
 feature: Control Panel
 role: Architect
 level: Intermediate
 ---
 
-# Connect hybrid instances
+# Connect MID/RT instances
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_url"
 >title="Subdomain details"
 >abstract="In this screen, you can connect a hybrid instance to the Control Panel in order to monitor it and perform specific actions directly from the Control Panel interface."
 
-Control Panel allows you to connect hybrid instances in order to monitor them and perform specific actions [listed here](#capabilities) directly from the Control Panel interface. For more information on  hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
+Control Panel allows customers with an hybrid hosting model to perform specific action in Control Panel by providing their MID/RT instances present in their marketing instance. For more information on hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
 
-## Connect an hybrid instance {#connect}
+## Connect MID/RT instance {#connect}
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_operator"
