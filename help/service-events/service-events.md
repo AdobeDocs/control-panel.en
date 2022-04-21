@@ -1,18 +1,22 @@
 ---
 product: campaign
 solution: Campaign 
-title: Identify key contacts and events on your instances
+title: Monitor key contacts and events
 description: Learn how to identify events occurring on your instances and key contacts at Adobe. 
 feature: Control Panel
 role: Architect
 level: Intermediate
 ---
-# Identify key contacts and events on your instances {#keycontacts-events}
+# Monitor key contacts and events {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
->id="xxxx"
->title="xxxx"
->abstract="xxxx"
+>id="cp_servicecalendar_serviceevents"
+>title="Service Calendar"
+>abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify all past and upcoming releases and service reviews for the selected instance."
+
+>[!IMPORTANT]
+>
+>Service Calendar is available in beta, and subject to frequent updates and modifications without notice.
 
 Identifying events planned on your instances is essential to monitor your Campaign instances.
 
@@ -23,6 +27,10 @@ These information are accessible from the **[!UICONTROL Service Calendar]** card
 ## Key contacts {#key-contacts}
 
 The **[!UICONTROL Key contacts]** section lists the persons at Adobe that you can contact for any request or issue on your instances.
+
+>[!NOTE]
+>
+>This section will show information only for Managed Service Accounts.
 
 ![](assets/service-events-contacts.png)
 
@@ -42,12 +50,13 @@ The **[!UICONTROL Service Event Calendar]** section shows all past and upcoming 
 
 The **[!UICONTROL Note]** column provides information on the status of each release:
 
-* **[!UICONTROL General availability]**: TBC
-* **[!UICONTROL Limited availability]**: TBC
-* **[!UICONTROL Release candidate]**: TBC
-* **[!UICONTROL Pre release]**: TBC
-* **[!UICONTROL No longer available]**: TBC
-* **[!UICONTROL Deprecated]**: TBC
+* **[!UICONTROL General availability]**: Latest available stable build.
+* **[!UICONTROL Limited availability]**: On-demand deployment only.
+* **[!UICONTROL Release candidate]**: Engineering validated. Waiting for production proofing.
+* **[!UICONTROL Pre release]**: Earlier availability for specific customer needs.
+* **[!UICONTROL No longer available]**: The build holds no major issue but a new one is available with additional bug fixes. An upgrade is required.
+* **[!UICONTROL Deprecated]**: Build embedding known regressions.
+The build is no longer supported. An upgrade is mandatory.
 
 You can assign a flag to one or several upcoming events to keep track of them. To do this, click the ellipse button next to the event name.
 
