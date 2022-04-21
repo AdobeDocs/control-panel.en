@@ -17,6 +17,7 @@ level: Beginner
   + [Accessing Control Panel](discover/using/accessing-control-panel.md)
   + [Managing permissions to Control Panel](discover/using/managing-permissions.md)
   + [Discovering Control Panel interface](discover/using/discovering-the-interface.md)
++ [Monitor key contacts and events](service-events/service-events.md)
 + SFTP management {#sftp-management}
   + [About SFTP management](sftp/using/about-sftp-management.md)
   + [SFTP storage management](sftp/using/sftp-storage-management.md)
@@ -49,5 +50,5 @@ level: Beginner
   + [URL permissions](instances-settings/using/url-permissions.md)
   + [Instance details](instances-settings/using/instance-details.md)
   + [GPG Keys management](instances-settings/using/gpg-keys-management.md)
-+ [Identify key contacts and events on your instances](service-events/service-events.md)
+  + [Connect hybrid instances](instances-settings/using/external-accounts.md)
 + [FAQ](faq.md)
