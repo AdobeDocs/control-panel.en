@@ -26,6 +26,21 @@ This page lists all the new features and improvements for Control Panel.
 <tbody>
 <tr>
 <td>
+<p>Control Panel now allows customers with an hybrid hosting model to perform specific action in Control Panel by providing their MID/RT instances present in their marketing instance.</p><p>For more information, refer to the <a href="instances-settings/external-accounts.md">detailed documentation.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitor key contacts and events on your instances</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 <p>You can now monitor past and upcoming releases and service reviews occurring on your instances, as well as access a list of key contacts at Adobe for any request or issue.</p><p>For more information, refer to the <a href="service-events/service-events.md">detailed documentation.</a></p>
 </td>
 </tr>
