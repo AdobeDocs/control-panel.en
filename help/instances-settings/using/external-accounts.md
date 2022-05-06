@@ -1,21 +1,23 @@
 ---
 product: campaign
 solution: Campaign 
-title: Connect MID/RT instances
-description: Learn how to connect MID/RT instances to Control Panel.
+title: Connect MID/RT instances (hybrid model)
+description: Learn how to connect MID/RT instances to Control Panel wbhen using an hybrid hosting model.
 feature: Control Panel
 role: Architect
 level: Intermediate
 ---
 
-# Connect MID/RT instances
+# Connect MID/RT instances (hybrid model)
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_url"
 >title="Subdomain details"
 >abstract="In this screen, customers with an hybrid hosting model can provide their MID/RT instances present in their marketing instance in order to perform specific actions in Control Panel."
 
-Control Panel allows customers with an hybrid hosting model to perform specific action in Control Panel by providing their MID/RT instances present in their marketing instance. For more information on hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
+Control Panel allows customers with an hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide in Control Panel the MID/RT instances present in their marketing instance.
+
+For more information on hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
 
 ## Connect a MID/RT instance {#connect}
 
@@ -29,7 +31,9 @@ Control Panel allows customers with an hybrid hosting model to perform specific 
 >title="Subdomain details"
 >abstract="Password of the operator used in the Client Console to add the MID/RT instance in the marketing instance."
 
-To provide a MID/RT instance in the Control Panel, follow these steps:
+When connecting to Control Panel for the first time, no other card than the **[!UICONTROL Instance Settings]** card displays on the homepage.
+
+To access Control Panel capabilities, you first need to provide your MID/RT instance in Control Panel. To do this, follow these steps:
 
 1. In the **[!UICONTROL Instances Settings]** card, select the **[!UICONTROL External Accounts]** tab.
 
@@ -45,7 +49,9 @@ To provide a MID/RT instance in the Control Panel, follow these steps:
 
 1. Click **[!UICONTROL Save]** to confirm.
 
-Your instance is now connected to the Control Panel. You can remove or deactivate a connection at any time by selecting it from the list.
+Once the MID/RT instance URL is validated, you can access Control Panel main capabilities.
+
+You can remove or deactivate a MID/RT instance URL at any time by selecting it from the list.
 
 ![](assets/external-account-edit.png)
 
