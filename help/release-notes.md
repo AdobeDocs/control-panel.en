@@ -26,7 +26,7 @@ This page lists all the new features and improvements for Control Panel.
 <tbody>
 <tr>
 <td>
-<p>Control Panel is now available for customers with hybrid hosting model. These customers can leverage the features of Control Panel by providing their MID/RT instances present in their marketing instance.</p><p>For more information, refer to the <a href="instances-settings/external-accounts.md">detailed documentation.</a></p>
+<p>Control Panel is now available to customers with an hybrid hosting model. These customers can leverage the features of Control Panel by providing their MID/RT instances present in their marketing instance.</p><p>For more information, refer to the <a href="instances-settings/using/external-accounts.md">detailed documentation.</a></p>
 </td>
 </tr>
 </tbody>
