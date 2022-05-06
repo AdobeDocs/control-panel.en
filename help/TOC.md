@@ -50,4 +50,5 @@ level: Beginner
   + [URL permissions](instances-settings/using/url-permissions.md)
   + [Instance details](instances-settings/using/instance-details.md)
   + [GPG Keys management](instances-settings/using/gpg-keys-management.md)
+  + [Connect MID/RT instances](instances-settings/using/external-accounts.md)
 + [FAQ](faq.md)
