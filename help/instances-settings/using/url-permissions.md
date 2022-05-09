@@ -54,7 +54,7 @@ To add a URL that your instance can connect to, follow these steps:
 
     >[!NOTE]
     >
-    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign instances
+    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your Organization ID is not associated with any Adobe Campaign instances
     >
     >The <b><span class="uicontrol">URL permissions</span></b> tab lists all outside URLs that your instance can connect to. This list does not include URLs that are required for Campaign to work (e.g., connections between infrastructure pieces).
 

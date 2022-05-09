@@ -49,7 +49,7 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 
 >[!NOTE]
 >
->If the **[!UICONTROL Instance Settings]** card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign v7/v8 instances.
+>If the **[!UICONTROL Instance Settings]** card is not visible on the homepage of the Control Panel, this means your Organization ID is not associated with any Adobe Campaign v7/v8 instances.
 
 To add IP addresses to the allow list, follow these steps:
 
