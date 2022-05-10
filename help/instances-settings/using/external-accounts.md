@@ -31,13 +31,13 @@ For more information on hosting models, refer to [Campaign Classic documentation
 >title="Subdomain details"
 >abstract="Password of the operator used in the Client Console to add the MID/RT instance in the marketing instance."
 
-When connecting to Control Panel for the first time, no other card than the **[!UICONTROL Instance Settings]** card displays on the homepage.
+When accessing Control Panel for the first time, only two cards display on the homepage. To be able to access Control Panel capabilities, you need to provide your MID/RT instance information in the **[!UICONTROL Instances Settings]** card. To do this, follow the steps below.
 
-To access Control Panel capabilities, you first need to provide your MID/RT instance in Control Panel. To do this, follow these steps:
+![](assets/hybrid-homepage.png)
 
 1. In the **[!UICONTROL Instances Settings]** card, select the **[!UICONTROL External Accounts]** tab.
 
-1. Select the marketing instance from the drop-down list, then click **[!UICONTROL Add new URL]**.
+1. Select the desired marketing instance from the drop-down list, then click **[!UICONTROL Add new URL]**.
 
     ![](assets/external-account-addbutton.png)
 
@@ -57,9 +57,9 @@ You can remove or deactivate a MID/RT instance URL at any time by selecting it f
 
 ## Capabilities available for MID/RT instances {#capabilities}
 
-Once an MID/RT instance is connected to the Control Panel, you can leverage the capabilities listed below to monitor it:
+Once an MID/RT instance is connected to the Control Panel, you can leverage the capabilities listed below:
 
 * [View your instance details](../../instances-settings/using/instance-details.md),
-* [Add IP addresses to the allow list to access your instances](../../instances-settings/using/ip-allow-listing-instance-access.md),
+* [Add IP addresses to the allow list to access your instances](../../instances-settings/using/ip-allow-listing-instance-access.md) (for RT instances),
 * [View information about delegated subdomains](../../subdomains-certificates/using/setting-up-new-subdomain.md),
 * [View information about SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
