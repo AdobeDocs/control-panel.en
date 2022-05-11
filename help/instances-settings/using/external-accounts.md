@@ -15,7 +15,7 @@ level: Intermediate
 >title="Subdomain details"
 >abstract="In this screen, customers with an hybrid hosting model can provide their MID/RT instances present in their marketing instance in order to perform specific actions in Control Panel."
 
-Control Panel allows customers with an hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide in Control Panel the MID/RT instances present in their marketing instance.
+Control Panel allows customers with an hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide in Control Panel the MID/RT instance URL configured in their marketing instance.
 
 For more information on hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
 
@@ -43,17 +43,29 @@ When accessing Control Panel for the first time, only two cards display on the h
 
 1. Provide information about the MID/RT instance to connect:
     * **[!UICONTROL URL]**: URL of the instance,
-    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: Credentials of the operator used in the Client Console to add the MID/RT instance in the marketing instance.
+    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: Credentials of the operator provided after intial provisioning by Adobe Admin. 
+
+        >[!NOTE]
+        >
+        >If these details are not available, contact Customer Care.
 
     ![](assets/external-account-add.png)
 
 1. Click **[!UICONTROL Save]** to confirm.
 
-Once the MID/RT instance URL is validated, you can access Control Panel main capabilities.
+On adding MID/RT URL, an async process is triggered to validate the correctness of the URLs. This process might take a few seconds. Until the MID/RT instance URL is validated, status will be pending. Only on validation complete, you can access Control Panel main capabilities.
+
+![](assets/external-account-pending.png)
 
 You can remove or deactivate a MID/RT instance URL at any time by selecting it from the list.
 
 ![](assets/external-account-edit.png)
+
+Note that you can monitor any action performed on a MID/RT instance URL from the **[!UICONTROL Job Logs]**: 
+
+![](assets/external-account-logs.png)
+
+
 
 ## Capabilities available for MID/RT instances {#capabilities}
 
