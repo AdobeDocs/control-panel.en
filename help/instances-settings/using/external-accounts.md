@@ -42,7 +42,10 @@ When accessing Control Panel for the first time, only two cards display on the h
     ![](assets/external-account-addbutton.png)
 
 1. Provide information about the MID/RT instance to connect:
-    * **[!UICONTROL URL]**: URL of the instance,
+    * **[!UICONTROL URL]**: URL of the instance, which can be found in Campaign Client Console, in the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** menu.
+
+        ![](assets/external-account-url.png)
+
     * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: Credentials of the operator provided after intial provisioning by Adobe Admin. 
 
         >[!NOTE]
