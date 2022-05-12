@@ -42,6 +42,9 @@ When accessing Control Panel for the first time, only two cards display on the h
     ![](assets/external-account-addbutton.png)
 
 1. Provide information about the MID/RT instance to connect:
+
+    ![](assets/external-account-add.png)
+
     * **[!UICONTROL URL]**: URL of the instance, which can be found in Campaign Client Console, in the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** menu.
 
         ![](assets/external-account-url.png)
@@ -51,8 +54,6 @@ When accessing Control Panel for the first time, only two cards display on the h
         >[!NOTE]
         >
         >If these details are not available, contact Customer Care.
-
-    ![](assets/external-account-add.png)
 
 1. Click **[!UICONTROL Save]** to confirm.
 
@@ -67,8 +68,6 @@ You can remove or deactivate a MID/RT instance URL at any time by selecting it f
 Note that you can monitor any action performed on a MID/RT instance URL from the **[!UICONTROL Job Logs]**: 
 
 ![](assets/external-account-logs.png)
-
-
 
 ## Capabilities available for MID/RT instances {#capabilities}
 
