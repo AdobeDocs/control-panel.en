@@ -15,7 +15,7 @@ level: Intermediate
 >title="Subdomain details"
 >abstract="In this screen, customers with hybrid hosting model can provide their MID/RT instances present in their marketing instance in order to leverage Control Panel capabilities."
 
-Control Panel allows customers with hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide the MID/RT instance URL configured in their marketing instance in Control Panel.”
+Control Panel allows customers with hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide the MID/RT instance URL configured in their marketing instance in Control Panel.
 
 For more information on hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
 
@@ -41,11 +41,11 @@ When accessing Control Panel for the first time, only two cards display on the h
 
     ![](assets/external-account-addbutton.png)
 
-1. Provide information about the MID/RT instance to add:
+1. Provide information about the MID/RT instance to add.
 
     ![](assets/external-account-add.png)
 
-    * **[!UICONTROL URL]**: URL of the instance, which can be found in Campaign Client Console, in the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** menu.
+    * **[!UICONTROL URL]**: URL of the instance, which can be found in Campaign Client Console in the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** menu.
 
         ![](assets/external-account-url.png)
 
