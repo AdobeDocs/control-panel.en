@@ -50,33 +50,33 @@ Please follow the detailed instructions in the Accessing the Control Panel docum
 
 No, there is no extra cost if you are a current customer of Adobe Campaign.
 
-## IMS Organization ID {#ims-org-id}
+## Organization ID {#ims-org-id}
 
-### What is an IMS Organization ID?
+### What is an Organization ID?
 
 It is a unique ID that is given to your instance when you first log onto Adobe Experience Cloud. It should be in the format: xxx@AdobeOrg.
 
-For more information, please refer to [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+For more information, please refer to [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
 
-### Where can I find my IMS Organization ID?
+### Where can I find my Organization ID?
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. You can find more detailed information in the [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. You can find more detailed information in the [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
 
-The other way is to launch **Admin Console**. Your IMS Organization ID will be visible in your URL, it should look something like: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+The other way is to launch **Admin Console**. Your Organization ID will be visible in your URL, it should look something like: `https://adminconsole.adobe.com/xxx@AdobeOrg/overview`.
 
-### Why do I need to know my IMS Organization ID?
+### Why do I need to know my Organization ID?
 
 In order for you to manage settings for your instance, we want to ensure that you're getting the right information for the right instance in case you're using multiple instances for your company.
 
-### What if I have multiple IMS Organization IDs?
+### What if I have multiple Organization IDs?
 
-You may have more than one IMS Organization ID if you have access to multiple Adobe solutions. In this case, the correct IMS Organization ID you should be using is the one you see under your Adobe Campaign instance.
+You may have more than one Organization ID if you have access to multiple Adobe solutions. In this case, the correct Organization ID you should be using is the one you see under your Adobe Campaign instance.
 
 >[!NOTE]
 >
->If you have the same IMS Organization ID for Adobe Campaign and Adobe Analytics, this is great. Having one IMS Organization ID between Analytics and Campaign is a requirement if you plan to integrate the solutions to take advantage of complex use cases such as shopping cart abandonment (for AA + AC).
+>If you have the same Organization ID for Adobe Campaign and Adobe Analytics, this is great. Having one Organization ID between Analytics and Campaign is a requirement if you plan to integrate the solutions to take advantage of complex use cases such as shopping cart abandonment (for AA + AC).
 >
->If you have different IMS Organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+>If you have different Organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
 
 ### How can I know that my Adobe Campaign instance is hosted on AWS or not?{#hosted-aws}
 
