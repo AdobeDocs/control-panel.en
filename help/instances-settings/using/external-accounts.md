@@ -11,9 +11,9 @@ level: Intermediate
 # Add MID/RT instances (hybrid model)
 
 >[!CONTEXTUALHELP]
->id="cp_externalaccounts_url"
->title="Subdomain details"
->abstract="In this screen, customers with hybrid hosting model can provide their MID/RT instances present in their marketing instance in order to leverage Control Panel capabilities."
+>id="cp_externalaccounts"
+>title="External Accounts"
+>abstract="In this screen, customers with hybrid hosting model can provide their MID/RT instance URL configured in the marketing instance in Control Panel, in order to leverage Control Panel capabilities."
 
 Control Panel allows customers with hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide the MID/RT instance URL configured in their marketing instance in Control Panel.
 
@@ -22,14 +22,19 @@ For more information on hosting models, refer to [Campaign Classic documentation
 ## Add a MID/RT instance {#add}
 
 >[!CONTEXTUALHELP]
+>id="cp_externalaccounts_url"
+>title="URL"
+>abstract="URL of the instance, which can be found in Campaign Client Console in the Administration > Platform > External Accounts menu."
+
+>[!CONTEXTUALHELP]
 >id="cp_externalaccounts_operator"
->title="Subdomain details"
->abstract="ID of the operator used in the Client Console to add the MID/RT instance in the marketing instance."
+>title="Operator"
+>abstract="ID of the operator provided after intial provisioning by Adobe Admin."
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_password"
->title="Subdomain details"
->abstract="Password of the operator used in the Client Console to add the MID/RT instance in the marketing instance."
+>title="Password"
+>abstract="Password of the operator provided after intial provisioning by Adobe Admin."
 
 When accessing Control Panel for the first time, only two cards display on the homepage. To be able to access Control Panel capabilities, you need to provide your MID/RT instance information in the **[!UICONTROL Instances Settings]** card. To do this, follow the steps below.
 
