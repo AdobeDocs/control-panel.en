@@ -64,7 +64,7 @@ Latencies are captured and visualized at 95 and 99 percentile, meaning that 95% 
 
 ![](assets/throughput-latencies-latency.png)
 
-By default, latency is shown for all channels. You can vizualise latency for a specific channel using the drop-down list.
+By default, latency is shown for all channels. You can visualize latency for a specific channel using the drop-down list.
 
 ![](assets/throughput-latencies-filter.png)
 

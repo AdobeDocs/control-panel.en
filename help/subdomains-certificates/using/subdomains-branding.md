@@ -18,10 +18,6 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 
 ## Why setting up subdomains? {#why-setting-up-subdomains}
 
->[!IMPORTANT]
->
->Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
-
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
 
 Let's take the example of the "mybrand.com" domain, that is used to send both transactional and marketing communications. In this situation, you can decide to set up two subdomains:
