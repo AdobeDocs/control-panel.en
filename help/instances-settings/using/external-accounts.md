@@ -1,4 +1,3 @@
-@@ -1,85 +0,0 @@
 ---
 product: campaign
 solution: Campaign 
