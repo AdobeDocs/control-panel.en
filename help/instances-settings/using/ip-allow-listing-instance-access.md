@@ -21,6 +21,8 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 >[!IMPORTANT]
 >
 >This feature is available for Campaign v7/v8 instances only.
+>
+>If you are using an instance with an hybrid hosting model, you will only be able to add IP addresses in “External API Connection” for RT Instance.
 
 By default, your Adobe Campaign instance is not accessible from various IP addresses.
 
@@ -86,6 +88,8 @@ To add IP addresses to the allow list, follow these steps:
 1. Click the **[!UICONTROL Save]** button. The IP Range is added to the allow list.
 
     <!--![](assets/ip_whitelist_added.png)-->
+
+By default, your Adobe Campaign instance is not accessible from various IP addresses.
 
 To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
 

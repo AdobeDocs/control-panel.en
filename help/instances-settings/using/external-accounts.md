@@ -1,3 +1,4 @@
+@@ -1,85 +0,0 @@
 ---
 product: campaign
 solution: Campaign 
@@ -36,9 +37,15 @@ For more information on hosting models, refer to [Campaign Classic documentation
 >title="Password"
 >abstract="Password of the operator provided after intial provisioning by Adobe Admin."
 
-When accessing Control Panel for the first time, only two cards display on the homepage. To be able to access Control Panel capabilities, you need to provide your MID/RT instance information in the **[!UICONTROL Instances Settings]** card. To do this, follow the steps below.
+Hybrid customers should connect to Control Panel through Experience Cloud. When accessing Control Panel for the first time, only two cards display on the homepage.
 
 ![](assets/hybrid-homepage.png)
+
+>[!NOTE]
+>
+>In case you run into any issues to access Control Panel, it is most likely that your marketing instance is not yet registered with your Organization ID. Please contact Customer Care to complete this setup to proceed further. On successful connection, you would see Control Panel homepage.
+
+To be able to access Control Panel capabilities, you need to provide your MID/RT instance information in the **[!UICONTROL Instances Settings]** card. To do this, follow the steps below.
 
 1. In the **[!UICONTROL Instances Settings]** card, select the **[!UICONTROL External Accounts]** tab.
 
