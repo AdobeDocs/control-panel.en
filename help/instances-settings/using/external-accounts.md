@@ -86,6 +86,6 @@ Once an MID/RT instance is added to the Control Panel, you can leverage the capa
 
 * [Monitor key contacts and events](../../service-events/service-events.md)
 * [View your instance details](../../instances-settings/using/instance-details.md),
-* [Add IP addresses to the allow list to access your instances](../../instances-settings/using/ip-allow-listing-instance-access.md) (for RT instances),
+* [Add IP addresses to the allow list](../../instances-settings/using/ip-allow-listing-instance-access.md) (for RT instances),
 * [View information about delegated subdomains](../../subdomains-certificates/using/monitoring-subdomains.md),
 * [View information about SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
