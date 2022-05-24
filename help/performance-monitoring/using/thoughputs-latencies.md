@@ -40,7 +40,7 @@ You can also visualize information in a tabular format with sortable columns rat
 
 ![](assets/throughput-latencies-table.png)
 
-## Monitor thoughput
+## Monitor thoughput {#throughput}
 
 The **[!UICONTROL Throughput]** area provides information regarding the number of messages sent per hour from the selected Campaign instance for all the communication channels that you are entitled to.
 
@@ -52,7 +52,7 @@ Aditionally, Control Panel allows you to identify the IDs of the top 5 deliverie
 
 ![](assets/throughput-latencies-top5.png)
 
-## Monitor Latency
+## Monitor Latency {#latency}
 
 The **[!UICONTROL Latency]** area provides information regarding the latency encountered on the selected instance when sending real-time transactional communications.
 
