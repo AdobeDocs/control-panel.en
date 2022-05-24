@@ -1,14 +1,14 @@
 ---
 product: campaign
 solution: Campaign
-title: Throughtputs and latency monitoring
+title: Throughputs and latency monitoring
 description: Learn how to monitor your Campaign instances throughputs and latency in the Control Panel.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 ---
-# Throughtputs and latency monitoring {#throughputs-latency-monitoring}
+# Throughputs and latency monitoring {#throughputs-latency-monitoring}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
