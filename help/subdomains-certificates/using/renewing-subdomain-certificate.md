@@ -21,7 +21,9 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 
 >[!IMPORTANT]
 >
->Subdomain configuration from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
+>SSL certificate renewal from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
+>
+>If you are using an instance with an hybrid hosting model, you can only view certificates associated with the delegated subdomains. You will not be able to renew SSL certificates.
 
 The SSL certificate renewal process includes 3 steps:
 
