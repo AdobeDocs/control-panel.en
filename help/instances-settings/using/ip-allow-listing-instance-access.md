@@ -21,6 +21,8 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 >[!IMPORTANT]
 >
 >This feature is available for Campaign v7/v8 instances only.
+>
+>If you are using an instance with an hybrid hosting model, you will only be able to add IP addresses in “External API Connection” for RT Instance.
 
 By default, your Adobe Campaign instance is not accessible from various IP addresses.
 
@@ -49,7 +51,7 @@ Make sure you follow the recommendations and limitations below when adding IP ad
 
 >[!NOTE]
 >
->If the **[!UICONTROL Instance Settings]** card is not visible on the homepage of the Control Panel, this means your Organization ID is not associated with any Adobe Campaign v7/v8 instances.
+>If the **[!UICONTROL Instance Settings]** card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign v7/v8 instances.
 
 To add IP addresses to the allow list, follow these steps:
 
@@ -81,11 +83,17 @@ To add IP addresses to the allow list, follow these steps:
     * **[!UICONTROL AEM connection]**: The specified AEM IP addresses will be allowed to connect to the Marketing instance.
     * **[!UICONTROL External API connection]**: External APIs with the specified IP addresses will be allowed to connect to the Marketing and/or Message Center (RT) instance. Note that connection to the console of RT instances is not enabled.
 
+        >[!NOTE]
+        >
+        >If you are using an instance with an hybrid hosting model, you will only be able to add IP addresses in “External API Connection” for RT Instance.
+
     ![](assets/ip_whitelist_acesstype.png)
 
 1. Click the **[!UICONTROL Save]** button. The IP Range is added to the allow list.
 
     <!--![](assets/ip_whitelist_added.png)-->
+
+By default, your Adobe Campaign instance is not accessible from various IP addresses.
 
 To delete one or more IP ranges from the allow list, select them, then click the **[!UICONTROL Delete IP range]** button.
 
