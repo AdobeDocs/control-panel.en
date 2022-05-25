@@ -42,7 +42,7 @@ Hybrid customers should connect to Control Panel through Experience Cloud. When 
 
 >[!NOTE]
 >
->In case you run into any issues to access Control Panel, it is most likely that your marketing instance is not yet registered with your Organization ID. Please contact Customer Care to complete this setup to proceed further. On successful connection, you would see Control Panel homepage.
+>In case you run into any issues to access Control Panel, it is most likely that your marketing instance is not yet mapped with your Organization ID. Please contact Customer Care to complete this setup to proceed further. On successful connection, you would see Control Panel homepage.
 
 To be able to access Control Panel capabilities, you need to provide your MID/RT instance information in the **[!UICONTROL Instances Settings]** card. To do this, follow the steps below.
 

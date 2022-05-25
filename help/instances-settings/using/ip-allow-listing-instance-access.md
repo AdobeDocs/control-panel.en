@@ -83,6 +83,10 @@ To add IP addresses to the allow list, follow these steps:
     * **[!UICONTROL AEM connection]**: The specified AEM IP addresses will be allowed to connect to the Marketing instance.
     * **[!UICONTROL External API connection]**: External APIs with the specified IP addresses will be allowed to connect to the Marketing and/or Message Center (RT) instance. Note that connection to the console of RT instances is not enabled.
 
+        >[!NOTE]
+        >
+        >If you are using an instance with an hybrid hosting model, you will only be able to add IP addresses in “External API Connection” for RT Instance.
+
     ![](assets/ip_whitelist_acesstype.png)
 
 1. Click the **[!UICONTROL Save]** button. The IP Range is added to the allow list.
