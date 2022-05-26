@@ -1,13 +1,13 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Add MID/RT instances (hybrid model)
 description: Learn how to add MID/RT instances to Control Panel with hybrid hosting model.
 feature: Control Panel
 role: Architect
 level: Intermediate
+exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 ---
-
 # Add MID/RT instances (hybrid model)
 
 >[!CONTEXTUALHELP]
