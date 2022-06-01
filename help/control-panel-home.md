@@ -21,9 +21,17 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 ## What's new
 
-**Monitor key contacts and events on your instances**
+**Control Panel availability to hybrid hosting model**
 
-You can now monitor past and upcoming releases and service reviews occurring on your instances, as well as access a list of key contacts at Adobe for any request or issue. [Read more](service-events/service-events.md)
+Control Panel is now available to customers with hybrid hosting model. These customers can leverage the features of Control Panel by providing their MID/RT instance URL configured in their marketing instance in Control Panel. [Read more](instances-settings/using/external-accounts.md)
+
+
+**Throughputs and latencies monitoring updates**
+
+Throughputs and latencies monitoring capabilities have been enhanced. [Read more](performance-monitoring/using/thoughputs-latencies.md)
+
+* You can now identify the IDs of the top 5 deliveries that are contributing to the throughput of your instance.
+* Campaign Classic v7/v8 customers can now visualize latency for a specific channel.
 
 >[!CAUTION]
 >
