@@ -19,7 +19,7 @@ Control Panel allows you to monitor delivery throughputs and latency for each of
 
 >[!IMPORTANT]
 >
->This feature is available to all Campaign Standard and v8 customers, and to Campaign V7 customers with build numbers 9032,9330, 9346 or 9349 that have [standalone](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) deployments (without any mid instance).
+>This feature is available to all Campaign Standard, v8 customers, and to Campaign v7 customers with build numbers 9032 and newer, including [standalone deployments](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) (without any mid instance).
 
 Monitoring how delivery throughputs and latency are trending over a period of time is essential to understand the usage of your instances and ensure they are performing well.
 
