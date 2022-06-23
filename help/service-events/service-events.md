@@ -13,7 +13,7 @@ exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Service Calendar"
->abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify all past and upcoming releases and service reviews for the selected instance."
+>abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify releases and service reviews for the selected instance and set up reminders for upcoming events."
 
 >[!IMPORTANT]
 >
@@ -45,6 +45,8 @@ Key contacts include the following roles:
 
 ## Events {#events}
 
+## Monitor events {#monitor-events}
+
 The **[!UICONTROL Service Event Calendar]** section shows all past and upcoming releases and service reviews for the selected instance.
 
 ![](assets/service-events-calendar.png)
@@ -62,3 +64,29 @@ The build is no longer supported. An upgrade is mandatory.
 You can assign a flag to one or several upcoming events to keep track of them. To do this, click the ellipse button next to the event name.
 
 ![](assets/service-events-flag.png)
+
+### Set reminders {#reminders}
+
+With Service Calendar, you can set reminders in order to be notified by email before an event is going to occur.
+
+>[!NOTE]
+>
+>In order to be notified about upcoming events, make sure you have subscribed to email alerts in Control Panel. [Learn more](../performance-monitoring/using/email-alerting.md)
+
+To set an alert for an event, follow these steps:
+
+1. Click the ellipse button next to the event that you want to be reminded of, then select **[!UICONTROL Set Reminder]**.
+
+1. Give a title to the reminder, then select the date at which you want to be notified before the event occurs.
+
+    ![](assets/service-events-set-reminder.png)
+
+1. The reminder is now set for the selected event. You can hover over it at any time to display its title.
+
+    ![](assets/service-events-reminder.png)
+
+    >[!NOTE]
+    >
+    >You can set up to 2 reminders for the same event.
+
+1. On the date specified in the reminder, an email will be sent to notify you about the upcoming event, and the reminder will automatically be removed from the **[!UICONTROL Reminders]** count in the Service Calendar menu.
