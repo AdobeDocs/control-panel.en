@@ -28,7 +28,8 @@ This page lists all the new features and improvements for Control Panel.
 <tbody>
 <tr>
 <td>
-<p>xxxx. <a href="instances-settings/using/external-accounts.md">Learn more</a></p>
+<p>Service Calendar now allows you to set reminders in order to be notified by email before an event is going to occur on your instances. <a href="instances-settings/using/external-accounts.md">Learn more</a></p>
+<img src="assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
 </tbody>
