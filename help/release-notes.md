@@ -15,8 +15,33 @@ This page lists all the new features and improvements for Control Panel.
 >
 >For Campaign v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
 
-## May 2022 {#may-2022}
+## June 2022 {#june-2022}
 
+### New capabilities
+
+<table>
+<thead>
+<tr>
+<th><strong>xxxx</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>xxxx. <a href="instances-settings/using/external-accounts.md">Learn more</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**Instances settings**
+
+* The maximum number of GPG keys in Control Panel has been increased to 60 keys. [Learn more](instances-settings/using/gpg-keys-management.md)
+
+
+## May 2022 {#may-2022}
 <table>
 <thead>
 <tr>
