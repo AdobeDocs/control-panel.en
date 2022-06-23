@@ -45,7 +45,7 @@ Key contacts include the following roles:
 
 ## Events {#events}
 
-## Monitor events {#monitor-events}
+### Monitor events {#monitor-events}
 
 The **[!UICONTROL Service Event Calendar]** section shows all past and upcoming releases and service reviews for the selected instance.
 
