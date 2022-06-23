@@ -22,7 +22,7 @@ This page lists all the new features and improvements for Control Panel.
 <table>
 <thead>
 <tr>
-<th><strong>xxxx</strong><br/></th>
+<th><strong>Service Calendar reminders</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -42,6 +42,7 @@ This page lists all the new features and improvements for Control Panel.
 
 
 ## May 2022 {#may-2022}
+
 <table>
 <thead>
 <tr>
