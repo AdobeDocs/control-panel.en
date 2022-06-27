@@ -41,6 +41,19 @@ This page lists all the new features and improvements for Control Panel.
 
 * The maximum number of GPG keys in Control Panel has been increased to 60 keys. [Learn more](instances-settings/using/gpg-keys-management.md)
 
+**Subdomains' CSR generation**
+
+Several enhancements have been made to the CSR generation process:
+
+* When generating a CSR, you can now select one of the included subdomains as the Common Name.
+* You can now copy the CSR summary before generating the CSR.
+* Once a CSR has been generated, you can download it again from the job logs.
+
+    >[!NOTE]
+    >
+    >This capability does not apply to certificates generated before this release.
+
+[Learn more](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## May 2022 {#may-2022}
 
