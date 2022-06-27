@@ -81,6 +81,10 @@ To set an alert for an event, follow these steps:
 
     ![](assets/service-events-set-reminder.png)
 
+    >[!NOTE]
+    >
+    >If you have not subscribed to Control Panel alerts, a message will display and allopw you to enroll to receive email notifications.
+
 1. The reminder is now set for the selected event. You can hover over it at any time to display its title.
 
     ![](assets/service-events-reminder.png)

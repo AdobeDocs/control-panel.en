@@ -22,14 +22,13 @@ This page lists all the new features and improvements for Control Panel.
 <table>
 <thead>
 <tr>
-<th><strong>Service Calendar reminders</strong><br/></th>
+<th><strong>Top 10 files consuming space on SFTP servers</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Service Calendar now allows you to set reminders in order to be notified by email before an event is going to occur on your instances. <a href="instances-settings/using/external-accounts.md">Learn more</a></p>
-<img src="assets/do-not-localize/reminders.gif"/>
+<p>You can now identify the top 10 files that are consuming the most space on an SFTP server. <a href="sftp/using/sftp-storage-management.md">Learn more</a></p>
 </td>
 </tr>
 </tbody>
@@ -38,13 +37,14 @@ This page lists all the new features and improvements for Control Panel.
 <table>
 <thead>
 <tr>
-<th><strong>Top 10 files consuming space on SFTP servers</strong><br/></th>
+<th><strong>Service Calendar reminders</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now identify the top 10 files that are consuming the most space on an SFTP server. <a href="sftp/using/sftp-storage-management.md">Learn more</a></p>
+<p>Service Calendar now allows you to set reminders in order to be notified by email before an event is going to occur on your instances. <a href="instances-settings/using/external-accounts.md">Learn more</a></p>
+<img src="assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
 </tbody>
