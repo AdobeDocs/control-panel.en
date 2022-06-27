@@ -13,7 +13,7 @@ exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="About storage capacity"
->abstract="In this tab, you can view the storage capacity and utilization information for your SFTP servers. Only SFTP servers that you have access to are shown here. Please contact your Administrator to request access to other SFTP servers."
+>abstract="In this tab, you can view the storage capacity and utilization information for your SFTP servers. You can also list the top 10 files that are consuming the most space on an SFTP server by clicking its name. Only SFTP servers that you have access to are shown here. Please contact your Administrator to request access to other SFTP servers."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Watch demo video"
 
 You may have different storage capacity provisioned on your SFTP server, depending on your contractual terms.
@@ -32,6 +32,10 @@ For each instance, a visual alert lets you know when its storage surpasses its c
 
 * **Orange**: the instance surpassed 80% of its capacity,
 * **Red**: the instance surpasses 90% of its capacity.
+
+You can also identify the top 10 files that are consuming the most space on an SFTP server by clicking its name.
+
+![](assets/sftp-top10.png)
 
 Additional tips are also available to help you know how to proceed as your server approaches its capacity.
 

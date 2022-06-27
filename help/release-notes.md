@@ -35,6 +35,21 @@ This page lists all the new features and improvements for Control Panel.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Top 10 files consuming space on SFTP servers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now identify the top 10 files that are consuming the most space on an SFTP server. <a href="sftp/using/sftp-storage-management.md">Learn more</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Improvements
 
 **Instances settings**
@@ -43,7 +58,7 @@ This page lists all the new features and improvements for Control Panel.
 
 **Subdomains' CSR generation**
 
-Several enhancements have been made to the CSR generation process:
+Several enhancements have been made to the CSR generation process. [Learn more](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 * When generating a CSR, you can now select one of the included subdomains as the Common Name.
 * You can now copy the CSR summary before generating the CSR.
@@ -52,8 +67,6 @@ Several enhancements have been made to the CSR generation process:
     >[!NOTE]
     >
     >This capability does not apply to certificates generated before this release.
-
-[Learn more](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## May 2022 {#may-2022}
 

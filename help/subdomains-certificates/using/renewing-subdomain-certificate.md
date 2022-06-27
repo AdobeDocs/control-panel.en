@@ -66,7 +66,7 @@ To generate a Certificate Signing Request (CSR), follow these steps:
     * **[!UICONTROL Organization]**: official organization name.
     * **[!UICONTROL Organization Unit]**: unit linked to the subdomain (example: Marketing, IT).
     * **[!UICONTROL Instance]** (pre-filled): URL of the Campaign instance associated to the subdomain.
-    * **[!UICONTROL Common name]**: subdomain to use as the common name for the CSR.
+    * **[!UICONTROL Common name]**: the common name is selected by default, you can select one of the subdomains if necessary.
 
     ![](assets/renewal3.png)
 
@@ -84,7 +84,7 @@ To generate a Certificate Signing Request (CSR), follow these steps:
 
     >[!NOTE]
     >
-    >The **[!UICONTROL Copy CSR content]** button allows you to copy all information related to the certificate (Org ID, instance, organization name, common name, included subdomains etc.)
+    >The **[!UICONTROL Copy CSR content]** button allows you to copy all information related to the CSR (Org ID, instance, organization name, common name, included subdomains etc.)
 
 1. The .csr file corresponding to your selection is automatically generated and downloaded. You can now use it to purchase the SSL certificate from the Certificate Authority that your company approves.
 
