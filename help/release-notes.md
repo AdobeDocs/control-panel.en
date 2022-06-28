@@ -29,6 +29,7 @@ This page lists all the new features and improvements for Control Panel.
 <tr>
 <td>
 <p>You can now identify the top 10 files that are consuming the most space on an SFTP server. <a href="sftp/using/sftp-storage-management.md">Learn more</a></p>
+<img src="assets/do-not-localize/sftp.gif"/>
 </td>
 </tr>
 </tbody>
@@ -50,23 +51,27 @@ This page lists all the new features and improvements for Control Panel.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Subdomains' CSR generation enhancements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Several enhancements have been made to the CSR generation process. <a href="subdomains-certificates/using/renewing-subdomain-certificate.md">Learn more</a></p><ul><li>When generating a CSR, you can now select one of the included subdomains as the Common Name.</li><li>You can now copy the CSR summary before generating the CSR.</li><li>Once a CSR has been generated, you can download it again from the job logs. This capability does not apply to certificates generated before this release.</li></ul><p>
+<img src="assets/do-not-localize/CSR.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Improvements
 
 **Instances settings**
 
 * The maximum number of GPG keys in Control Panel has been increased to 60 keys. [Learn more](instances-settings/using/gpg-keys-management.md)
-
-**Subdomains' CSR generation**
-
-Several enhancements have been made to the CSR generation process. [Learn more](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
-* When generating a CSR, you can now select one of the included subdomains as the Common Name.
-* You can now copy the CSR summary before generating the CSR.
-* Once a CSR has been generated, you can download it again from the job logs.
-
-    >[!NOTE]
-    >
-    >This capability does not apply to certificates generated before this release.
 
 ## May 2022 {#may-2022}
 
