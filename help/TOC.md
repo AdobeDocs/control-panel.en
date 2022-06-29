@@ -11,7 +11,12 @@ level: Beginner
 # Control Panel Guide {#using}
 
 + [Product documentation](control-panel-home.md)
-+ [Release notes](release-notes.md)
++ Release notes {#release-notes}
+  + [Latest Release](rn/release-notes.md)
+  + Previous Releases {#previous-releases}
+    + [Release Notes 2021](rn/release-notes-2021.md)
+    + [Release Notes 2020](rn/release-notes-2020.md)
+    + [Release Notes 20219](rn/release-notes-2019.md)
 + Discover Control Panel {#discover-control-panel}
   + [Key features](discover/using/key-features.md)
   + [Access Control Panel](discover/using/accessing-control-panel.md)
