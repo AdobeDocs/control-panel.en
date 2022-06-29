@@ -9,12 +9,6 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 
 This page lists all the new features and improvements for Control Panel.
 
->[!NOTE]
->
->Control Panel is accessible to Admin users only. Learn more about permissions in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
->
->For Campaign v7, your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) (or to build 9032 or higher). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](faq.md#hosted-aws).
-
 ## June 2022 {#june-2022}
 
 ### New capabilities
