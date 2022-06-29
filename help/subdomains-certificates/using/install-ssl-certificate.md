@@ -18,7 +18,7 @@ level: Experienced
 Once an SSL certificate has been purchased, you can install it on your instance. Before proceeding, make sure you are aware of the prerequisites below:
 
 * The Certificate Signing Request (CSR) must have been generated from the Control Panel. Otherwise, you will not be able to install the certificate from the Control Panel.
-* The certificate Signing Request (CSR) should match the subdomain that has been configured to work with Adobe. For example, it cannot contain more subdomains that the one that has been configured.
+* The certificate Signing Request (CSR) should match the subdomain that has been configured to work with Adobe. For example, it cannot contain more subdomains than the one that has been configured.
 * The certificate should have a current date. It is not possible to install certificates with dates in the future, and should not be expired (i.e. valid start and end dates).
 * The certificate should be issued by a trusted certificate authority (CA) such as Comodo, DigiCert, GoDaddy, etc.
 * The size of the certificate should be 2048 bits and the algorithm should be RSA.
@@ -50,8 +50,3 @@ To install the certificate, follow these steps:
 >The certificate will get installed on all domains/subdomains included in the CSR. Any additional domain/subdomain present in the certificate will not be taken into account.
 
 Once the SSL certificate is installed, the certificate's expiration date and status icon are updated accordingly.
-
-**Related topics:**
-
-* [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md)
-* [Monitoring your subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)

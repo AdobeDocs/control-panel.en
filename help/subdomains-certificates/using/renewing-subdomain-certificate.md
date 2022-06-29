@@ -38,3 +38,9 @@ The SSL certificate renewal process includes 3 steps:
     Install the purchased SSL certificate on the desired subdomain to secure them. [Learn more](install-ssl-certificate.md)
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
+
+**Related topics:**
+
+* [Deliverability Best Practice Guide - SSL certificate request process for Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html)
+* [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md)
+* [Monitoring your subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
