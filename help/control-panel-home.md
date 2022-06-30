@@ -28,7 +28,7 @@ You can now identify the top 10 files that are consuming the most space on an SF
 
 **Service Calendar reminders**
 
-Service Calendar now allows you to set reminders in order to be notified by email before an event is going to occur on your instances. [Read more](instances-settings/using/external-accounts.md)
+Service Calendar now allows you to set reminders in order to be notified by email before an event is going to occur on your instances. [Read more](service-events/service-events.md)
 
 **Subdomains' CSR generation enhancements**
 
