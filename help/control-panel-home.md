@@ -21,17 +21,19 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 ## What's new
 
-**Control Panel availability to hybrid hosting model**
+**Top 10 files consuming space on SFTP servers**
 
-Control Panel is now available to customers with hybrid hosting model. These customers can leverage the features of Control Panel by providing their MID/RT instance URL configured in their marketing instance in Control Panel. [Read more](instances-settings/using/external-accounts.md)
+You can now identify the top 10 files that are consuming the most space on an SFTP server. [Read more](sftp/using/sftp-storage-management.md)
 
 
-**Throughputs and latencies monitoring updates**
+**Service Calendar reminders**
 
-Throughputs and latencies monitoring capabilities have been enhanced. [Read more](performance-monitoring/using/thoughputs-latencies.md)
+Service Calendar now allows you to set reminders in order to be notified by email before an event is going to occur on your instances. [Read more](instances-settings/using/external-accounts.md)
 
-* You can now identify the IDs of the top 5 deliveries that are contributing to the throughput of your instance.
-* Campaign Classic v7/v8 customers can now visualize latency for a specific channel.
+**Subdomains' CSR generation enhancements**
+
+Several enhancements have been made to the CSR generation process. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 
 >[!CAUTION]
 >
