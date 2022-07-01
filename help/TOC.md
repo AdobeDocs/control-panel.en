@@ -14,9 +14,10 @@ level: Beginner
 + Release notes {#release-notes}
   + [Latest Release](rn/release-notes.md)
   + Previous Releases {#previous-releases}
+    + [Release Notes 2022](rn/release-notes-2022.md)
     + [Release Notes 2021](rn/release-notes-2021.md)
     + [Release Notes 2020](rn/release-notes-2020.md)
-    + [Release Notes 20219](rn/release-notes-2019.md)
+    + [Release Notes 2019](rn/release-notes-2019.md)
 + Discover Control Panel {#discover-control-panel}
   + [Key features](discover/using/key-features.md)
   + [Access Control Panel](discover/using/accessing-control-panel.md)
