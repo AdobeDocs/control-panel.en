@@ -1,6 +1,7 @@
 ---
 title: Release Notes 2022
 description: This page lists all 2022 releases of Control Panel.
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 ---
 # Release Notes 2021 {#rn-2022}
 

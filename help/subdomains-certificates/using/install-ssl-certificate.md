@@ -1,11 +1,12 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Renewing a subdomain's SSL certificate
 description: Learn how to renew your subdomains' SSL certificates
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: af440b5d-1d21-44fb-831f-f2bdd6011b82
 ---
 # Install the SSL certificate {#installing-ssl-certificate}
 

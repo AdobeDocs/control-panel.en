@@ -1,6 +1,7 @@
 ---
 title: Release Notes 2021
 description: This page lists all 2021 releases of Control Panel.
+exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 ---
 # Release Notes 2021 {#rn-2021}
 
