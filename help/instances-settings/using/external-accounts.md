@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 ---
-# Add MID/RT instances (hybrid model)
+# Add MID/RT instances (hybrid model){#add-mid-rt-instances-hybrid-model}
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts"
