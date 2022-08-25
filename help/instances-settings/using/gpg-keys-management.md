@@ -55,7 +55,7 @@ To do this, you need to generate a GPG key pair from a PGP encryption tool, then
 1. When prompted, specify the desired parameters for your key. Required parameters are:
 
     * **key type**: RSA
-    * **key length**: 1024 - 4096 bits
+    * **key length**: 3072 - 4096 bits
     * **real name** and **email address**: Allows to track who created the key pair. Enter a name and email address linked to your organization or department.
     * **comment**: adding a label to the comment field will help you easily identify the key to use to encrypt your data.
     * **expiration**: Date or "0" for no expiration date.
