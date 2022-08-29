@@ -3,7 +3,24 @@ title: Release Notes 2022
 description: This page lists all 2022 releases of Control Panel.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 ---
-# Release Notes 2021 {#rn-2022}
+# Release Notes 2022 {#rn-2022}
+
+## July 2022 {#july-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Subdomains' cerfificates installation for hybrid hosting model</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Customers with hybrid hosting model can now renew their subdomains' SSL certificates from the Control Panel.</p><p>For more information, refer to the <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">detailed documentation.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## June 2022 {#june-2022}
 
