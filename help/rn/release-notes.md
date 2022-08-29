@@ -10,4 +10,4 @@ This page lists the new features and improvements for Control Panel.
 ## August 2022 {#august-2022}
 
 * Customers with hybrid hosting model can now verify their subdomains. [Learn more](../subdomains-certificates/using/monitoring-subdomains.md)
-* Organization Unit (OU) field is now optional in Certificate Generation Request(CSR). [Learn more](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* Organization Unit (OU) field is now optional in Certificate Generation Request (CSR). [Learn more](../subdomains-certificates/using/renewing-subdomain-certificate.md)
