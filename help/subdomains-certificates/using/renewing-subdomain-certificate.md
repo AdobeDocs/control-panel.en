@@ -17,12 +17,6 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generating a Certificate Signing Request (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Installing an SSL certificate"
 
->[!IMPORTANT]
->
->SSL certificate renewal from the Control Panel is available in beta, and subject to frequent updates and modifications without notice.
->
->If you are using an instance with an hybrid hosting model, you can only view certificates associated with the delegated subdomains and will not be able to renew them.
-
 The SSL certificate renewal process includes 3 steps:
 
 1. **Generation of the Certificate Signing Request (CSR)**
