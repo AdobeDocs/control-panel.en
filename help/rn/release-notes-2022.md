@@ -5,6 +5,11 @@ exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 ---
 # Release Notes 2022 {#rn-2022}
 
+## August 2022 {#august-2022}
+
+* Customers with hybrid hosting model can now verify their subdomains. [Learn more](../subdomains-certificates/using/monitoring-subdomains.md)
+* Organization Unit (OU) field is now optional in Certificate Generation Request (CSR). [Learn more](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 ## July 2022 {#july-2022}
 
 <table>
