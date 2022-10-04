@@ -42,7 +42,7 @@ To get information on the servers connected to your instances, follow these step
 
     >[!NOTE]
     >
-    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign v7/v8 instances
+    >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your organization ID is not associated with any Adobe Campaign v7/v8 instances
 
 1. Select in the left pane the desired Campaign instance.
 
