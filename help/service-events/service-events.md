@@ -83,7 +83,7 @@ To set an alert for an event, follow these steps:
 
     >[!NOTE]
     >
-    >If you have not subscribed to Control Panel alerts, a message will display and allopw you to enroll to receive email notifications.
+    >If you have not subscribed to Control Panel alerts, a message will display and allow you to enroll to receive email notifications.
 
 1. The reminder is now set for the selected event. You can hover over it at any time to display its title.
 

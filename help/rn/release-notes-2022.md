@@ -5,6 +5,10 @@ exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 ---
 # Release Notes 2022 {#rn-2022}
 
+## September 2022 {#september-2022}
+
+Customers with hybrid hosting model can now set up new subdomains. [Learn more](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
 ## August 2022 {#august-2022}
 
 * Customers with hybrid hosting model can now verify their subdomains. [Learn more](../subdomains-certificates/using/monitoring-subdomains.md)
