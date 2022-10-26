@@ -110,7 +110,7 @@ To delete one or more IP ranges from the allow list, select them, then click the
 
 The **[!UICONTROL Expires]** column shows how many days remain until the IP range will expire.
 
-If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity period if needed.
+If you subscribed to [email alerting](../../email-alerting.md), you will receive notifications by email 10 days and 5 days before an IP range will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity period if needed.
 
 An expired IP range will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within this 7 day-period:
 

@@ -46,7 +46,7 @@ exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 <tbody>
 <tr>
 <td>
-<p>The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration.</p><p>For more information, refer to the <a href="../performance-monitoring/using/email-alerting.md">detailed documentation</a>.</p>
+<p>The email alerting functionality now includes alerts on SFTP IP allow listing expiration and SFTP public key expiration.</p><p>For more information, refer to the <a href="../email-alerting.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

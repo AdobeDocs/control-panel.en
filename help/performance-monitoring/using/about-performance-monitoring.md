@@ -20,4 +20,3 @@ The **[!UICONTROL Performance monitoring]** card in the Control Panel home page 
 >
 >With upcoming Control Panel releases, additional monitoring functionalities will be made available in this card.
 
-Moreover, Control Panel allows you to sign up to receive email notifications each time that an issue is detected on one of your Campaign instances. For more on this, refer to [this section](../../performance-monitoring/using/email-alerting.md).
