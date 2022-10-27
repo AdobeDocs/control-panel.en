@@ -12,7 +12,6 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 >id="cp_overview"
 >title="About Control Panel"
 >abstract="The Control Panel home page gives you access to all actions that can be performed on your Campaign instances."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Discovering the interface"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="Accessing Control Panel"
 
 ![](assets/do-not-localize/banner.png)

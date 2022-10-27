@@ -12,13 +12,13 @@ exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 
 ## About instances databases {#about-instances-databases}
 
-According to your contract, each of your Campaign instances is provisioned with a specific amount of database space.
-
-Databases include all **assets**, **workflows** and **data** that is stored in Adobe Campaign.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of database space. Databases include all **assets**, **workflows** and **data** that is stored in Adobe Campaign.
 
 Over time, databases can reach their maximum capacity, especially if the stored resources are never deleted from the instance, or if there are many workflows in a paused state.
 
 Overflowing an instance database can lead to several issues (inability to login, to send emails etc.). Monitoring your instances' databases is therefore essential to ensure optimal performance.
+
+If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email when one of your instances' databases has reached 80% or more of its capacity.
 
 ## Monitoring database usage{#monitoring-database-usage}
 
@@ -31,8 +31,6 @@ Overflowing an instance database can lead to several issues (inability to login,
 Control Panel allows you to monitor the database usage for each of your Campaign instances. To do this, open the **[!UICONTROL Performance Monitoring]** card, then select the **[!UICONTROL Databases]** tab.
 
 Select the desired instance from the **[!UICONTROL Instance List]** to display information about the instance's database capacity and used space.
-
-Additionally, you can receive notifications when one of your databases is reaching its capacity. To do this, subscribe to [email alerts](../../performance-monitoring/using/email-alerting.md).
 
 >[!NOTE]
 >

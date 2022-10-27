@@ -7,6 +7,6 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 
 This page lists the new features and improvements for Control Panel.
 
-## September 2022 {#september-2022}
+## October 2022 {#october-2022}
 
-Customers with hybrid hosting model can now set up new subdomains. [Learn more](../subdomains-certificates/using/setting-up-new-subdomain.md)
+Email alerting now notifies you when one of your SSL certificates is going to expire in 30 days or less. [Learn more](../performance-monitoring/using/email-alerting.md)
