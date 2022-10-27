@@ -146,7 +146,7 @@ exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 <tbody>
 <tr>
 <td>
-<p>Campaign Control Panel is equipped with real-time email alerting capabilities, allowing you to login to the Control Panel and sign up to receive alerts when your system is at risk of performance deterioration, or an action is required to ensure high performance for the future.</p><p>For more information, refer to the <a href="../email-alerting.md">detailed documentation</a>.</p>
+<p>Campaign Control Panel is equipped with real-time email alerting capabilities, allowing you to login to the Control Panel and sign up to receive alerts when your system is at risk of performance deterioration, or an action is required to ensure high performance for the future.</p><p>For more information, refer to the <a href="../performance-monitoring/using/email-alerting.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -71,7 +71,7 @@ With Service Calendar, you can set reminders in order to be notified by email be
 
 >[!NOTE]
 >
->In order to be notified about upcoming events, make sure you have subscribed to email alerts in Control Panel. [Learn more](../email-alerting.md)
+>In order to be notified about upcoming events, make sure you have subscribed to email alerts in Control Panel. [Learn more](../performance-monitoring/using/email-alerting.md)
 
 To set an alert for an event, follow these steps:
 

@@ -129,7 +129,7 @@ To delete on or more public keys from the list, select them, then click the **[!
 
 The **[!UICONTROL Expires]** column shows how many days remain until the public key will expire.
 
-If you subscribed to [email alerting](../../email-alerting.md), you will receive notifications by email 10 days and 5 days before a public key will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend its validity period if needed.
+If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email 10 days and 5 days before a public key will expire, and on the day it is due to expire. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend its validity period if needed.
 
 An expired public key will be automatically deleted after 7 days. It is shown as **[!UICONTROL Expired]** in the **[!UICONTROL Expires]** column. Within this 7 day-period:
 

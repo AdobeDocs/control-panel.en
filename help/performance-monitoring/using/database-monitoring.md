@@ -18,7 +18,7 @@ Over time, databases can reach their maximum capacity, especially if the stored 
 
 Overflowing an instance database can lead to several issues (inability to login, to send emails etc.). Monitoring your instances' databases is therefore essential to ensure optimal performance.
 
-If you subscribed to [email alerting](../../email-alerting.md), you will receive notifications by email when one of your instances' databases has reached 80% or more of its capacity.
+If you subscribed to [email alerting](../../performance-monitoring/using/email-alerting.md), you will receive notifications by email when one of your instances' databases has reached 80% or more of its capacity.
 
 ## Monitoring database usage{#monitoring-database-usage}
 
