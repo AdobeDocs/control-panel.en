@@ -9,4 +9,4 @@ This page lists the new features and improvements for Control Panel.
 
 ## October 2022 {#october-2022}
 
-Email alerting now notifies you when one of your SSL certificates is going to expire in 30 days or less. [Learn more](../performance-monitoring/using/performance-monitoring/using/email-alerting.md)
+Email alerting now notifies you when one of your SSL certificates is going to expire in 30 days or less. [Learn more](../performance-monitoring/using/email-alerting.md)
