@@ -5,6 +5,10 @@ exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 ---
 # Release Notes 2022 {#rn-2022}
 
+## October 2022 {#october-2022}
+
+Email alerting now notifies you when one of your SSL certificates is going to expire in 30 days or less. [Learn more](../performance-monitoring/using/email-alerting.md)
+
 ## September 2022 {#september-2022}
 
 Customers with hybrid hosting model can now set up new subdomains. [Learn more](../subdomains-certificates/using/setting-up-new-subdomain.md)

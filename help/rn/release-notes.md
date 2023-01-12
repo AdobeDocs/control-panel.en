@@ -7,6 +7,6 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 
 This page lists the new features and improvements for Control Panel.
 
-## October 2022 {#october-2022}
+## January 2023 {#january-2023}
 
-Email alerting now notifies you when one of your SSL certificates is going to expire in 30 days or less. [Learn more](../performance-monitoring/using/email-alerting.md)
+Customers with hybrid hosting model can now add IP addresses to the allow list for access to MID instances. [Learn more](../instances-settings/using/ip-allow-listing-instance-access.md)
