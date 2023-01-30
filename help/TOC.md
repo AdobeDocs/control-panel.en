@@ -54,7 +54,7 @@ level: Beginner
     + [Monitor workflows](performance-monitoring/using/workflow-monitoring.md)
     + [Prevent database overload](performance-monitoring/using/database-preventing-overload.md)
   + [Active profiles monitoring](performance-monitoring/using/active-profiles-monitoring.md)
-  + [Throughputs and latency monitoring](performance-monitoring/using/thoughputs-latencies.md)
+  + [Throughputs and latency monitoring](performance-monitoring/using/throughputs-latencies.md)
   + [IP allow listing for instance access](instances-settings/using/ip-allow-listing-instance-access.md)
   + [URL permissions](instances-settings/using/url-permissions.md)
   + [Instance details](instances-settings/using/instance-details.md)

@@ -117,7 +117,7 @@ Customers with hybrid hosting model can now set up new subdomains. [Learn more](
 <tbody>
 <tr>
 <td>
-<p>Throughputs and latencies monitoring capabilities have been enhanced:<ul><li>You can now identify the IDs of the top 5 deliveries that are contributing to the throughput of your instance.</li><li>Campaign Classic v7/v8 customers can now visualize latency for a specific channel.</p></li><p>For more information, refer to the <a href="../performance-monitoring/using/thoughputs-latencies.md">detailed documentation.</a></p>
+<p>Throughputs and latencies monitoring capabilities have been enhanced:<ul><li>You can now identify the IDs of the top 5 deliveries that are contributing to the throughput of your instance.</li><li>Campaign Classic v7/v8 customers can now visualize latency for a specific channel.</p></li><p>For more information, refer to the <a href="../performance-monitoring/using/throughputs-latencies.md">detailed documentation.</a></p>
 </td>
 </tr>
 </tbody>
@@ -152,7 +152,7 @@ Customers with hybrid hosting model can now set up new subdomains. [Learn more](
 <tbody>
 <tr>
 <td>
-<p>Throughputs and latency monitoring is now available to all Campaign Standard and v8 customers, and to Campaign V7 customers with build numbers 9032,9330, 9346 or 9349 that have standalone deployments (without any mid instance).</p><p>For more information, refer to the <a href="../performance-monitoring/using/thoughputs-latencies.md">detailed documentation.</a></p>
+<p>Throughputs and latency monitoring is now available to all Campaign Standard and v8 customers, and to Campaign V7 customers with build numbers 9032,9330, 9346 or 9349 that have standalone deployments (without any mid instance).</p><p>For more information, refer to the <a href="../performance-monitoring/using/throughputs-latencies.md">detailed documentation.</a></p>
 </td>
 </tr>
 </tbody>
@@ -201,7 +201,7 @@ Customers with hybrid hosting model can now set up new subdomains. [Learn more](
 <tbody>
 <tr>
 <td>
-<p>You can now monitor how delivery throughputs and latency are trending over a period of time on your instances.</p><p>For more information, refer to the <a href="../performance-monitoring/using/thoughputs-latencies.md">detailed documentation</a>.</p>
+<p>You can now monitor how delivery throughputs and latency are trending over a period of time on your instances.</p><p>For more information, refer to the <a href="../performance-monitoring/using/throughputs-latencies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
