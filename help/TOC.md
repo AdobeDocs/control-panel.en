@@ -25,7 +25,6 @@ level: Beginner
   + [Discover Control Panel interface](discover/using/discovering-the-interface.md)
 + [Monitor key contacts and events](service-events/service-events.md)
 + [Email alerting](performance-monitoring/using/email-alerting.md)
-+ Instances settings {#instances-settings}
 + SFTP management {#sftp-management}
   + [About SFTP management](sftp/using/about-sftp-management.md)
   + [Manage SFTP storage](sftp/using/sftp-storage-management.md)
@@ -55,6 +54,7 @@ level: Beginner
     + [Prevent database overload](performance-monitoring/using/database-preventing-overload.md)
   + [Active profiles monitoring](performance-monitoring/using/active-profiles-monitoring.md)
   + [Throughputs and latency monitoring](performance-monitoring/using/throughputs-latencies.md)
++ Instances settings {#instances-settings}
   + [IP allow listing for instance access](instances-settings/using/ip-allow-listing-instance-access.md)
   + [URL permissions](instances-settings/using/url-permissions.md)
   + [Instance details](instances-settings/using/instance-details.md)
