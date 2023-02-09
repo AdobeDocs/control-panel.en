@@ -99,4 +99,4 @@ To delete one or more IP ranges from the allow list, select them, then click the
 
 **Related topic:**
 
-* [Linking a security zone to an operator](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
+* [Linking a security zone to an operator](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)

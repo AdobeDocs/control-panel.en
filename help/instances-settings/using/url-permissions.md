@@ -32,7 +32,7 @@ Once a URL is added, it is referenced in the configuration file of the instance 
 
 **Related topics:**
 
-* [Configuring Campaign server](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
+* [Configuring Campaign server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
 * [Outgoing connection protection](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## Best practices {#best-practices}

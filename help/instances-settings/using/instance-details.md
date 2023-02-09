@@ -31,8 +31,8 @@ The Instance Details functionality allows you to view flat architecture of your 
 
 **Related topics:**
 
-* [Performing a build upgrade](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Updating Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [Performing a build upgrade](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
+* [Updating Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
 
 ## Retrieving information about your instances {#retrieving-information-about-instances}
 
@@ -64,7 +64,7 @@ Available information are:
     * Yellow: you should consider upgrading. You are missing the newest features and fixes.
     * Red: upgrade as soon as possible. You are missing new features and the server performance might not be optimal.
 
-If one of your servers requires to be upgraded, refer to [this documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) for more details on how to proceed.
+If one of your servers requires to be upgraded, refer to [this documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html) for more details on how to proceed.
 
 ## Common questions {#common-questions}
 
