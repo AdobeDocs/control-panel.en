@@ -13,17 +13,17 @@ exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Service Calendar"
->abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify releases and service reviews for the selected instance and set up reminders for upcoming events."
+>abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify past and upcoming releases, alerts for the selected instance and set up reminders for upcoming events."
 
 >[!IMPORTANT]
 >
 >Service Calendar is available in beta, and subject to frequent updates and modifications without notice.
 
-Identifying events planned on your instances is essential to monitor your Campaign instances.
+To effectively monitor your Campaign instances, it is crucial to identify events. The Control Panel allows you to monitor releases and alerts for your instances, and provides a list of key Adobe contacts for any requests or issues.
 
-With Control Panel, you can monitor releases and service reviews occurring on your instances and access a list of key contacts at Adobe for any request or issue.
+Identifying events on your Campaign instances is essential to effectively monitor them. Control Panel allows you to monitor releases and alerts for your instances, and provides a list of key Adobe contacts for any requests or issues.
 
-These information are accessible from the **[!UICONTROL Service Calendar]** card on Control Panel homepage.
+This information is accessible from the **[!UICONTROL Service Calendar]** card on Control Panel homepage.
 
 ## Key contacts {#key-contacts}
 
@@ -31,7 +31,7 @@ The **[!UICONTROL Key contacts]** section lists the persons at Adobe that you ca
 
 >[!NOTE]
 >
->This section will show information only for Managed Service Accounts.
+>This section only shows information for Managed Service Accounts.
 
 ![](assets/service-events-contacts.png)
 
@@ -43,29 +43,42 @@ Key contacts include the following roles:
 * **[!UICONTROL Transition Manager]**: Managed Services Transition Manager (Managed Services Account only),
 * **[!UICONTROL On-boarding Specialist]**: Specialist assigned to the account to help you on-board onto Campaign Classic (Managed Services Account only).
 
-## Events {#events}
+## Monitor events {#events}
 
-### Monitor events {#monitor-events}
+The **[!UICONTROL Service Event Calendar]** section shows all past and upcoming releases, as well as alerts and reminders for the selected instance.
 
-The **[!UICONTROL Service Event Calendar]** section shows all past and upcoming releases and service reviews for the selected instance.
+Events are displayed either in a calendar or a list. You can switch between the two views using the **[!UICONTROL Calendar]** and **[!UICONTROL List]** buttons in the upper-right corner of the section.
 
 ![](assets/service-events-calendar.png)
 
-The **[!UICONTROL Note]** column provides information on the status of each release:
+<table><tr style="border: 0;">
+<td><img src="assets/do-not-localize/nav-buttons.png">
+</td><td>In calendar view, navigation buttons are available in the upper-right corner to help you browse across the events. Use the <b>double arrows</b> to navigate to the previous or next event, and the <b>single arrows</b> to navigate from a month to another. Click the <b>circle button</b> to go back to today's view.</td>
+</tr></table>
 
-* **[!UICONTROL General availability]**: Latest available stable build.
-* **[!UICONTROL Limited availability]**: On-demand deployment only.
-* **[!UICONTROL Release candidate]**: Engineering validated. Waiting for production proofing.
-* **[!UICONTROL Pre release]**: Earlier availability for specific customer needs.
-* **[!UICONTROL No longer available]**: The build holds no major issue but a new one is available with additional bug fixes. An upgrade is required.
-* **[!UICONTROL Deprecated]**: Build embedding known regressions.
-The build is no longer supported. An upgrade is mandatory.
+Three types of events are displayed:
 
-You can assign a flag to one or several upcoming events to keep track of them. To do this, click the ellipse button next to the event name.
+* **Reminders** are notifications that can be set to alert users before an event occurs. These are shown in green in the calendar view. [Learn how to set reminder](#reminders)
+* **Alerts** are sent via email by the Control Panel to notify users of issues on their instances, such as storage overload or SSL certificate expiration. These are displayed in orange in the calendar view.
+
+    The event description specifies whether the alert is sent to the logged-in user, depending on their subscription to email alerts. [Learn more on Control Panel email alerting capabilities](../performance-monitoring/using/email-alerting.md)
+
+* **Releases** indicate both past and upcoming deployments to the instance, shown respectively in grey and blue in the calendar view.
+
+    The event details specify the type of release associated with each deployment:
+
+    * **[!UICONTROL General availability]**: Latest available stable build.
+    * **[!UICONTROL Limited availability]**: On-demand deployment only.
+    * **[!UICONTROL Release candidate]**: Engineering validated. Waiting for production proofing.
+    * **[!UICONTROL Pre release]**: Earlier availability for specific customer needs.
+    * **[!UICONTROL No longer available]**: The build holds no major issue but a new one is available with additional bug fixes. An upgrade is required.
+    * **[!UICONTROL Deprecated]**: Build embedding known regressions. The build is no longer supported. An upgrade is mandatory.
+
+Addtionally, you can assign a flag to one or several upcoming events to keep track of them. To do this, hover over the desired event in the calendar or click the ellipse button next to the event name in list view and flag it.
 
 ![](assets/service-events-flag.png)
 
-### Set reminders {#reminders}
+## Set reminders {#reminders}
 
 With Service Calendar, you can set reminders in order to be notified by email before an event is going to occur.
 
