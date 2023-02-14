@@ -58,14 +58,10 @@ Events are displayed either in a calendar or a list. You can switch between the 
 
 Three types of events are displayed:
 
-* **Reminders** are notifications that can be set to alert users before an event occurs. These are shown in green in the calendar view. [Learn how to set reminder](#reminders)
-* **Alerts** are sent via email by the Control Panel to notify users of issues on their instances, such as storage overload or SSL certificate expiration. These are displayed in orange in the calendar view.
+* **Reminders** are set by users in order to be notified before an event occurs. These are shown in green in the calendar view. [Learn how to set reminder](#reminders)
+* **Alerts** are sent via email by the Control Panel to notify users of issues on their instances, such as storage overload or SSL certificate expiration. These are displayed in orange in the calendar view. The event description specifies whether the alert is sent to the logged-in user, depending on their subscription to email alerts. [Learn more on Control Panel email alerting capabilities](../performance-monitoring/using/email-alerting.md)
 
-    The event description specifies whether the alert is sent to the logged-in user, depending on their subscription to email alerts. [Learn more on Control Panel email alerting capabilities](../performance-monitoring/using/email-alerting.md)
-
-* **Releases** indicate both past and upcoming deployments to the instance, shown respectively in grey and blue in the calendar view.
-
-    The event details specify the type of release associated with each deployment:
+* **Releases** indicate both past and upcoming deployments to the instance, shown respectively in grey and blue in the calendar view. The event details specify the type of release associated with each deployment:
 
     * **[!UICONTROL General availability]**: Latest available stable build.
     * **[!UICONTROL Limited availability]**: On-demand deployment only.
