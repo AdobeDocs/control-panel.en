@@ -88,9 +88,9 @@ With Service Calendar, you can set reminders in order to be notified by email be
 
 To set an alert for an event, follow these steps:
 
-1. Click the ellipse button next to the event that you want to be reminded of, then select **[!UICONTROL Set Reminder]**.
+1. Hover over the event that you want to be reminded of or click the ellipse button in the list view and select **[!UICONTROL Set Reminder]**.
 
-1. Give a title to the reminder, then select the date at which you want to be notified before the event occurs.
+1. Give a title to the reminder and select the date at which you want to be notified before the event occurs.
 
     ![](assets/service-events-set-reminder.png)
 
