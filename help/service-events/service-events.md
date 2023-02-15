@@ -1,27 +1,25 @@
 ---
 product: campaign
 solution: Campaign
-title: Monitor key contacts and events
+title: Identify key contacts and events
 description: Learn how to identify events occurring on your instances and key contacts at Adobe.
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 ---
-# Monitor key contacts and events {#keycontacts-events}
+# Identify key contacts and events {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Service Calendar"
->abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify past and upcoming releases, alerts for the selected instance and set up reminders for upcoming events."
+>abstract="The Key contacts section lists the persons at Adobe to contact for any request or issue on your instances. In the Service Event Calendar section, you can identify past/ upcoming releases and alerts for the selected instance, as well as set up reminders for a given event."
 
 >[!IMPORTANT]
 >
 >Service Calendar is available in beta, and subject to frequent updates and modifications without notice.
 
-To effectively monitor your Campaign instances, it is crucial to identify events. The Control Panel allows you to monitor releases and alerts for your instances, and provides a list of key Adobe contacts for any requests or issues.
-
-Identifying events on your Campaign instances is essential to effectively monitor them. Control Panel allows you to monitor releases and alerts for your instances, and provides a list of key Adobe contacts for any requests or issues.
+To effectively monitor your Campaign instances, it is crucial to keep track of important events that can potentially impact your instance(s). The Control Panel allows you to identify events like new releases, upgrades, patches, hot fixes, etc. and provides a list of key Adobe contacts for any requests or issues.
 
 This information is accessible from the **[!UICONTROL Service Calendar]** card on Control Panel homepage.
 
@@ -43,9 +41,9 @@ Key contacts include the following roles:
 * **[!UICONTROL Transition Manager]**: Managed Services Transition Manager (Managed Services Account only),
 * **[!UICONTROL On-boarding Specialist]**: Specialist assigned to the account to help you on-board onto Campaign Classic (Managed Services Account only).
 
-## Monitor events {#events}
+## Keep track of important events {#events}
 
-The **[!UICONTROL Service Event Calendar]** section shows all past and upcoming releases, as well as alerts and reminders for the selected instance.
+The **[!UICONTROL Service Event Calendar]** section shows all past and upcoming releases, as well as alerts users subscribed to in Control Panel email alerts. In addition, Control Panel enables users to set reminders and flag relevant events for the selected instance for them to be better organized and be efficient.
 
 Events are displayed either in a calendar or a list. You can switch between the two views using the **[!UICONTROL Calendar]** and **[!UICONTROL List]** buttons in the upper-right corner of the section.
 
@@ -53,7 +51,7 @@ Events are displayed either in a calendar or a list. You can switch between the 
 
 <table><tr style="border: 0;">
 <td><img src="assets/do-not-localize/nav-buttons.png">
-</td><td>In calendar view, navigation buttons are available in the upper-right corner to help you browse across the events. Use the <b>double arrows</b> to navigate to the previous or next event, and the <b>single arrows</b> to navigate from a month to another. Click the <b>circle button</b> to go back to today's view.</td>
+</td><td>In calendar view, navigation buttons are available in the upper-right corner to help you browse across the events. Use the <b>double arrows</b> to navigate to the first event present after/before the selected month, and the <b>single arrows</b> to navigate from a month to another. Click the <b>circle button</b> to go back to today's view.</td>
 </tr></table>
 
 Three types of events are displayed:
