@@ -61,7 +61,7 @@ The **[!UICONTROL Note]** column provides information on the status of each rele
 * **[!UICONTROL Deprecated]**: Build embedding known regressions.
 The build is no longer supported. An upgrade is mandatory.
 
-You can assign a flag to one or several upcoming events to keep track of them. To do this, click the ellipse button next to the event name.
+You can assign a flag to one or several upcoming events to keep track of them. To do this, click the ellipsis button next to the event name.
 
 ![](assets/service-events-flag.png)
 

@@ -22,20 +22,20 @@ Before removing a delegated subdomain, carefully consider the impacts occuring o
 
 To remove a delegated subdomain, follow these steps:
 
-1. Click the ellipse button for the domain to remove and select **[!UICONTROL Remove delegated subdomain]**.
+1. Click the ellipsis button next to the domain you want to remove and select **[!UICONTROL Remove delegated subdomain]**.
 
     ![](assets/undelegate-subdomain.png)
 
-1. Review the displayed disclaimer and acknowledge the domain removal process.
+1. Review the disclaimer and acknowledge the domain removal process.
 
-1. Information regarding the instance to which the subdomain is associated displays, along with the related IP affinities and brand configurations.
+1. Information regarding the instance to which the subdomain is associated displays, including related IP affinities and brand configurations.
 
-    If you are trying to remove the **primary** domain for the selected instance, you need to choose the domain that will replace it using the **[!UICONTROL Replacement Domain]** list.
+    If you are removing the primary domain for the selected instance, you need to choose the domain that will replace it using the **[!UICONTROL Replacement Domain]** list.
     
-    Click **[!UICONTROL Next]** to proceed with removal.
+    Click **[!UICONTROL Next]** to proceed with the removal process.
 
     ![](assets/undelegate-subdomain-details.png)
 
-1. Review the summary that displays. To confirm the removal, type the URL of the domain to remove and click **[!UICONTROL Submit]**.
+1. Review the summary that displays. To confirm the removal, type the URL of the domain to be removed and click **[!UICONTROL Submit]**.
 
     ![](assets/undelegate-submit.png)
