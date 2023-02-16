@@ -12,38 +12,30 @@ level: Experienced
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="Remove delegated subdomains "
->abstract="TBD"
+>abstract="This screen allows you to remove any subdomain that has been in delegated in Control Panel. Keep in mind that subdomain removal cannot be undone and will be irreversible once submitted.<br>If you are trying to remove the primary domain for the selected instance, you will be asked to choose the domain that will replace it."
 
-## Must-read {#must-read}
-
-Before starting, carefully consider the impacts below once the removal process is triggered for a subdomain:
-
-Before removing a delegated subdomain, it is important to understand the following impacts once the removal process is triggered for a subdomain:
+Before removing a delegated subdomain, carefully consider the impacts occuring once the removal process is triggered:
 
 * Subdomain removal cannot be undone and will be irreversible once started,
-* No other delegated subdomains can be removed until the removal process is complete,
+* No other delegated subdomains can be removed until the current removal process is complete,
 * A removed subdomain cannot be re-delegated for the next 2 hours.
 
-## Remove a delegate subdomain {#remove}
+To remove a delegated subdomain, follow these steps:
 
-To remove a delegated subdomain, follow the steps below.
-
-1. Click the ellipse button and select **[!UICONTROL Remove delegated subdomain]**.
+1. Click the ellipse button for the domain to remove and select **[!UICONTROL Remove delegated subdomain]**.
 
     ![](assets/undelegate-subdomain.png)
 
-1. Read the displayed disclaimer aknowledge the domain removal process.
+1. Review the displayed disclaimer and acknowledge the domain removal process.
 
-1. Review the instance that is currently using the subdomain display along with related IP affinities and brand configurations.
+1. Information regarding the instance to which the subdomain is associated displays, along with the related IP affinities and brand configurations.
 
-    Select the subdomain to use in remplacement for the removed subdomain and select **[!UICONTROL Next]**.
+    If you are trying to remove the **primary** domain for the selected instance, you need to choose the domain that will replace it using the **[!UICONTROL Replacement Domain]** list.
+    
+    Click **[!UICONTROL Next]** to proceed with removal.
 
     ![](assets/undelegate-subdomain-details.png)
 
-1. A summary of the removal displays. Review it and type the url of the domain to remove to confirm.
+1. Review the summary that displays. To confirm the removal, type the URL of the domain to remove and click **[!UICONTROL Submit]**.
 
     ![](assets/undelegate-submit.png)
-
-1. Click **[!UICONTROL Submit]** to trigger the removal process.
-
-
