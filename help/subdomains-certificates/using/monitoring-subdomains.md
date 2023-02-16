@@ -10,6 +10,11 @@ exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 ---
 # Monitoring your subdomains {#monitoring-subdomains}
 
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="Remove delegated subdomains "
+>abstract="This screen allows you to remove any subdomain that has been in delegated in Control Panel. Keep in mind that subdomain removal cannot be undone and will be irreversible once submitted.<br>If you are trying to remove the primary domain for the selected instance, you will be asked to choose the domain that will replace it."
+
 It is essential to monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
 
 The list of subdomains for each of your production instances is accessible directly when selecting the **[!UICONTROL Subdomains & Certificates]** card.
