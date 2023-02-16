@@ -12,7 +12,7 @@ level: Experienced
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="Remove delegated subdomains "
->abstract="This screen allows you to remove any subdomain that has been in delegated in Control Panel. Keep in mind that subdomain removal cannot be undone and will be irreversible once submitted.<br>If you are trying to remove the primary domain for the selected instance, you will be asked to choose the domain that will replace it."
+>abstract="This screen allows you to remove any subdomain that has been in delegated in Control Panel. Keep in mind that subdomain removal cannot be undone and will be irreversible once submitted.<br><br>If you are trying to remove the primary domain for the selected instance, you will be asked to choose the domain that will replace it."
 
 Before removing a delegated subdomain, carefully consider the impacts occuring once the removal process is triggered:
 
