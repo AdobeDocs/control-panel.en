@@ -14,6 +14,7 @@ level: Beginner
 + Release notes {#release-notes}
   + [Latest Release](rn/release-notes.md)
   + Previous Releases {#previous-releases}
+    + [Release Notes 2023](rn/release-notes-2023.md)
     + [Release Notes 2022](rn/release-notes-2022.md)
     + [Release Notes 2021](rn/release-notes-2021.md)
     + [Release Notes 2020](rn/release-notes-2020.md)

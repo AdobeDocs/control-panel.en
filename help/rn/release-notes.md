@@ -7,12 +7,14 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 
 This page lists the new features and improvements for Control Panel.
 
-## January 2023 {#january-2023}
+## February 2023 {#february-2023}
 
-**New hybrid hosting model capability**
+**Service calendar**
 
-Customers with hybrid hosting model can now add IP addresses to the allow list for access to MID instances. [Learn more](../instances-settings/using/ip-allow-listing-instance-access.md)
+Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../service-events/service-events.md)
 
-**Certificate Signing Request (CSR) Enhancement**
+![](assets/do-not-localize/gif-calendar.gif)
 
-The City/Locality field is now optional during Certificate Signing Request Generation.
+**Delegation removal for subdomains delegated to Adobe**
+
+You can now remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
