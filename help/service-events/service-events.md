@@ -68,7 +68,7 @@ Three types of events are displayed:
     * **[!UICONTROL No longer available]**: The build holds no major issue but a new one is available with additional bug fixes. An upgrade is required.
     * **[!UICONTROL Deprecated]**: Build embedding known regressions. The build is no longer supported. An upgrade is mandatory.
 
-Addtionally, you can assign a flag to one or several upcoming events to keep track of them. To do this, hover over the desired event in the calendar or click the ellipse button next to the event name in list view and flag it.
+You can assign a flag to one or several upcoming events to keep track of them. To do this, click the ellipsis button next to the event name.
 
 ![](assets/service-events-flag.png)
 
