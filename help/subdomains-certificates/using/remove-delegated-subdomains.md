@@ -1,13 +1,13 @@
 ---
 product: campaign
 solution: Campaign 
-title: Remove delegated subdomains
-description: Learn how to remove subdomains that have been delegated.
+title: Remove delegation of subdomains
+description: Learn how to remove the delegation of subdomains to Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
 ---
-# Remove delegated subdomains {#remove-delegated--subdomains}
+# Remove delegation of subdomains to Adobe {#remove-delegated--subdomains}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"

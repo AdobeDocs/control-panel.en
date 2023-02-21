@@ -36,7 +36,7 @@ level: Beginner
   + [Subdomains branding](subdomains-certificates/using/subdomains-branding.md)
   + [Monitor your subdomains](subdomains-certificates/using/monitoring-subdomains.md)
   + [Set up a new subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
-  + [Remove delegated subdomains](subdomains-certificates/using/remove-delegated-subdomains.md)
+  + [Remove delegation of subdomains to Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
   + [Manage TXT records](subdomains-certificates/using/managing-txt-records.md)
   + Manage SSL certificates {#manage-certificates}
     + [Monitor SSL certificates](subdomains-certificates/using/monitoring-ssl-certificates.md)
