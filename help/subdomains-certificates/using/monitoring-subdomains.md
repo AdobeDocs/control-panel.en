@@ -8,6 +8,7 @@ role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 ---
+
 # Monitor your subdomains {#monitoring-subdomains}
 
 It is essential to monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
