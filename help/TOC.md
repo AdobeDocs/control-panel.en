@@ -14,6 +14,7 @@ level: Beginner
 + Release notes {#release-notes}
   + [Latest Release](rn/release-notes.md)
   + Previous Releases {#previous-releases}
+    + [Release Notes 2023](rn/release-notes-2023.md)
     + [Release Notes 2022](rn/release-notes-2022.md)
     + [Release Notes 2021](rn/release-notes-2021.md)
     + [Release Notes 2020](rn/release-notes-2020.md)
@@ -36,10 +37,11 @@ level: Beginner
   + [Subdomains branding](subdomains-certificates/using/subdomains-branding.md)
   + [Monitor your subdomains](subdomains-certificates/using/monitoring-subdomains.md)
   + [Set up a new subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
+  + [Remove delegation of subdomains to Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
   + [Manage TXT records](subdomains-certificates/using/managing-txt-records.md)
-  + [Monitor SSL certificates](subdomains-certificates/using/monitoring-ssl-certificates.md)
-  + Renew SSL certificates {#renew-ssl}
-    + [About SSL certificates renewal](subdomains-certificates/using/renewing-subdomain-certificate.md)
+  + Manage SSL certificates {#manage-certificates}
+    + [Monitor SSL certificates](subdomains-certificates/using/monitoring-ssl-certificates.md)
+    + [Renew SSL certificates](subdomains-certificates/using/renewing-subdomain-certificate.md)
     + [Generate the CSR](subdomains-certificates/using/generate-csr.md)
     + [Install the SSL certificate](subdomains-certificates/using/install-ssl-certificate.md)
 + Performance monitoring {#performance-monitoring}

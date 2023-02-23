@@ -8,12 +8,8 @@ role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 ---
-# Monitoring your subdomains {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Remove subdomain delegation"
->abstract="This screen allows you to remove the delegation of a subdomain to Adobe. Keep in mind that this process cannot be reversed or stopped once submitted.<br><br>If you are trying to remove the delegation of a primary domain for the selected instance, you will be asked to choose the domain that will replace it."
+# Monitor your subdomains {#monitoring-subdomains}
 
 It is essential to monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
 
@@ -27,9 +23,7 @@ The **[!UICONTROL Last verification]** column indicates when a subdomain was ver
 >
 >Adobe does not recommend using subdomains with no certificate date as it could mean that these subdomains may be having some deliverability issues.
 
-When launching a verification, several operations are performed to check that the subdomain is correctly configured (instance tenant check, email sending test, etc.)
-
-If the subdomain's verification fails, contact Adobe Customer Care for further investigation.
+When launching a verification, several operations are performed to check that the subdomain is correctly configured (instance tenant check, email sending test, etc.) If the subdomain's verification fails, contact Adobe Customer Care for further investigation.
 
 **Related topics:**
 
