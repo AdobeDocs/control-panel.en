@@ -20,19 +20,13 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 ## What's new
 
-**Top 10 files consuming space on SFTP servers**
+**Delegation removal for subdomains delegated to Adobe**
 
-You can now identify the top 10 files that are consuming the most space on an SFTP server. [Read more](sftp/using/sftp-storage-management.md)
+You can now remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**Service calendar**
 
-**Service Calendar reminders**
-
-Service Calendar now allows you to set reminders in order to be notified by email before an event is going to occur on your instances. [Read more](service-events/service-events.md)
-
-**Subdomains' CSR generation enhancements**
-
-Several enhancements have been made to the CSR generation process. [Read more](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../service-events/service-events.md)
 
 >[!CAUTION]
 >
