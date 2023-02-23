@@ -16,7 +16,7 @@ level: Experienced
 
 Control Panel allows you to remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup.
 
-## Important notes {#important]
+## Important notes {#important}
 
 Before proceeding, carefully consider the impacts occuring once the removal process is triggered:
 
