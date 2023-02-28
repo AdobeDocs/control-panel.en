@@ -22,11 +22,11 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 **Delegation removal for subdomains delegated to Adobe**
 
-You can now remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
+You can now remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup. [Learn more](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
 **Service calendar**
 
-Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../service-events/service-events.md)
+Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
