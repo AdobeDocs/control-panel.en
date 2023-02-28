@@ -15,6 +15,7 @@ You can now remove the delegation of a subdomain that has been delegated to Adob
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+
 **Service calendar**
 
 Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../service-events/service-events.md)
