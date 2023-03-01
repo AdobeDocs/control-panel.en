@@ -12,7 +12,7 @@ level: Experienced
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="Remove subdomain delegation"
->abstract="This screen allows you to remove the delegation of a subdomain to Adobe. Keep in mind that this process cannot be reversed or stopped once submitted.<br><br>If you are trying to remove the delegation of a primary domain for the selected instance, you will be asked to choose the domain that will replace it."
+>abstract="This screen allows you to remove the delegation of a subdomain to Adobe. Keep in mind that this process cannot be undone and is irreversible until its execution is complete.<br><br>If you are trying to remove the delegation of a primary domain for the selected instance, you will be asked to choose the domain that will replace it."
 
 Control Panel allows you to remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup.
 
@@ -20,7 +20,7 @@ Control Panel allows you to remove the delegation of a subdomain that has been d
 
 Before proceeding, carefully consider the impacts occuring once the removal process is triggered:
 
-* Subdomain delegation removal cannot be undone and will be irreversible once started until the process execution is going on.
+* Once the process is triggered, subdomain delegation removal cannot be undone and is irreversible until the process execution is complete.
 * No other subdomain delegation can be removed when a similar process on another subdomain is in progress.
 * A delegation removed on a subdomain cannot be re-delegated until 3 days of its removal.
 
