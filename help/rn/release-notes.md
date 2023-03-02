@@ -11,10 +11,13 @@ This page lists the new features and improvements for Control Panel.
 
 **Delegation removal for subdomains delegated to Adobe**
 
-You can now remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
+You can now remove the delegation of a subdomain that is fully delegated to Adobe. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>Delegation removal is currently not available for subdomains that have been setup using CNAMEs.
 
 **Service calendar**
 
