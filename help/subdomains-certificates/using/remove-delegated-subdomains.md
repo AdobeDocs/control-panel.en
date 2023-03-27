@@ -42,7 +42,7 @@ To remove the delegation of a subdomain to Adobe, follow these steps:
 
     ![](assets/undelegate-subdomain-details.png)
 
-1. If you removing a CNAME-type delegation or if are replacing a primary domain with a domain delegated using CNAMEs, an additional **[!UICONTROL Action]** step displays to manage DNS records. [Learn more in this section](#dns)
+1. If you removing a CNAME-type delegation or if you are replacing a primary domain with a domain delegated using CNAMEs, an additional **[!UICONTROL Action]** step displays to manage DNS records. [Learn more in this section](#dns)
 
 1. Review the summary that displays. To confirm the removal, type the URL of the domain for which you want to remove the delegation and click **[!UICONTROL Submit]**.
 
