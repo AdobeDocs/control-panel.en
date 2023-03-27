@@ -75,7 +75,7 @@ To do this, an additional **[!DNL Action]** step displays before confirming the 
 
 ### Delete DNS records
 
-1. navigate to your DNS server and remove the records listed in Control Panel.
+1. Navigate to your DNS server and remove the records listed in Control Panel.
 1. Go back to Control Panel and click **[!UICONTROL Next]** to proceed with the delegation removal.
 
 ### Add DNS records
