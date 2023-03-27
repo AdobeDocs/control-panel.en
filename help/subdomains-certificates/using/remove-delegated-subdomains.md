@@ -58,7 +58,7 @@ To configure a domain delegation using CNAMEs, Control Panel requires that you a
 
 When removing a CNAME-type delegation, you need to **remove these DNS records** from your server to avoid any issue. Additionally, if you want to remove the delegation of a primary subdomain and replace it with a domain that has been delegated using CNAMEs, you need to **add DNS records** on your server.  
 
-The table below lists the action(s) to perform depednging on the type of delegation you are removing, and the type of delegation used for replacement domain.
+The table below lists the action(s) to perform depending on the type of delegation you are removing, and the type of delegation used to setup the replacement domain.
 
 |Removed delegation|Replacement domain|Action required|
 |  ---  |  ---  |  ---  |
