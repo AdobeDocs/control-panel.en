@@ -4,6 +4,12 @@ description: This page lists all 2023 releases of Control Panel.
 ---
 # Release Notes 2023 {#rn-2023}
 
+## March 2023 {#march-2023}
+
+**Subdomain delegation removal for CNAMEs**
+
+You can now remove the delegation of subdomains that have bneen configured using CNAMEs. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
 ## January 2023 {#january-2023}
 
 **New hybrid hosting model capability**
