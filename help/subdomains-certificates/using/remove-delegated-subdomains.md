@@ -60,14 +60,16 @@ When removing a CNAME-type delegation, you need to **remove these DNS records** 
 
 The table below lists the action(s) to perform depending on the type of delegation you are removing, and the type of delegation used to setup the replacement domain.
 
-|Removed delegation|Replacement domain|Action required|
+|Removed delegation|Replacement domain delegation|Action required|
 |  ---  |  ---  |  ---  |
-|Full|No replacement domain|No action required|
-|Full|CNAME|Add DNS records (optional based on the IP affinities)|
-|Full|Full|No action required|
 |CNAME|No replacement domain|Delete DNS records|
-|CNAME|CNAME|Delete and add DNS records (optional based on the IP affinities)|
+|CNAME|CNAME|Delete DNS records<br/>Add DNS records *(optional depending on the IP affinities)*|
 |CNAME|Full|Delete DNS records|
+|Full|No replacement domain|No action required|
+|Full|CNAME|Add DNS records *(optional depending on the IP affinities)*|
+|Full|Full|No action required|
+
+{style="table-layout:auto"}
 
 To do this, an additional **[!DNL Action]** step displays before confirming the delegation removal. This screen lists the DNS records to remove or add, depending on the context.
 
