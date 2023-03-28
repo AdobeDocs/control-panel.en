@@ -14,11 +14,7 @@ level: Experienced
 >title="Remove subdomain delegation"
 >abstract="This screen allows you to remove the delegation of a subdomain to Adobe. Keep in mind that this process cannot be undone and is irreversible until its execution is complete.<br><br>If you are trying to remove the delegation of a primary domain for the selected instance, you will be asked to choose the domain that will replace it."
 
-Control Panel allows you to remove the delegation of a subdomain that has been delegated to Adobe.
-
->[!NOTE]
->
->Delegation removal is currently not available for subdomains that have been setup using CNAMEs.
+Control Panel allows you to remove the delegation of a subdomain that has been fully delegated to Adobe or delegated using CNAMEs.
 
 ## Important notes {#important}
 
@@ -46,6 +42,8 @@ To remove the delegation of a subdomain to Adobe, follow these steps:
 
     ![](assets/undelegate-subdomain-details.png)
 
+1. If you removing a CNAME-type delegation or if you are replacing a primary domain with a domain delegated using CNAMEs, an additional **[!UICONTROL Action]** step displays to manage DNS records. [Learn more in this section](#dns)
+
 1. Review the summary that displays. To confirm the removal, type the URL of the domain for which you want to remove the delegation and click **[!UICONTROL Submit]**.
 
     ![](assets/undelegate-submit.png)
@@ -53,6 +51,39 @@ To remove the delegation of a subdomain to Adobe, follow these steps:
 After delegation removal has been started, the pending job displays in the job logs until it is completed.
 
 ![](assets/undelegate-job.png)
+
+## DNS records management {#dns}
+
+To configure a domain delegation using CNAMEs, Control Panel requires that you add specific records on your DNS server. [Learn how to setup subdomains using CNAMEs](setting-up-new-subdomain.md#use-cnames)
+
+When removing a CNAME-type delegation, you need to **remove these DNS records** from your server to avoid any issue. Additionally, if you want to remove the delegation of a primary subdomain and replace it with a domain that has been delegated using CNAMEs, you may need to **add DNS records** on your server, depending on the IP affinities set for the subdomain.
+
+The table below lists the action(s) to perform depending on the type of delegation you are removing, and the type of delegation used to setup the replacement domain.
+
+|Removed delegation|Replacement domain|Action required|
+|  ---  |  ---  |  ---  |
+|Full|No replacement domain|No action required|
+|Full|CNAME|Add DNS records (optional based on the IP affinities)|
+|Full|Full|No action required|
+|CNAME|No replacement domain|Delete DNS records|
+|CNAME|CNAME|Delete and add DNS records (optional based on the IP affinities)|
+|CNAME|Full|Delete DNS records|
+
+To do this, an additional **[!DNL Action]** step displays before confirming the delegation removal. This screen lists the DNS records to remove or add, depending on the context.
+
+![](assets/action-step.png)
+
+### Delete DNS records
+
+1. Navigate to your DNS server and remove the records listed in Control Panel.
+1. Go back to Control Panel and click **[!UICONTROL Next]** to proceed with the delegation removal.
+
+### Add DNS records
+
+1. Navigate to your DNS server and add the records listed in Control Panel.
+1. Wait for the DNS addition to be effective.
+1. Go back to Control Panel and click **[!UICONTROL Verify]**.
+1. Once the records addition has been successfully verified, click **[!UICONTROL Next]** to proceed with the delegation removal.  
 
 ## Error codes {#FAQ}
 
