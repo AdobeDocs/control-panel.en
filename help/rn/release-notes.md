@@ -7,20 +7,8 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 
 This page lists the new features and improvements for Control Panel.
 
-## February 2023 {#february-2023}
+## March 2023 {#march-2023}
 
-**Delegation removal for subdomains delegated to Adobe**
+**Subdomain delegation removal for CNAMEs**
 
-You can now remove the delegation of a subdomain that is fully delegated to Adobe. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
-
-![](assets/do-not-localize/gif-delegation.gif)
-
->[!NOTE]
->
->Delegation removal is currently not available for subdomains that have been setup using CNAMEs.
-
-**Service calendar**
-
-Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../service-events/service-events.md)
-
-![](assets/do-not-localize/gif-calendar.gif)
+You can now remove the delegation of subdomains that have been configured using CNAMEs. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)

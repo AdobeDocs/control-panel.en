@@ -4,11 +4,21 @@ description: This page lists all 2023 releases of Control Panel.
 ---
 # Release Notes 2023 {#rn-2023}
 
-## March 2023 {#march-2023}
+## February 2023 {#february-2023}
 
-**Subdomain delegation removal for CNAMEs**
+**Delegation removal for subdomains delegated to Adobe**
 
-You can now remove the delegation of subdomains that have bneen configured using CNAMEs. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
+You can now remove the delegation of a subdomain that is fully delegated to Adobe. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
+>[!NOTE]
+>
+>Delegation removal is currently not available for subdomains that have been setup using CNAMEs.
+
+**Service calendar**
+
+Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
 
 ## January 2023 {#january-2023}
 
