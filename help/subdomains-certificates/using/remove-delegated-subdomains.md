@@ -56,17 +56,17 @@ After delegation removal has been started, the pending job displays in the job l
 
 To configure a domain delegation using CNAMEs, Control Panel requires that you add specific records on your DNS server. [Learn how to setup subdomains using CNAMEs](setting-up-new-subdomain.md#use-cnames)
 
-When removing a CNAME-type delegation, you need to **remove these DNS records** from your server to avoid any issue. Additionally, if you want to remove the delegation of a primary subdomain and replace it with a domain that has been delegated using CNAMEs, you need to **add DNS records** on your server.  
+When removing a CNAME-type delegation, you need to **remove these DNS records** from your server to avoid any issue. Additionally, if you want to remove the delegation of a primary subdomain and replace it with a domain that has been delegated using CNAMEs, you may need to **add DNS records** on your server, depending on the IP affinities set for the subdomain.
 
 The table below lists the action(s) to perform depending on the type of delegation you are removing, and the type of delegation used to setup the replacement domain.
 
 |Removed delegation|Replacement domain|Action required|
 |  ---  |  ---  |  ---  |
 |Full|No replacement domain|No action required|
-|Full|CNAME|Add DNS records|
+|Full|CNAME|Add DNS records (optional based on the IP affinities)|
 |Full|Full|No action required|
 |CNAME|No replacement domain|Delete DNS records|
-|CNAME|CNAME|Delete and add DNS records|
+|CNAME|CNAME|Delete and add DNS records (optional based on the IP affinities)|
 |CNAME|Full|Delete DNS records|
 
 To do this, an additional **[!DNL Action]** step displays before confirming the delegation removal. This screen lists the DNS records to remove or add, depending on the context.
