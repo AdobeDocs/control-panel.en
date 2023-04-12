@@ -1,6 +1,7 @@
 ---
 title: Release Notes 2023
 description: This page lists all 2023 releases of Control Panel.
+exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 ---
 # Release Notes 2023 {#rn-2023}
 
