@@ -40,7 +40,7 @@ You can also visualize information in a tabular format with sortable columns rat
 
 ![](assets/throughput-latencies-table.png)
 
-## Monitor thoughput {#throughput}
+## Monitor throughput {#throughput}
 
 The **[!UICONTROL Throughput]** area provides information regarding the number of messages sent per hour from the selected Campaign instance for all the communication channels that you are entitled to.
 
