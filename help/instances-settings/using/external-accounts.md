@@ -36,7 +36,7 @@ For more information on hosting models, refer to [Campaign Classic documentation
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_password"
->title="Passw
+>title="Password"
 >abstract="Password of the operator provided after intial provisioning by Adobe Admin."
 
 Hybrid customers should connect to Control Panel through Experience Cloud. When accessing Control Panel for the first time, only two cards display on the homepage.
