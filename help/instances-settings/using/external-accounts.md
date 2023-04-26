@@ -15,7 +15,10 @@ exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 >title="External Accounts"
 >abstract="In this screen, customers with hybrid hosting model can provide their MID/RT instance URL configured in the marketing instance in Control Panel, in order to leverage Control Panel capabilities."
 
-Control Panel allows customers with hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide the MID/RT instance URL configured in their marketing instance in Control Panel.
+Control Panel allows customers with hybrid hosting model to leverage specific Control Panel capabilities. To do this, you need to:
+
+* [Provide the MID/RT instance URL](#add) configured in your marketing instance in Control Panel,
+* [Add the MID/RT instance IP addres to the allow list](#ip) to allow the marketing instance to connect to it.
 
 For more information on hosting models, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html).
 
@@ -79,6 +82,14 @@ You can remove or deactivate a MID/RT instance URL at any time by selecting it f
 Note that you can monitor any action performed in the **[!UICONTROL External Accounts]** tab on a MID/RT instance URL from the **[!UICONTROL Job Logs]**: 
 
 ![](assets/external-account-logs.png)
+
+## Add the MID/RT instance IP address to the allow list {#ip}
+
+Once the MID/RT instance has been added, you need to add its IP address to the allow list so that your marketing instance can connect to it.
+
+This can be performed from the **[!UICONTROL IP Allow Listing]** tab in the **[!UICONTROL Instances Settings]** card. [Learn how to add IP addresses to the allow list](ip-allow-listing-instance-access.md)
+
+Once done, you will be able to use Control Panel capabilities with your MID/RT instance.
 
 ## Capabilities available for hybrid customers {#capabilities}
 
