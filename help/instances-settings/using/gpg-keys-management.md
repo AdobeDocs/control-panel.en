@@ -58,6 +58,10 @@ To do this, you need to generate a GPG key pair from a PGP encryption tool, then
     * **key length**: 3072 - 4096 bits
     * **real name** and **email address**: Allows to track who created the key pair. Enter a name and email address linked to your organization or department.
     * **comment**: adding a label to the comment field will help you easily identify the key to use to encrypt your data.
+        >[!IMPORTANT]
+        >
+        >Make sure that this field is not left empty and that a comment is filled in.
+
     * **expiration**: Date or "0" for no expiration date.
     * **passphrase**
 
