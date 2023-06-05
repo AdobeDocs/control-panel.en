@@ -32,7 +32,7 @@ If you are using CNAMEs to set up a subdomain delegation, Adobe will provide cer
 >
 >SSL certificates delegation is only available when setting up a new subdomain. It is not available for already delegated subdomains.
 
-SSL certificates delegation is enabled when setting up a new subdomain. Learn how to proceed in [this section](setting-up-new-subdomain).
+SSL certificates delegation is enabled when setting up a new subdomain. Learn how to proceed in [this section](setting-up-new-subdomain.md).
 
 ## Monitoring SSL certificates {#monitoring-certificates}
 
