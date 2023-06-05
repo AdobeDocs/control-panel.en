@@ -20,7 +20,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="Delegate subdomains' SSL certificates to Adobe"
->abstract="Control Panel allows you to have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution."
+>abstract="Control Panel allows you to have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution. Note that this capability is only available when setting up a new subdomain. You cannot delegate certificates for existing delegated subdomains."
 
 ## Must-read {#must-read}
 
