@@ -159,7 +159,7 @@ To configure a subdomain using CNAMEs, follow the steps below.
 
     ![](assets/cname-confirmation.png)
     
-1. If you chose to delegate the subdomains' certificate to Adobe, certificate are automatically generated. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching certificate. 
+1. If you chose to delegate the subdomains' certificate to Adobe, certificate records are automatically generated. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching certificate. 
 
     ![](assets/cname-csr-generation.png)
 
