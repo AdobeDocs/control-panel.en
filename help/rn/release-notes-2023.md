@@ -5,6 +5,12 @@ exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 ---
 # Release Notes 2023 {#rn-2023}
 
+## March 2023 {#march-2023}
+
+**Subdomain delegation removal for CNAMEs**
+
+You can now remove the delegation of subdomains that have been configured using CNAMEs. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
 ## February 2023 {#february-2023}
 
 **Delegation removal for subdomains delegated to Adobe**

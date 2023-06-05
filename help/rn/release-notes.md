@@ -7,8 +7,8 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 
 This page lists the new features and improvements for Control Panel.
 
-## March 2023 {#march-2023}
+## June 2023 improvements {#june-2023}
 
-**Subdomain delegation removal for CNAMEs**
+**Subdomains' SSL certificates delegation to Adobe**
 
-You can now remove the delegation of subdomains that have been configured using CNAMEs. [Learn more](../subdomains-certificates/using/remove-delegated-subdomains.md)
+You can now have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution. [Learn more](../subdomains-certificates/using/setting-up-new-subdomain.md)
