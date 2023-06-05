@@ -8,6 +8,7 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 ---
+
 # Setting up a new subdomain {#setting-up-subdomain}
 
 >[!CONTEXTUALHELP]
@@ -15,6 +16,11 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 >title="Setup new subdomains and manage certificates"
 >abstract="You need to setup a new subdomain and manage your subdomains' SSL certificates to start sending emails or publish landing pages with Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Monitoring SSL certificates"
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="Delegate subdomains' SSL certificates to Adobe"
+>abstract="Control Panel allows you to have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution."
 
 ## Must-read {#must-read}
 
@@ -88,6 +94,8 @@ To fully delegate a subdomain to Adobe Campaign, follow the steps below.
 
     Make sure you fill in the **full name** of the subdomain to delegate. For example, to delegate the "usoffers.email.weretail.com" subdomain, type "usoffers.email.weretail.com".
 
+1. To delegate the generation of the subdomain's SSL certificate to Adobe, enable the **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** option. 
+
     ![](assets/subdomain6.png)
 
 Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see [Subdomain checks and configuration](#subdomain-checks-and-configuration).
@@ -128,25 +136,36 @@ To configure a subdomain using CNAMEs, follow the steps below.
 
     ![](assets/cname-use-case.png)
 
-1. Enter the subdomain that you created into your hosting solution, then click **[!UICONTROL Next]**.
+1. Enter the subdomain that you created into your hosting solution. To delegate the generation of the subdomain's SSL certificate to Adobe, enable the **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** option. 
 
-    Make sure you fill in the **full name** of the subdomain to setup. For example, to configure the "usoffers.email.weretail.com" subdomain, type "usoffers.email.weretail.com".
+    ![](assets/cname-adobe-managed.png)
 
-    ![](assets/cname-submit.png)
+    >[!NOTE]
+    >
+    >Make sure you fill in the **full name** of the subdomain to setup. For example, to configure the "usoffers.email.weretail.com" subdomain, type "usoffers.email.weretail.com".
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
     ![](assets/cname-generate-record.png)
 
-1. Make sure that all the DNS records from previous steps have been generated into your domain hosting solution. If everything is configured properly, select the first statement then click **[!UICONTROL Submit]** to confirm.
+1. Make sure that all the DNS records from previous steps have been generated into your domain hosting solution. If everything is configured properly, select the first statement then click **[!UICONTROL Next]** to confirm.
+
+    If you want to create the records and submit the subdomain configuration later on, select the second statement. You will then be able to resume the subdomain configuration directly from the subdomain management screen **[!UICONTROL Processing]** area. Note that DNS records to be placed on your server will be kept by Control Panel 30 days. Beyond that period, you will have to configure the subdomain from scratch.
+    
+
+    >[!NOTE]
+    >
+    >If you chose not to delegate the SSL certificate to Adobe, this is the last step of the subdomain configuration. Click the **[!UICONTROL Submit]** button. 
 
     ![](assets/cname-confirmation.png)
     
-    >[!NOTE]
-    >
-    >If you want to create the records and submit the subdomain configuration later on, select the second statement then click **[!UICONTROL Submit later]**. You will then be able to resume the subdomain configuration directly from the subdomain management screen **[!UICONTROL Processing]** area.
-    >
-    >Note that DNS records to be placed on your server will be kept by Control Panel 30 days. Beyond that period, you will have to configure the subdomain from scratch.
+1. If you chose to delegate the subdomains' certificate to Adobe, certificate are automatically generated. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching certificate. 
+
+    ![](assets/cname-csr-generation.png)
+
+1. Make sure that all the certificate records have been generated into your domain hosting solution. If everything is configured properly, select the first statement then click **[!UICONTROL Submit]** to confirm.
+
+    ![](assets/cnames-submit.png)
 
 Once the subdomain is submitted, various checks and configuration steps  will be performed by the Control Panel. For more on this, see [Subdomain checks and configuration](#subdomain-checks-and-configuration).
 
