@@ -38,13 +38,13 @@ If the instance that you select in the wizard has no previously setup subdomains
 
 ### Delegate subdomains' SSL certificates to Adobe
 
-When setting up a new subdomain, you can have the SSL certificate managed by Adobe. This is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires.
+When setting up a new subdomain, you can have the SSL certificate managed by Adobe. This is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires. Note that SSL certificates delegation is only available when setting up a new subdomain. It is not available for already delegated subdomains.
 
 If you are using CNAMEs to set up a subdomain delegation, Adobe will provide certificate records to use into your domain hosting solution to generate your certificate.
 
 >[!NOTE]
 >
->SSL certificates delegation is only available when setting up a new subdomain. It is not available for already delegated subdomains.
+>Adobe managed SSL is a cost-free feature that is available to users at no charge.
 
 ### Nameservers configuration
 
