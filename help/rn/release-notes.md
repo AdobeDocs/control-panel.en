@@ -9,12 +9,6 @@ This page lists the new features and improvements for Control Panel.
 
 ## June 2023 improvements {#june-2023}
 
-**Subdomains' SSL certificates delegation to Adobe**
+* You can now delegate the SSL certificates of already delegated subdomains to Adobe directly from the subdomains list. [Learn more](../subdomains-certificates/using/delegate-ssl.md)
 
-You can now have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution.
-
-Note that this capability is only available when setting up a new subdomain. You cannot delegate certificates for existing delegated subdomains. [Learn more](../subdomains-certificates/using/setting-up-new-subdomain.md)
-
->[!NOTE]
->
->Adobe managed SSL is a cost-free feature that is available to users at no charge.
+* Alert Emails sender has been changed to `"alert@notifications.campaign.adobe.com"`.
