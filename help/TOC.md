@@ -41,6 +41,7 @@ level: Beginner
   + [Manage TXT records](subdomains-certificates/using/managing-txt-records.md)
   + Manage SSL certificates {#manage-certificates}
     + [Monitor SSL certificates](subdomains-certificates/using/monitoring-ssl-certificates.md)
+    + [Delegate SSL certificates to Adobe](subdomains-certificates/using/delegate-ssl.md)
     + [Renew SSL certificates](subdomains-certificates/using/renewing-subdomain-certificate.md)
     + [Generate the CSR](subdomains-certificates/using/generate-csr.md)
     + [Install the SSL certificate](subdomains-certificates/using/install-ssl-certificate.md)
