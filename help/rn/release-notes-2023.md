@@ -5,6 +5,18 @@ exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 ---
 # Release Notes 2023 {#rn-2023}
 
+## May 2023 improvements {#june-2023}
+
+**Subdomains' SSL certificates delegation to Adobe**
+
+You can now have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution.
+
+Note that this capability is only available when setting up a new subdomain. You cannot delegate certificates for existing delegated subdomains. [Learn more](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Adobe managed SSL is a cost-free feature that is available to users at no charge.
+
 ## March 2023 {#march-2023}
 
 **Subdomain delegation removal for CNAMEs**
