@@ -11,5 +11,5 @@ This page lists the new features and improvements for Control Panel.
 
 **SSL certificates delegation to Adobe for already delegated subdomains**
 
-You can now delegate the SSL certificates of already delegated subdomains to Adobe directly from the subdoamins list. [Learn more](../subdomains-certificates/using/delegate-ssl.md)
+You can now delegate the SSL certificates of already delegated subdomains to Adobe directly from the subdomains list. [Learn more](../subdomains-certificates/using/delegate-ssl.md)
 
