@@ -17,11 +17,6 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 >abstract="You need to setup a new subdomain and manage your subdomains' SSL certificates to start sending emails or publish landing pages with Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Monitoring SSL certificates"
 
->[!CONTEXTUALHELP]
->id="cp_managed_ssl"
->title="Delegate subdomains' SSL certificates to Adobe"
->abstract="Control Panel allows you to have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution. Note that this capability is only available when setting up a new subdomain. You cannot delegate certificates for existing delegated subdomains."
-
 ## Must-read {#must-read}
 
 This page provides information on how to set up new subdomains using Full subdomain delegation or CNAMEs. Global concepts on these two methods are presented in this section: [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md).
@@ -38,7 +33,7 @@ If the instance that you select in the wizard has no previously setup subdomains
 
 ### Delegate subdomains' SSL certificates to Adobe
 
-When setting up a new subdomain, you can have the SSL certificate managed by Adobe. This is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires. Note that SSL certificates delegation is only available when setting up a new subdomain. It is not available for already delegated subdomains.
+When setting up a new subdomain, you can have the SSL certificate managed by Adobe. This is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires.
 
 If you are using CNAMEs to set up a subdomain delegation, Adobe will provide certificate records to use into your domain hosting solution to generate your certificate.
 
@@ -60,7 +55,6 @@ Moreover, **do not create a separate zone file** for this new subdomain.
 >abstract="Adobe recommends full subdomain delegation. However, you can use CNAMEs or custom method to set up your subdomains."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Contact Customer Care"
-
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
@@ -104,7 +98,7 @@ To fully delegate a subdomain to Adobe Campaign, follow the steps below.
 
     Make sure you fill in the **full name** of the subdomain to delegate. For example, to delegate the "usoffers.email.weretail.com" subdomain, type "usoffers.email.weretail.com".
 
-1. To delegate the generation of the subdomain's SSL certificate to Adobe, enable the **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** option. 
+1. To delegate the generation of the subdomain's SSL certificate to Adobe, enable the **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** option. [Learn more on SSL certificates delegation](delegate-ssl.md)
 
     ![](assets/subdomain6.png)
 
@@ -146,7 +140,9 @@ To configure a subdomain using CNAMEs, follow the steps below.
 
     ![](assets/cname-use-case.png)
 
-1. Enter the subdomain that you created into your hosting solution. To delegate the generation of the subdomain's SSL certificate to Adobe, enable the **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** option. 
+1. Enter the subdomain that you created into your hosting solution.
+
+    To delegate the generation of the subdomain's SSL certificate to Adobe, enable the **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** option. [Learn more on SSL certificates delegation](delegate-ssl.md)
 
     ![](assets/cname-adobe-managed.png)
 
@@ -161,7 +157,6 @@ To configure a subdomain using CNAMEs, follow the steps below.
 1. Make sure that all the DNS records from previous steps have been generated into your domain hosting solution. If everything is configured properly, select the first statement then click **[!UICONTROL Next]** to confirm.
 
     If you want to create the records and submit the subdomain configuration later on, select the second statement. You will then be able to resume the subdomain configuration directly from the subdomain management screen **[!UICONTROL Processing]** area. Note that DNS records to be placed on your server will be kept by Control Panel 30 days. Beyond that period, you will have to configure the subdomain from scratch.
-    
 
     >[!NOTE]
     >

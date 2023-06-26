@@ -24,15 +24,7 @@ Adobe Campaign recommends that you secure the subdomains that host your landing 
 
 ## Delegate subdomains' SSL certificates to Adobe
 
-When setting up a new subdomain, you can have the SSL certificate managed by Adobe. This is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires.
-
-If you are using CNAMEs to set up a subdomain delegation, Adobe will provide certificate records to use into your domain hosting solution to generate your certificate.
-
->[!NOTE]
->
->SSL certificates delegation is only available when setting up a new subdomain. It is not available for already delegated subdomains.
-
-SSL certificates delegation is enabled when setting up a new subdomain. Learn how to proceed in [this section](setting-up-new-subdomain.md).
+Delegating your subdomains' SSL certificates to Adobe is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires. [Learn how to delegate subdomains' SSL certificates to Adobe](delegate-ssl.md)
 
 ## Monitoring SSL certificates {#monitoring-certificates}
 
