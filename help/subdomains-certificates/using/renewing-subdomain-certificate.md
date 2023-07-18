@@ -94,7 +94,7 @@ To generate a Certificate Signing Request (CSR), follow these steps:
 
 Once your CSR has been generated and downloaded, you can use it to purchase an SSL certificate from a Certificate Authority approved by your organization.
 
-After the SSL certificate has been purchased, you will be able to install it on your instance to secure your subdomain. [Learn more](install-ssl-certificate.md)
+After the SSL certificate has been purchased, you will be able to install it on your instance to secure your subdomain. [Learn more](#install)
 
 ## Download the CSR {#download}
 
