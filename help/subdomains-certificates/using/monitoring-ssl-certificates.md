@@ -22,9 +22,19 @@ Adobe Campaign recommends that you secure the subdomains that host your landing 
 
 ![](assets/no_certificate.png)
 
-## Delegate subdomains' SSL certificates to Adobe
+## SSL certificates management {#management}
 
-Delegating your subdomains' SSL certificates to Adobe is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires. [Learn how to delegate subdomains' SSL certificates to Adobe](delegate-ssl.md)
+SSL certificates monitoring is key to ensure that your subdomains are secure. With Control Panel, you can install and renew your subdomains' SSL certificates directly by yourself, or delegate them to Adobe so that this process is performed automatically by Adobe with no action required from your side.
+
+Delegating your subdomains' SSL certificates to Adobe is strongly recommended, as Adobe will automatically create the certificate and renew it every year before it expires. This reduce the risk of errors that can occur when managing certificates manually [Learn how to delegate subdomains' SSL certificates to Adobe](delegate-ssl.md)
+
+|       |Customer-managed certificate|Adobe-managed certificate|
+|  ---  |  ---  |  ---  |
+|Certificate Provider|3rd party Certificate Authorities|Adobe via Adobe certificate managers|
+|Manual Steps|CSR generation, certificate purchase and installation|None|
+|Renewal Process|Customer's responsibility|Managed by Adobe automatically|
+|Subdomain Security|Domain can have unsecured subdomains (tracking, mirror, and res) unless you are installing/renewing certificates.|Every new domain (if opted for Adobe managed) will have all subdomains secured by default.|
+|Certificate Cost|The customer bears the cost of certificates|Free|
 
 ## Monitoring SSL certificates {#monitoring-certificates}
 

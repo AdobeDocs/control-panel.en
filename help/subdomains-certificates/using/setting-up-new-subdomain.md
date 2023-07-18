@@ -39,7 +39,7 @@ If you are using CNAMEs to set up a subdomain delegation, Adobe will provide cer
 
 >[!NOTE]
 >
->Adobe managed SSL is a cost-free feature that is available to users at no charge.
+>Adobe managed SSL is a cost-free feature that is available to users at no charge. [Learn more on SSL certificates management](monitoring-ssl-certificates.md#management)
 
 ### Nameservers configuration
 

@@ -13,8 +13,11 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL certificate renewal"
->abstract="To renew an SSL certificate, you need to generate a CSR, purchase the SSL certificate for your subdomains, and install the Certificate Bundle."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generating a Certificate Signing Request (CSR)"
+>abstract="To renew an SSL certificate, you need to generate a CSR, purchase the SSL certificate for your subdomains, and install the Certificate Bundle. This operation is only required if you chose to manage certificates manually rather than delegating it to Adobe. 
+
+>[!NOTE]
+>
+>Renewing the SSL certificates of your subdomains is only required if you chose to manage certificates yourself rather than delegating this process to Adobe. Delegating your subdomains' SSL certificates to Adobe is strongly recommended, as Adobe will automatically create the certificate and renew it every year before it expires. [Learn more on SSL certificates management](monitoring-ssl-certificates.md#management)
 
 The SSL certificate renewal process includes 3 steps:
 

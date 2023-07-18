@@ -22,7 +22,8 @@ SSL certificates' delegation to Adobe can be performed when setting up a new sub
 
 >[!NOTE]
 >
->Adobe managed SSL is a cost-free feature that is available to users at no charge.
+>Adobe managed SSL is a cost-free feature that is available to users at no charge. Delegating the certificate of a subdomain to Adobe is transparent and has no impact on your campaigns and the deliverability. [Learn more on SSL certificates management](monitoring-ssl-certificates.md#management)
+
 
 ## Delegate new subdomains' SSL certificates {#new}
 
