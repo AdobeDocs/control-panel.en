@@ -13,7 +13,7 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL certificate renewal"
->abstract="To renew an SSL certificate, you need to generate a CSR, purchase the SSL certificate for your subdomains, and install the Certificate Bundle. This operation is only required if you chose to manage certificates manually rather than delegating it to Adobe. 
+>abstract="To renew an SSL certificate, you need to generate a CSR, purchase the SSL certificate for your subdomains, and install the Certificate Bundle. This operation is only required if you chose to manage certificates manually rather than delegating it to Adobe. "
 
 >[!NOTE]
 >
