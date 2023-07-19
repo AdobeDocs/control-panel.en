@@ -14,7 +14,7 @@ level: Experienced
 >title="Delegate subdomains' SSL certificates to Adobe"
 >abstract="Control Panel allows you to have your subdomains' SSL certificates managed by Adobe. If you are using CNAMEs to set up your subdomain, certificates records will be automatically generated and provided in order to generate a certificate into your domain hosting solution."
 
-Delegating your subdomains' SSL certificates to Adobe is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires.
+Delegating management of your subdomains' SSL certificates to Adobe is strongly recommended, as Adobe will automatically create the certificate and renew it every year before the certificate expires.
 
 If you are using CNAMEs to set up a subdomain delegation, Adobe will provide certificate records to use into your domain hosting solution to generate your certificate.
 
@@ -22,7 +22,8 @@ SSL certificates' delegation to Adobe can be performed when setting up a new sub
 
 >[!NOTE]
 >
->Adobe managed SSL is a cost-free feature that is available to users at no charge.
+>Adobe managed SSL is a cost-free feature that is available to users at no charge. Delegating the certificate of a subdomain to Adobe is transparent and has no impact on your campaigns and the deliverability. [Learn more on SSL certificates management](monitoring-ssl-certificates.md#management)
+
 
 ## Delegate new subdomains' SSL certificates {#new}
 

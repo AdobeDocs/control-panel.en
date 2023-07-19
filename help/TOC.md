@@ -36,15 +36,14 @@ level: Beginner
 + Subdomains and certificates {#subdomains-and-certificates}
   + [Subdomains branding](subdomains-certificates/using/subdomains-branding.md)
   + [Monitor your subdomains](subdomains-certificates/using/monitoring-subdomains.md)
-  + [Set up a new subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
-  + [Remove delegation of subdomains to Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-  + [Manage TXT records](subdomains-certificates/using/managing-txt-records.md)
-  + Manage SSL certificates {#manage-certificates}
+  + Delegate subdomains {#delegate-subdomains}
+    + [Set up a new subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
+    + [Remove delegation of subdomains to Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+    + [Manage TXT records](subdomains-certificates/using/managing-txt-records.md)
+  + Manage subdomains' SSL certificates {#manage-certificates}
     + [Monitor SSL certificates](subdomains-certificates/using/monitoring-ssl-certificates.md)
     + [Delegate SSL certificates to Adobe](subdomains-certificates/using/delegate-ssl.md)
     + [Renew SSL certificates](subdomains-certificates/using/renewing-subdomain-certificate.md)
-    + [Generate the CSR](subdomains-certificates/using/generate-csr.md)
-    + [Install the SSL certificate](subdomains-certificates/using/install-ssl-certificate.md)
 + Performance monitoring {#performance-monitoring}
   + [About perfomance monitoring](performance-monitoring/using/about-performance-monitoring.md)
   + Database monitoring {#database-monitoring}
