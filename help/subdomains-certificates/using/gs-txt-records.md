@@ -13,8 +13,7 @@ level: Experienced
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="Managing TXT records"
->abstract="Some services like Google require that you add a TXT record to your domain settings in order to verify that you own the domain."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
+>abstract="TXT records are a type of DNS records used to provide text information about a domain, that can be read by external sources. Control Panel allows you to add three types of records to your subdomains: Google Site Verification, DMARC, and BIMI records."
 
 ## About TXT records {#about}
 
