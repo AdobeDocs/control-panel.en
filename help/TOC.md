@@ -39,7 +39,7 @@ level: Beginner
   + Delegate subdomains {#delegate-subdomains}
     + [Set up a new subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
     + [Remove delegation of subdomains to Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-  + Work with TXT records (Google, BIMI, DMARC)
+  + Work with TXT records (Google, BIMI, DMARC) {#txt-records}
     + [Get started with TXT records](subdomains-certificates/using/gs-txt-records.md)
     + [Add TXT records](subdomains-certificates/using/managing-txt-records.md)
     + [Add DMARC records](subdomains-certificates/using/dmarc.md)
