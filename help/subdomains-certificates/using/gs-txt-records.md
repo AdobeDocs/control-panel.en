@@ -28,6 +28,6 @@ TXT records are a type of DNS records used to provide text information about a d
 
 You can monitor all the TXT records that have been added for each subdomain by accessing the subdomains' details.
 
-In this screen, all the TXT-type records for the selected subdomain display, with information in the "Value" column on their configuration. You can edit or delete a TXT record at any time by clicking the ellipsis button.
+In this screen, all the TXT-type records for the selected subdomain display, with information in the "Value" column on their configuration. To delete a Google TXT, DMARC or BIMI record, click the ellipsis button then select Delete. You can also edit DMARC and BIMI records if necessary.
 
 ![](assets/txt-records.png)

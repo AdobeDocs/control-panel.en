@@ -1,14 +1,14 @@
 ---
 product: campaign
 solution: Campaign 
-title: Add a Google TXT record for a subdomain
-description: Learn how to add a Google TXT record for a subdomain for domain ownership verification.
+title: Add Google Site verification records for a subdomain
+description: Learn how to add a Google Site Verification record for a subdomain for domain ownership verification.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 ---
-# Add Google TXT records {#adding-a-google-txt-record}
+# Add Google Site Verification records {#adding-a-google-txt-record}
 
 In order to ensure high inbox rates, and low spam rates, some services like Google require that you add a TXT record to your domain settings in order to verify that you own the domain.
 
@@ -16,13 +16,11 @@ Currently, Gmail is among one of the most popular email addresses providers. In 
 
 To add a Google TXT record to your subdomain used to email Gmail addresses, follow these steps:
 
-1. Navigate to the **[!UICONTROL Subdomain and Certificates]** card.
+1. From the subdomains list, click the ellipsis button next to the desired subdomain and select **[!UICONTROL Subdomain details]**.
 
-1. Select your instance, then open the details of the subdomain to which you would like to add a DNS record.
+1. Click the **[!UICONTROL Add TXT record]** button, then choose **[!UICONTROL Google Site Verification]** from the **[!UICONTROL Record Type]** drop-down list.
 
-    ![](assets/txt_subdomaindetails.png)
-
-1. Click the **[!UICONTROL Add TXT record]** button, then enter the value generated in G Suite Admin tools. For more on this, refer to the [G Suite Admin Help](https://support.google.com/a/answer/183895).
+1. Enter the value generated in G Suite Admin tools. For more on this, refer to the [G Suite Admin Help](https://support.google.com/a/answer/183895).
 
     ![](assets/txt_addtxt.png)
 

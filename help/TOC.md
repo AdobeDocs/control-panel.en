@@ -41,7 +41,7 @@ level: Beginner
     + [Remove delegation of subdomains to Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
   + Work with TXT records (Google, BIMI, DMARC) {#txt-records}
     + [Get started with TXT records](subdomains-certificates/using/gs-txt-records.md)
-    + [Add TXT records](subdomains-certificates/using/managing-txt-records.md)
+    + [Add Google Site Verification records](subdomains-certificates/using/managing-txt-records.md)
     + [Add DMARC records](subdomains-certificates/using/dmarc.md)
     + [Add BIMI records](subdomains-certificates/using/bimi.md)
   + Manage subdomains' SSL certificates {#manage-certificates}

@@ -18,7 +18,6 @@ Domain based Message Authentication, Reporting and Conformance (DMARC) is an ema
 
 * SPF and DKIM records are prerequisites for creating a DMARC record.
 * DMARC records can only be added for subdomains using Full subdomain delegation. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
-* Each subdomain can have only 1 DMARC record.
 
 ## Add a DMARC record for a subdomain {#add}
 
@@ -51,10 +50,10 @@ To add a DMARC record for a subdomain, follow these steps:
 
 1. DMARC reports are sent every 24 hours. You can change the reports sending frequency in the **[!UICONTROL Reporting Interval]** field. Minimum authorized interval is 1 hour, while maximum authorized value is 2190 hours (i.e. 3 months).
 
-1. In the **SPF** and **[!UICONTROL DKIM Identifier Alignment]** fields, specify how strict the recipients' servers should be while checking SPF and DKIM authentifcations for an email.
+1. In the **SPF** and **[!UICONTROL DKIM Identifier Alignment]** fields, specify how strict the recipient servers should be while checking SPF and DKIM authentications for an email.
 
-    * **[!UICONTROL Relaxed]** mode: the server accepts authentication even if the email is sent from a subdomain
-    * **[!UICONTROL Strict]** mode accepts authentication only when the sender domain amtches exactly with a SPF and DKIM domain
+    * **[!UICONTROL Relaxed]** mode: the server accepts authentication even if the email is sent from a subdomain,
+    * **[!UICONTROL Strict]** mode accepts authentication only when the sender domain matches exactly with a SPF and DKIM domain.
 
     Let's say we are working with the `http://www.luma.com` domain. In "Relaxed" mode, emails coming from the `marketing.luma.com` subdomain will be authorized by the server, while they will be rejected in "Strict" mode.
 
