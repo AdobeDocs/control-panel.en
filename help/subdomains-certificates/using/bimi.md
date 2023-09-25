@@ -12,19 +12,18 @@ level: Experienced
 
 ## About BIMI records {#about}
 
-BIMI: Brandin Indicators for Message Identification
-Brand Indicators for Message Identification (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in participating platforms.
-With this standard, a brand can determine a logo which should be displayed in mailbox providers’ inboxes. Once published in a so-called BIMI DNS (Domain Name System) record, a mailbox provider might pick this logo up and display it in the inbox if certain criteria are met. It can help build more trust with your recipients and therefore drive more engagement though.
+Brand Indicators for Message Identification (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in mailbox providers' inboxes to enhance brand recognition and trust.
 
-Deliverability best practice guide
-https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=en
+![](assets/bimi-example.png)
+
+BIMI helps prevent email spoofing and phishing by verifying the sender's identity through DMARC authentication, making it more difficult for malicious actors to impersonate legitimate brands in emails. Detailed information on BIMI implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ## Limitations & prerequisites {#limitations}
 
-* SPF, DKIM and DMARC records are prerequisites for creating a BIMI record
-* BIMI records can only be added for subdomains using Full subdomain delegation.
+* SPF, DKIM and DMARC records are prerequisites for creating a BIMI record.
+* BIMI records can only be added for subdomains using Full subdomain delegation. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
 * Each subdomain can have only 1 BIMI record.
-* DMARC record policy type not to none
+* DMARC record policy type for the subdomain must be set to "Quarantine" or "Reject". BIMI record creation is not available with a DMARC policy type set to "None". [Learn how to add DMARC records](dmarc.md)
 
 ## Add a BIMI record for a subdomain {#add}
 
@@ -32,19 +31,14 @@ To add a BIMI record for a subdomain, follow these steps:
 
 1. From the subdomains list, click the ellipsis button next to the desired subdomain and select **[!UICONTROL Subdomain details]**.
 
-1. Click the **[!UICONTROL Add TXT record]** button.
+1. Click the **[!UICONTROL Add TXT record]** button, then choose **[!UICONTROL BIMI]** from the **[!UICONTROL Record type]** drop-down list.
 
-1. In the **[!UICONTROL Record type]** drop-down list, choose BIMI.
+    ![](assets/bimi-add.png)
 
+1. In the **[!UICONTROL Company Logo URL]**, specify the URL of the SVG file containing your logo.
 
-Add BIMI record
-* … / subdomain details / Add TXT record
-* Check subdomain name correct
-* Record type:  BIMI
-* company logo url: secured URL for saved SVG image. 
-* Certificate URL
-* Click Add. if dMarc policy selected as none: cannot create 
-* Wait for job to complete
+1. The **[!UICONTROL Certificate URL]** field is optional. It allows you to add a certiticate URL to attest the logo ownership.
 
-link to svg file.
-certificate: optional. If working as nike.com. cannot download the logo for google. Also add a certificat url repenses the fact that we own this logo. Ownership. Say can put in the certificate link to prove their ownership. Add steps
+1. Click **[!UICONTROL Add]** to confirm the DIMI record creation. 
+
+Once the BIMI record creation has been processed (approximatley 5 minutes), it displays in the subdomains' details screen. [Learn how to monitor TXT records for your subdomains](gs-txt-records.md#monitor)

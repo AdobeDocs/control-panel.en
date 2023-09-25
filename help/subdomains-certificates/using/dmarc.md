@@ -12,7 +12,7 @@ level: Experienced
 
 ## About DMARC records {#about}
 
-DMARC (Domain based Message Authentication, Reporting and Conformance) is an email authentication protocol standard that helps organizations protect their email domains from phishing and spoofing attacks.
+Domain based Message Authentication, Reporting and Conformance (DMARC) is an email authentication protocol standard that helps organizations protect their email domains from phishing and spoofing attacks.
 
 It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
 
@@ -28,9 +28,7 @@ To add a DMARC record for a subdomain, follow these steps:
 
 1. From the subdomains list, click the ellipsis button next to the desired subdomain and select **[!UICONTROL Subdomain details]**.
 
-1. Click the **[!UICONTROL Add TXT record]** button.
-
-1. In the **[!UICONTROL Record type]** drop-down list, choose **[!UICONTROL DMARC]**.
+1. Click the **[!UICONTROL Add TXT record]** button, then choose **[!UICONTROL DMARC]** from the **[!UICONTROL Record type]** drop-down list.
 
     ![](assets/dmarc-add.png)
 
@@ -53,7 +51,7 @@ To add a DMARC record for a subdomain, follow these steps:
     * Aggregate-DMARC reports provide high-level information like, for example, the number of emails that failed for a given period.
     * Forensic DMARC failure reports provide detailed information like, for example, which IP address the failed email originate from.
 
-1. By default, all failed emails will be included into the DMARC reports. You can change this parameter to include only a specific percentage of failed email.
+1. By default, the selected DMARC policy is applied to all emails. You can change this parameter to apply to a specific percentage of emails only.
 
 1. DMARC reports are sent every 24 hours. You can change the reports sending frequency in the **[!UICONTROL Reporting Interval]** field. Minimum authorized interval is 1 hour, while maximum authorized value is 2190 hours (i.e. 3 months).
 
@@ -65,3 +63,5 @@ To add a DMARC record for a subdomain, follow these steps:
     Let's say we are working we the `http://www.luma.com` domain. In "Relaxed" mode, emails coming from the `marketing.luma.com` subdomain will be authorized by the server, while they will be rejected in "Strict" mode.
 
 1. Click **[!UICONTROL Add]** to confirm the DMARC record creation. 
+
+Once the DMARC record creation has been processed (approximatley 5 minutes), it displays in the subdomains' details screen. [Learn how to monitor TXT records for your subdomains](gs-txt-records.md#monitor)

@@ -16,27 +16,18 @@ level: Experienced
 >abstract="Some services like Google require that you add a TXT record to your domain settings in order to verify that you own the domain."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Setting up a new subdomain"
 
-TXT records are a type of DNS records used to provide text information about a domain, that can be read by external sources.
+## About TXT records {#about}
 
+TXT records are a type of DNS records used to provide text information about a domain, that can be read by external sources. Control Panel allows you to add three types of records to your subdomains:
 
-list three types of records, why we should add them
+* **Google TXT records** allow you to attest that you own your domain, ensuring high inbox rates and low spam rates for your emails. [Learn how to add Google TXT records](managing-txt-records.md)
+* **DMARC records** provide a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes. [Learn how to add DMARC records](dmarc.md)
+* **BIMI records** allow you to display an approved logo next to your emails in mailbox providers' inboxes to enhance brand recognition and trust. [Learn how to add BIMI records](bimi.md)
 
-To implement this, cp allows to set up two text records:
-- BIMI record:logo url + certificate url(?)
-- DMARC record: policy to treat failed email
+## Monitor your subdomains' records {#monitor}
 
+You can monitor all the TXT records that have been added for each subdomain by accessing the subdomains' details.
 
+In this screen, all the TXT-type records for the selected subdomain display, with information in the "Value" column on their configuration. You can edit or delete a TXT record at any time by clicking the ellipsis button.
 
-
-In order to ensure high inbox rates, and low spam rates, some services like Google require that you add a TXT record to your domain settings in order to verify that you own the domain.
-
-Currently, Gmail is among one of the most popular email addresses providers. In order to ensure good deliverability and successful delivery of emails to Gmail addresses, Adobe Campaign allows you to add special Google site verification TXT records to your subdomains to ensure that it is verified.
-
-
-
-
-
-Edit and delete DMARC/BIMI Record
-Access list, … button ?
-Voir liste records on peut voir les dim and spf, montrer ?
-5 to 7 minutes (add, edit, delete)
+![](assets/txt-records.png)

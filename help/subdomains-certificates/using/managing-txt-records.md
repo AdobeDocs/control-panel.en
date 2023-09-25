@@ -8,7 +8,11 @@ role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 ---
-# Add a Google TXT record {#adding-a-google-txt-record}
+# Add Google TXT records {#adding-a-google-txt-record}
+
+In order to ensure high inbox rates, and low spam rates, some services like Google require that you add a TXT record to your domain settings in order to verify that you own the domain.
+
+Currently, Gmail is among one of the most popular email addresses providers. In order to ensure good deliverability and successful delivery of emails to Gmail addresses, Adobe Campaign allows you to add special Google site verification TXT records to your subdomains to ensure that it is verified.
 
 To add a Google TXT record to your subdomain used to email Gmail addresses, follow these steps:
 
