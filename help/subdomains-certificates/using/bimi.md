@@ -1,14 +1,16 @@
 ---
 product: campaign
 solution: Campaign 
-title: Add a BIMI record for a subdomain
+title: Add BIMI records
 description: Learn how to add a BIMI record for a subdomain.
 feature: Control Panel
 role: Architect
 level: Experienced
 ---
 
-# Add a BIMI record for a subdomain {#dmarc}
+# Add BIMI records {#dmarc}
+
+## About BIMI records {#about}
 
 BIMI: Brandin Indicators for Message Identification
 Brand Indicators for Message Identification (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in participating platforms.
@@ -17,18 +19,24 @@ With this standard, a brand can determine a logo which should be displayed in ma
 Deliverability best practice guide
 https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=en
 
+## Limitations & prerequisites {#limitations}
 
+* SPF, DKIM and DMARC records are prerequisites for creating a BIMI record
+* BIMI records can only be added for subdomains using Full subdomain delegation.
+* Each subdomain can have only 1 BIMI record.
+* DMARC record policy type not to none
 
+## Add a BIMI record for a subdomain {#add}
 
+To add a BIMI record for a subdomain, follow these steps:
 
+1. From the subdomains list, click the ellipsis button next to the desired subdomain and select **[!UICONTROL Subdomain details]**.
 
-Limitations/prerequisites
-SPF, DKIM and DMARC records are prerequisites for creating BIMI record
-only support NS type subdomain
-each subdomain can have only 1 BIMI
+1. Click the **[!UICONTROL Add TXT record]** button.
 
+1. In the **[!UICONTROL Record type]** drop-down list, choose BIMI.
 
-
+1. 
 
 Add BIMI record
 - … / subdomain details / Add TXT record
