@@ -36,7 +36,6 @@ To add a BIMI record for a subdomain, follow these steps:
 
 1. In the **[!UICONTROL Record type]** drop-down list, choose BIMI.
 
-1. 
 
 Add BIMI record
 * … / subdomain details / Add TXT record
