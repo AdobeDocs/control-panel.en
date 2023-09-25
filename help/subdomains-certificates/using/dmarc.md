@@ -62,6 +62,6 @@ To add a DMARC record for a subdomain, follow these steps:
     * **[!UICONTROL Relaxed]** mode: the server accepts authentication even if the email is sent from a subdomain
     * **[!UICONTROL Strict]** mode accepts authentication only when the sender domain amtches exactly with a SPF and DKIM domain
 
-    Let's say we are working we the `http://www.luma.com domain. In "Relaxed" mode, emails coming from the `marketing.luma.com` subdomain will be authorized by the server, while they will be rejected in "Strict" mode.
+    Let's say we are working we the `http://www.luma.com` domain. In "Relaxed" mode, emails coming from the `marketing.luma.com` subdomain will be authorized by the server, while they will be rejected in "Strict" mode.
 
 1. Click **[!UICONTROL Add]** to confirm the DMARC record creation. 

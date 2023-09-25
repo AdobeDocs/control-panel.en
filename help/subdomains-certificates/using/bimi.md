@@ -39,13 +39,13 @@ To add a BIMI record for a subdomain, follow these steps:
 1. 
 
 Add BIMI record
-- … / subdomain details / Add TXT record
-- Check subdomain name correct
-- Record type:  BIMI
-- company logo url: secured URL for saved SVG image. 
-- Certificate URL
-- Click Add. 	if dMarc policy selected as none: cannot create 
-- Wait for job to complete
+* … / subdomain details / Add TXT record
+* Check subdomain name correct
+* Record type:  BIMI
+* company logo url: secured URL for saved SVG image. 
+* Certificate URL
+* Click Add. if dMarc policy selected as none: cannot create 
+* Wait for job to complete
 
-	link to svg file.
+link to svg file.
 certificate: optional. If working as nike.com. cannot download the logo for google. Also add a certificat url repenses the fact that we own this logo. Ownership. Say can put in the certificate link to prove their ownership. Add steps
