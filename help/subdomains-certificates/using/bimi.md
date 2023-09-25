@@ -52,6 +52,3 @@ To add a BIMI record for a subdomain, follow these steps:
 1. Click **[!UICONTROL Add]** to confirm the BIMI record creation. 
 
 Once the BIMI record creation has been processed (approximatley 5 minutes), it displays in the subdomains' details screen. [Learn how to monitor TXT records for your subdomains](gs-txt-records.md#monitor)
-
-
-
