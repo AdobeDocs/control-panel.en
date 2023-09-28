@@ -46,7 +46,13 @@ To add a DMARC record for a subdomain, follow these steps:
     * Aggregate-DMARC reports provide high-level information like, for example, the number of emails that failed for a given period.
     * Forensic DMARC failure reports provide detailed information like, for example, which IP address the failed email originate from.
 
-1. By default, the selected DMARC policy is applied to all emails. You can change this parameter to apply to a specific percentage of emails only.
+1. By default, the selected DMARC policy is applied to all emails. You can change this parameter to apply to a specific percentage of emails only. 
+    
+    When you gradually deploy DMARC, you might start with a small percentage of your messages. As more messages from your domain pass authentication with receiving servers, update your record with a higher percentage, until you reach 100 percent.
+
+    >[!NOTE]
+    >
+    >If your domain uses BIMI, your DMARC policy must have a percentage value of 100%. BIMI doesn’t support DMARC policies with this value set to less than 100%.
 
     ![](assets/dmarc-add2.png)
 
