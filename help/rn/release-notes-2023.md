@@ -11,7 +11,7 @@ exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 
 * Alert Emails sender has been changed to `"alert@notifications.campaign.adobe.com"`.
 
-## May 2023 improvements {#june-2023}
+## May 2023 improvements {#may-2023}
 
 **Subdomains' SSL certificates delegation to Adobe**
 

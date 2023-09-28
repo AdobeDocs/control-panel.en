@@ -7,7 +7,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 
 This page lists the new features and improvements for Control Panel.
 
-## September 2023 {#September-2023}
+## September 2023 {#september-2023}
 
 <table>
 <thead>
