@@ -5,7 +5,13 @@ exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 ---
 # Release Notes 2023 {#rn-2023}
 
-## May 2023 improvements {#june-2023}
+## June 2023 {#june-2023}
+
+* You can now delegate the SSL certificates of already delegated subdomains to Adobe directly from the subdomains list. [Learn more](../subdomains-certificates/using/delegate-ssl.md)
+
+* Alert Emails sender has been changed to `"alert@notifications.campaign.adobe.com"`.
+
+## May 2023 improvements {#may-2023}
 
 **Subdomains' SSL certificates delegation to Adobe**
 

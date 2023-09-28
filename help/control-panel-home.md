@@ -20,13 +20,14 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 ## What's new
 
-**Delegation removal for subdomains delegated to Adobe**
+**DMARC & BIMI records management**
 
-You can now remove the delegation of a subdomain that has been delegated to Adobe, including CNAME setup. [Learn more](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+You can now add DMARC & BIMI records directly from Control Panel:
 
-**Service calendar**
+* **DMARC records** provide a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes. [Learn how to add DMARC records](subdomains-certificates/using/dmarc.md)
 
-Service calendar now provides a calendar view to keep track of important events occuring on your instances. In addition, information has been added on the notifications sent to users that subscribed to Control Panel alerts. [Learn more](../help/service-events/service-events.md)
+
+* **BIMI records** allow you to display an approved logo next to your emails in mailbox providers' inboxes to enhance brand recognition and trust. [Learn how to add BIMI records](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >

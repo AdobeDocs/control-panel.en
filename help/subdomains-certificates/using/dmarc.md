@@ -1,0 +1,70 @@
+---
+product: campaign
+solution: Campaign 
+title: Add DMARC records
+description: Learn how to add a DMARC record for a subdomain.
+feature: Control Panel
+role: Architect
+level: Experienced
+---
+
+# Add DMARC records {#dmarc}
+
+## About DMARC records {#about}
+
+Domain based Message Authentication, Reporting and Conformance (DMARC) is an email authentication protocol standard that helps organizations protect their email domains from phishing and spoofing attacks. It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+
+## Limitations & prerequisites {#limitations}
+
+* SPF and DKIM records are prerequisites for creating a DMARC record.
+* DMARC records can only be added for subdomains using Full subdomain delegation. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
+
+## Add a DMARC record for a subdomain {#add}
+
+To add a DMARC record for a subdomain, follow these steps:
+
+1. From the subdomains list, click the ellipsis button next to the desired subdomain and select **[!UICONTROL Subdomain details]**.
+
+1. Click the **[!UICONTROL Add TXT record]** button, then choose **[!UICONTROL DMARC]** from the **[!UICONTROL Record Type]** drop-down list.
+
+    ![](assets/dmarc-add.png)
+
+1. Choose the **[!UICONTROL Policy Type]** that the recipient server should follow when one of your emails fails. Available policy types are:
+
+    * None,
+    * Quarantine (spam folder placement),
+    * Reject (block the email).
+
+    If your subdomain has just been configured, we recommend setting this value to "None" until your subdomain is fully set up and your emails are sent correctly. Once everything is configured properly, you can change the Policy Type to "Quarantine" or "Reject".
+
+    >[!NOTE]
+    >
+    > BIMI record creation is not available with a DMARC record policy type set to "None".
+
+1. Fill in the email addresses that should receive the DMARC reports. When one of your emails fail, DMARC reports are automatically sent to the email address of your choice:
+
+    * Aggregate-DMARC reports provide high-level information like, for example, the number of emails that failed for a given period.
+    * Forensic DMARC failure reports provide detailed information like, for example, which IP address the failed email originate from.
+
+1. By default, the selected DMARC policy is applied to all emails. You can change this parameter to apply to a specific percentage of emails only. 
+    
+    When you gradually deploy DMARC, you might start with a small percentage of your messages. As more messages from your domain pass authentication with receiving servers, update your record with a higher percentage, until you reach 100 percent.
+
+    >[!NOTE]
+    >
+    >If your domain uses BIMI, your DMARC policy must have a percentage value of 100%. BIMI doesn’t support DMARC policies with this value set to less than 100%.
+
+    ![](assets/dmarc-add2.png)
+
+1. DMARC reports are sent every 24 hours. You can change the reports sending frequency in the **[!UICONTROL Reporting Interval]** field. Minimum authorized interval is 1 hour, while maximum authorized value is 2190 hours (i.e. 3 months).
+
+1. In the **SPF** and **[!UICONTROL DKIM Identifier Alignment]** fields, specify how strict the recipient servers should be while checking SPF and DKIM authentications for an email.
+
+    * **[!UICONTROL Relaxed]** mode: the server accepts authentication even if the email is sent from a subdomain,
+    * **[!UICONTROL Strict]** mode accepts authentication only when the sender domain matches exactly with a SPF and DKIM domain.
+
+    Let's say we are working with the `http://www.luma.com` domain. In "Relaxed" mode, emails coming from the `marketing.luma.com` subdomain will be authorized by the server, while they will be rejected in "Strict" mode.
+
+1. Click **[!UICONTROL Add]** to confirm the DMARC record creation. 
+
+Once the DMARC record creation has been processed (approximatley 5 minutes), it displays in the subdomains' details screen. [Learn how to monitor TXT records for your subdomains](gs-txt-records.md#monitor)
