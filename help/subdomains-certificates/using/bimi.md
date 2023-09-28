@@ -20,7 +20,12 @@ Brand Indicators for Message Identification (BIMI) is an industry standard that 
 
 * SPF, DKIM and DMARC records are prerequisites for creating a BIMI record.
 * BIMI records can only be added for subdomains using Full subdomain delegation. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
-* DMARC record policy type for the subdomain must be set to "Quarantine" or "Reject". BIMI record creation is not available with a DMARC policy type set to "None". [Learn how to add DMARC records](dmarc.md)
+* DMARC record prerequisites:
+
+    * Record policy type for the subdomain must be set to "Quarantine" or "Reject". BIMI record creation is not available with a DMARC policy type set to "None".
+    * The percentage of emails the DMARC policy is applied to must be 100%. BIMI doesn’t support DMARC policies with this percentage set to less than 100%.
+
+        [Learn how to configure DMARC records](dmarc.md)
 
 ## Add a BIMI record for a subdomain {#add}
 

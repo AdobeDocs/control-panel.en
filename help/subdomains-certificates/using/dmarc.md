@@ -48,6 +48,8 @@ To add a DMARC record for a subdomain, follow these steps:
 
 1. By default, the selected DMARC policy is applied to all emails. You can change this parameter to apply to a specific percentage of emails only.
 
+    ![](assets/dmarc-add2.png)
+
 1. DMARC reports are sent every 24 hours. You can change the reports sending frequency in the **[!UICONTROL Reporting Interval]** field. Minimum authorized interval is 1 hour, while maximum authorized value is 2190 hours (i.e. 3 months).
 
 1. In the **SPF** and **[!UICONTROL DKIM Identifier Alignment]** fields, specify how strict the recipient servers should be while checking SPF and DKIM authentications for an email.
