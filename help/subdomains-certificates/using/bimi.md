@@ -39,7 +39,7 @@ To add a BIMI record for a subdomain, follow these steps:
 
 1. In the **[!UICONTROL Company Logo URL]**, specify the URL of the SVG file containing your logo.
 
-1. The **[!UICONTROL Certificate URL]** field is optional. It allows you to add a Verified Mark Certificate (VMC) URL to attest that your organization is the legal owner of the logo, in order to prevent spammers and other malicious users from using brand logos they don’t own.
+1. Though **[!UICONTROL Certificate URL]** is optional, it is needed for some mailbox providers like Gmail and Apple which cover 80% of the mailbox market. Hence we recommend getting a Verified Mark Certificate (VMC) to really leverage BIMI. 
 
     +++How do I get a VMC?
 
@@ -51,6 +51,8 @@ To add a BIMI record for a subdomain, follow these steps:
 
     1. When your VMC is approved, you'll receive an entity certificate Privacy Enhanced Mail (PEM) file. Append any other intermediate certificates you get from the CA to this PEM file. Upload the PEM file (along with appended files) to your public web server, and make note of the PEM file URL. You’ll use the URL in your BIMI TXT record.
 
+    1. Once the BIMI record is visible in the subdomain details page for a particular subdomain, you can use the BIMI Inspector available [here](https://bimigroup.org/bimi-generator/) to check if the BIMI record is functioning correctly.
+ 
     Detailed information on BIMI implementation is available in the the [BIMI standard documentation](https://bimigroup.org/implementation-guide/)
     +++
 

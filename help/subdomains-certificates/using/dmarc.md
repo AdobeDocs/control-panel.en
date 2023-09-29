@@ -14,6 +14,8 @@ level: Experienced
 
 Domain based Message Authentication, Reporting and Conformance (DMARC) is an email authentication protocol standard that helps organizations protect their email domains from phishing and spoofing attacks. It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
 
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+
 ## Limitations & prerequisites {#limitations}
 
 * SPF and DKIM records are prerequisites for creating a DMARC record.
@@ -31,11 +33,17 @@ To add a DMARC record for a subdomain, follow these steps:
 
 1. Choose the **[!UICONTROL Policy Type]** that the recipient server should follow when one of your emails fails. Available policy types are:
 
-    * None,
-    * Quarantine (spam folder placement),
-    * Reject (block the email).
+    * **[!UICONTROL None]**,
+    * **[!UICONTROL Quarantine]** (spam folder placement),
+    * **[!UICONTROL Reject]** (block the email).
 
-    If your subdomain has just been configured, we recommend setting this value to "None" until your subdomain is fully set up and your emails are sent correctly. Once everything is configured properly, you can change the Policy Type to "Quarantine" or "Reject".
+    As a best practice, it is recommended to slowly roll out DMARC implementation by escalating your DMARC policy from p=none, to p=quarantine, to p=reject as you gain DMARC understanding of DMARC’s potential impact. 
+
+    * **Step 1:** Analyze the feedback you receive and use (p=none), which tells the receiver to perform no actions against messages that fail authentication, but still send email reports to the sender. Also, review and fix issues with SPF/DKIM if legitimate messages are failing authentication. 
+
+    * **Step 2:** Determine if SPF and DKIM are aligned and passing authentication for all legitimate email, and then move the policy to (p=quarantine), which tells the receiving email server to quarantine email that fails authentication (this generally means placing those messages in the spam folder). If the policy is set to quarantine its recommended that you start with a small percentage of your emails. 
+
+    * **Step 3:** Adjust policy to (p=reject). NOTE: Please use this policy with caution and determine if it is appropriate for your organization. The p= reject policy tells the receiver to completely deny (bounce) any email for the domain that fails authentication. With this policy enabled, only email that is verified as 100% authenticated by your domain will even have a chance at Inbox placement. 
 
     >[!NOTE]
     >
@@ -46,9 +54,9 @@ To add a DMARC record for a subdomain, follow these steps:
     * Aggregate-DMARC reports provide high-level information like, for example, the number of emails that failed for a given period.
     * Forensic DMARC failure reports provide detailed information like, for example, which IP address the failed email originate from.
 
-1. By default, the selected DMARC policy is applied to all emails. You can change this parameter to apply to a specific percentage of emails only. 
-    
-    When you gradually deploy DMARC, you might start with a small percentage of your messages. As more messages from your domain pass authentication with receiving servers, update your record with a higher percentage, until you reach 100 percent.
+1. If the DMARC policy is set to "None", enter a percentage that applies to 100% of emails. 
+
+    If the policy is set to "Reject" or "Quarantine", it is recommended that you start with a small percentage of your emails. As more emails from your domain pass authentication with receiving servers, update your record slowly with a higher percentage. 
 
     >[!NOTE]
     >
