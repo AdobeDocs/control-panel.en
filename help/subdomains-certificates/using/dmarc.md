@@ -1,13 +1,13 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Add DMARC records
 description: Learn how to add a DMARC record for a subdomain.
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 ---
-
 # Add DMARC records {#dmarc}
 
 ## About DMARC records {#about}

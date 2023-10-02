@@ -1,13 +1,13 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Managing TXT records
 description: Learn how to manage TXT records for domain ownership verification.
 feature: Control Panel
 role: Architect
 level: Experienced
+exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
 ---
-
 # Get started TXT records {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
