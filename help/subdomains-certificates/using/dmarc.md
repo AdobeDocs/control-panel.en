@@ -14,7 +14,7 @@ exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 
 Domain based Message Authentication, Reporting and Conformance (DMARC) is an email authentication protocol standard that helps organizations protect their email domains from phishing and spoofing attacks. It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## Limitations & prerequisites {#limitations}
 
