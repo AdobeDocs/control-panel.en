@@ -44,12 +44,12 @@ Key benefits:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Manage your instance settings</strong></a></div>
-        <br/><em>Learn how to manage your instances settings (Campaign v7/v8 only).</em>
+        <em>Learn how to manage your instances settings (Campaign v7/v8 only).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitor performance</strong></a></div>
-        <br/><em>Learn how to monitor the utilization of key resources on your instances.</em>
+        <em>Learn how to monitor the utilization of key resources on your instances.</em>
     </td>
 </tr>
 </table>
