@@ -35,29 +35,23 @@ For more on active profiles, refer to [Campaign Standard](https://experienceleag
 >title="About active profiles monitoring"
 >abstract="In this tab, you can get real-time information on the latest and historical active profiles usage and evolution for each in your Campaign instances and your organization."
 
-To monitor your active profile usage, navigate to the **[!UICONTROL Performance Monitoring]** card > **[!UICONTROL Active Profiles]** tab, and select the desired instance from the **[!UICONTROL Instance List]**.
+Information related to active profiles usage is updated in Control Panel based on dedicated [!DNL Campaign] technical workflows which run everyday on your instances:
+* The ["Billing"](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) workflow for Campaign Standard,
+* The ["Number of active billing profiles"](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow for Campaign v7/v8.
+
+
+To monitor your active profile usage in Control Panel, navigate to the **[!UICONTROL Performance Monitoring]** card > **[!UICONTROL Active Profiles]** tab, and select the desired instance from the **[!UICONTROL Instance List]**.
 
 Information displays regarding your usage of active profiles. 
 
 ![](assets/active-profiles-graph.png)
 
-The upper area displays:
-* The number of active profiles used in the selected instance, as well as the last time the billing workflow was run on your instance,
-* The number of active profiles used in your organization in all your instances,
+The upper section displays the following information:
 
-    >[!NOTE]
-    >
-    >This section only displays if you have multiple instances for your organization.
+* The count of active profiles currently used in the selected instance, along with the timestamp of the most recent billing workflow execution for your instance.
 
-* The number of active profiles your organization is entitled to.
+* The total count of active profiles used across your organization within all instances. This section is visible only if you have multiple instances associated with your organization.
 
-The lower area provides a graphical representation of active profiles usage over the last 30 days. You can change the displayed period of time to 1 year using the available filters in the upper-right corner.
+* The total count of active profiles allocated to your organization.
 
-Hovering over one of the graph bars allows you to get the exact number of Active profiles used on the selected period.
-
->[!NOTE]
->
->Active profiles are counted based on dedicated technical workflows which run everyday on your instances:
->
->* The ["Billing"](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) workflow for Campaign Standard,
->* The ["Number of active billing profiles"](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow for Campaign v7/v8.
+The lower section provides a visual representation of active profile usage over the past 30 days. You can change this time frame to 1 year using the filter located in the upper-right corner. Hovering over the graph allows you to get the exact number of Active profiles used on the selected period.
