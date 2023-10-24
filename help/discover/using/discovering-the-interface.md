@@ -35,3 +35,20 @@ The **[!UICONTROL Open]** button allows you to access directly the Control Panel
 The **[!UICONTROL Help Resources]** section provides useful documentation to help you in your use of the Control Panel and Campaign products. Do not hesitate to explore them.
 
 ![](assets/helpresources.png)
+
+## Supported languages {#languages}
+
+The Control Panel user interface is designed to display in the language that matches your browser's configuration. In the event that your browser is set to a language that Control Panel does not support, the default language used will be English (United States).
+
+Below is a list of languages currently supported by Control Panel:
+
+* English (United States)
+* German
+* French
+* Japanase
+* Italian (Italy)
+* Spanish (Spain)
+* Korean
+* Portuguese (Brazil)
+* Chinese (Simplified)
+* Chinese (Traditional)
