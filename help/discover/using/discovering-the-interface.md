@@ -38,7 +38,9 @@ The **[!UICONTROL Help Resources]** section provides useful documentation to hel
 
 ## Supported languages {#languages}
 
-The Control Panel user interface is designed to display in the language that matches your browser's configuration. In the event that your browser is set to a language that Control Panel does not support, the default language used will be English (United States).
+The Control Panel user interface is designed to display in the language that matches your browser's configuration.
+
+If your browser is set to a language that is not supported, Control Panel proceeds to the next language in your browser's language list until it locates a supported option. If none of the browser's languages are supported by Control Panel, the default language used will be English (United States).
 
 Below is a list of languages currently supported by Control Panel:
 
