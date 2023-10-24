@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 ---
-# Active profiles monitoring {#active-profiles-monitoring}
+# Monitor active profiles {#active-profiles-monitoring}
 
 ## About active profiles {#about-active-profiles}
 
@@ -28,25 +28,32 @@ Profiles are considered active if they have been targeted or communicated with i
 
 For more on active profiles, refer to [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) and [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentations.
 
-## Monitoring active profiles {#monitoring-active-profiles}
+## Monitor your active profiles usage {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="About active profiles monitoring"
->abstract="In this tab, you can get real-time information on the latest and historical active profiles usage and evolution for each of your Campaign instances."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="About performance monitoring"
+>abstract="In this tab, you can get real-time information on the latest and historical active profiles usage and evolution for each in your Campaign instances and your organization."
 
-Control Panel allows you to monitor the active profiles usage for each of your Campaign instances.
+To monitor your active profile usage, navigate to the **[!UICONTROL Performance Monitoring]** card > **[!UICONTROL Active Profiles]** tab, and select the desired instance from the **[!UICONTROL Instance List]**.
 
-To do this, follow these steps:
-
-1. Open the **[!UICONTROL Performance Monitoring]** card, then select the **[!UICONTROL Active Profiles]** tab.
-
-1. Select the desired instance from the **[!UICONTROL Instance List]**.
-
-1. The number of active profiles used by the instance displays, as well as the last time the billing workflow was run on your instance.
+Information displays regarding your usage of active profiles. 
 
 ![](assets/active-profiles-graph.png)
+
+The upper area displays:
+* The number of active profiles used in the selected instance, as well as the last time the billing workflow was run on your instance,
+* The number of active profiles used in your organization in all your instances,
+
+    >[!NOTE]
+    >
+    >This section only displays if you have multiple instances for your organization.
+
+* The number of active profiles your organization is entitled to.
+
+The lower area provides a graphical representation of active profiles usage over the last 30 days. You can change the displayed period of time to 1 year using the available filters in the upper-right corner.
+
+Hovering over one of the graph bars allows you to get the exact number of Active profiles used on the selected period.
 
 >[!NOTE]
 >
@@ -54,7 +61,3 @@ To do this, follow these steps:
 >
 >* The ["Billing"](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) workflow for Campaign Standard,
 >* The ["Number of active billing profiles"](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow for Campaign v7/v8.
-
-The lower area provides a graphical representation of active profiles usage over the last 30 days. You can change the displayed period of time to 1 year using the available filters in the upper-right corner.
-
-Hovering over one of the graph bars allows you to get the exact number of Active profiles used on the selected period.
