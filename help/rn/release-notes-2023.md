@@ -9,7 +9,7 @@ exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 
 **User interface**
 
-* Control Panel is now available in additional languages. [Learn more]()
+* Control Panel is now available in additional languages. [Learn more](../discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **Active profiles monitoring**
 
