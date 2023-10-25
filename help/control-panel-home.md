@@ -22,15 +22,15 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 **User interface**
 
-* Control Panel is now available in additional languages. [Learn more](../discover/using/discovering-the-interface.md#supported-languages-languages)
+* Control Panel is now available in additional languages. [Learn more](discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **Active profiles monitoring**
 
-* You can now monitor the number of active profiles you are entitled to for your organization, and the total count of profiles used in your organization within all instances, if you are using multiple instances. [Learn more](../performance-monitoring/using/active-profiles-monitoring.md)
+* You can now monitor the number of active profiles you are entitled to for your organization, and the total count of profiles used in your organization within all instances, if you are using multiple instances. [Learn more](performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC records**
 
-* Multiple email addresses can now receive aggregate report and failure report emails. [Learn more](../subdomains-certificates/using/dmarc.md)
+* Multiple email addresses can now receive aggregate report and failure report emails. [Learn more](subdomains-certificates/using/dmarc.md)
 * Changes have been made if both DMARC and BIMI records exist for a subdomain:
 
     * DMARC records cannot deleted. If you want to delete one, you need to delete the BIMI record first.
