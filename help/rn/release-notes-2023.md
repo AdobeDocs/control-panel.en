@@ -5,6 +5,24 @@ exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 ---
 # Release Notes 2023 {#rn-2023}
 
+## October 2023 {#october-2023}
+
+**User interface**
+
+* Control Panel is now available in additional languages. [Learn more]()
+
+**Active profiles monitoring**
+
+* You can now monitor the number of active profiles you are entitled to for your organization, and the total count of profiles used in your organization within all instances, if you are using multiple instances. [Learn more](../performance-monitoring/using/active-profiles-monitoring.md)
+
+**DMARC records**
+
+* Multiple email addresses can now receive aggregate report and failure report emails. [Learn more](../subdomains-certificates/using/dmarc.md)
+* Changes have been made if both DMARC and BIMI records exist for a subdomain:
+
+    * DMARC records cannot deleted. If you want to delete one, you need to delete the BIMI record first.
+    * DMARC records can be edited, but the policy downgrade to "None" is not allowed and its percentage value must be 100.
+
 ## June 2023 {#june-2023}
 
 * You can now delegate the SSL certificates of already delegated subdomains to Adobe directly from the subdomains list. [Learn more](../subdomains-certificates/using/delegate-ssl.md)
