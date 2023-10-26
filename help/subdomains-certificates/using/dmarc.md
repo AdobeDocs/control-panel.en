@@ -20,6 +20,9 @@ Detailed information on DMARC implementation is available in [Adobe Deliverabi
 
 * SPF and DKIM records are prerequisites for creating a DMARC record.
 * DMARC records can only be added for subdomains using Full subdomain delegation. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
+* If both DMARC and BIMI records exist for a subdomain:
+    * DMARC records cannot be deleted. If you want to delete a DMARC record, delete the BIMI record first.
+    * DMARC records can be edited, but the DMARC policy downgrade to "None" is not allowed and the percentage value must be set to "100".
 
 ## Add a DMARC record for a subdomain {#add}
 
@@ -49,7 +52,7 @@ To add a DMARC record for a subdomain, follow these steps:
     >
     > BIMI record creation is not available with a DMARC record policy type set to "None".
 
-1. Fill in the email addresses that should receive the DMARC reports. When one of your emails fail, DMARC reports are automatically sent to the email address of your choice:
+1. Fill in the email addresses that should receive the DMARC reports. You can add multiple email addresses, separated by commas. When one of your emails fail, DMARC reports are automatically sent to the email address of your choice:
 
     * Aggregate-DMARC reports provide high-level information like, for example, the number of emails that failed for a given period.
     * Forensic DMARC failure reports provide detailed information like, for example, which IP address the failed email originate from.

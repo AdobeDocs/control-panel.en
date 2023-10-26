@@ -5,6 +5,26 @@ exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 ---
 # Release Notes 2023 {#rn-2023}
 
+## September 2023 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>DMARC & BIMI records management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>You can now add DMARC & BIMI records directly from Control Panel:
+
+<ul><li><strong>DMARC records</strong> provide a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes. <a href="../subdomains-certificates/using/dmarc.md">Learn how to add DMARC records</a></li>
+<li><strong>BIMI records</strong> allow you to display an approved logo next to your emails in mailbox providers' inboxes to enhance brand recognition and trust. <a href="../subdomains-certificates/using/bimi.md">Learn how to add BIMI records</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## June 2023 {#june-2023}
 
 * You can now delegate the SSL certificates of already delegated subdomains to Adobe directly from the subdomains list. [Learn more](../subdomains-certificates/using/delegate-ssl.md)
