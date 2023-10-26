@@ -50,7 +50,11 @@ The upper section displays the following information:
 
 * The count of active profiles currently used in the selected instance, along with the timestamp of the most recent billing workflow execution for your instance.
 
-* The total count of active profiles used across your organization within all instances. This section is visible only if you have multiple instances associated with your organization.
+* The total count of active profiles used across your organization within all instances.
+
+    >[!NOTE]
+    >
+    >This section is visible only if you have multiple instances associated with your organization.
 
 * The total count of active profiles allocated to your organization.
 
