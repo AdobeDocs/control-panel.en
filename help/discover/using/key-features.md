@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign 
 title: The Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign Standard and/or Classic.
 description: Learn how to access the Control Panel
-feature: Control Panel
-role: Architect
-level: Beginner
+feature: Control Panel,Overview
+role: Admin
+level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 ---
 # Key features {#key-features}

@@ -4,7 +4,7 @@ solution: Campaign
 title: Control Panel FAQ
 description: Common questions related to the Control Panel
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 ---

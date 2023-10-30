@@ -4,7 +4,7 @@ solution: Campaign
 title: Common questions
 description: Learn more about common questions related to SFTP management
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50
 ---

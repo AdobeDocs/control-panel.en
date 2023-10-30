@@ -4,7 +4,7 @@ solution: Campaign
 title: Discovering Control Panel interface
 description: Learn more about the Control Panel interface
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 ---

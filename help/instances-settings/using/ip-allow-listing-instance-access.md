@@ -4,7 +4,7 @@ solution: Campaign
 title: IP allow listing
 description: Learn how to add IP addresses to the allow list in the Control Panel for instance access
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 ---

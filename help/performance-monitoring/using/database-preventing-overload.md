@@ -4,7 +4,7 @@ solution: Campaign
 title: Preventing database overload
 description: Access resources from Campaign documentations to help you prevent database overload on your instances.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
 ---

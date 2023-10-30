@@ -4,7 +4,7 @@ solution: Campaign
 title: IP range allow listing
 description: Learn how to add IP ranges to the allow list for SFTP servers access
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 ---

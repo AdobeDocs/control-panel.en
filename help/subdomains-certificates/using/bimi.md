@@ -4,7 +4,7 @@ solution: Campaign
 title: Add BIMI records
 description: Learn how to add a BIMI record for a subdomain.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 ---

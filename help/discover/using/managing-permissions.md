@@ -4,7 +4,7 @@ solution: Campaign
 title: Managing permissions to the Control Panel
 description: Learn how to manage permissions to the Control Panel
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 ---

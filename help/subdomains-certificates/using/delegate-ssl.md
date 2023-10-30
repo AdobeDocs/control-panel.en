@@ -4,7 +4,7 @@ solution: Campaign
 title: Delegate subdomains' SSL certificates to Adobe
 description: Learn how to delegate your subdomains' SSL certificates to Adobe
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 ---

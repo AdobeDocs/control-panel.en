@@ -4,8 +4,8 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Guide
 feature: Control Panel
-role: Architect
-level: Beginner
+role: Admin
+level: Experienced
 ---
 
 # Control Panel Guide {#using}

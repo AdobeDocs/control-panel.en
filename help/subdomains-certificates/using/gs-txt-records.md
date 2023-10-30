@@ -4,7 +4,7 @@ solution: Campaign
 title: Managing TXT records
 description: Learn how to manage TXT records for domain ownership verification.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
 ---

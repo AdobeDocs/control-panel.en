@@ -4,7 +4,7 @@ solution: Campaign
 title: Identify key contacts and events
 description: Learn how to identify events occurring on your instances and key contacts at Adobe.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 ---

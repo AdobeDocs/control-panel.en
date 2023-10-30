@@ -4,7 +4,7 @@ solution: Campaign
 title: Storage overview
 description: Learn how to monitor in the Control Panel the different Campaign resources that are consuming database space on your instances.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 ---

@@ -2,8 +2,8 @@
 title: Product documentation
 description: Documentation for Control Panel.
 feature: Control Panel
-role: Architect
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 ---
 # Help Center {#control-panel-documentation}
