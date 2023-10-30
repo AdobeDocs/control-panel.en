@@ -24,8 +24,9 @@ level: Beginner
   + [Access Control Panel](discover/using/accessing-control-panel.md)
   + [Manage permissions to Control Panel](discover/using/managing-permissions.md)
   + [Discover Control Panel interface](discover/using/discovering-the-interface.md)
-+ [Monitor key contacts and events](service-events/service-events.md)
-+ [Email alerting](performance-monitoring/using/email-alerting.md)
++ Events & email alerts {#alerts-events}
+  + [Monitor key contacts and events](service-events/service-events.md)
+  + [Email alerting](performance-monitoring/using/email-alerting.md)
 + SFTP management {#sftp-management}
   + [About SFTP management](sftp/using/about-sftp-management.md)
   + [Manage SFTP storage](sftp/using/sftp-storage-management.md)
