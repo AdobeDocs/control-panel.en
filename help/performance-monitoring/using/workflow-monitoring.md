@@ -1,7 +1,7 @@
 ---
 title: Monitor workflows
 description: Learn how to monitor specific workflow parameters that may require attention to avoid any issues on your instances.
-feature: Control Panel
+feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733

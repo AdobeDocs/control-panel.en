@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Email alerting
 description: Learn how to receive email notifications in case of issues with your Campaign instances
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0

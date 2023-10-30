@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Renewing a subdomain's SSL certificate
 description: Learn how to renew your subdomains' SSL certificates
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd

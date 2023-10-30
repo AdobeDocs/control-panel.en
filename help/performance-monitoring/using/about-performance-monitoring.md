@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: About performance monitoring
 description: Learn how to monitor your instances performance in the Control Panel
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a

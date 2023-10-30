@@ -1,6 +1,9 @@
 ---
 title: Latest Release
 description: This page lists all the new features and improvements for Control Panel
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 ---
 # Latest Release {#control-panel-releases}

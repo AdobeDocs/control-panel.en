@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Setting up a new subdomain
 description: Learn how to set up a new subdomain for your campaign instances
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e

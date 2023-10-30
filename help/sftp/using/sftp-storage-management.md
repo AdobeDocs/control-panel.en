@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: SFTP storage management
 description: Learn how to monitor and manage your SFTP server's storage
-feature: Control Panel
+feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Database utilization
 description: Learn how to monitor your Campaign database utilization in the Control Panel.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 5ecb4f0b-7f77-4856-9704-e1f317f3239d

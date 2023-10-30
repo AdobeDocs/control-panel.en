@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Instance details
 description: Learn how to monitor your instance details in the Control Panel
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048

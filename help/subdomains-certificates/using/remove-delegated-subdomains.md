@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Remove delegation of subdomains
 description: Learn how to remove the delegation of subdomains to Adobe.
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c

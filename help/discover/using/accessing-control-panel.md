@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Accessing Control Panel
 description: Learn how to access the Control Panel
-feature: Control Panel
+feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67

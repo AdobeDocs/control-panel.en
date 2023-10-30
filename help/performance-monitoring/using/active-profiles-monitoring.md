@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Active profiles monitoring
 description: Learn how to get real-time information on the latest and historical Active Profiles usage and evolution for each of your Campaign instances.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5

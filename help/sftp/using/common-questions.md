@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Common questions
 description: Learn more about common questions related to SFTP management
-feature: Control Panel
+feature: Control Panel, SFTP Management
 role: Admin
 level: Intermediate
 exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50

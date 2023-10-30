@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Subdomains branding
 description: Learn more about subdomains branding
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795

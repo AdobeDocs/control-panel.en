@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Monitoring subdomains' SSL certificates
 description: Learn how to monitor your subdomains' SSL certificates
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2

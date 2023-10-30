@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Logging into your SFTP server
 description: Learn how to log into your SFTP server
-feature: Control Panel
+feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3

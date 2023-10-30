@@ -1,6 +1,9 @@
 ---
 title: Release Notes 2019
 description: This page lists all 2019 releases of Control Panel.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 ---
 # Release Notes 2019 {#rn-2019}

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Add Google Site verification records for a subdomain
 description: Learn how to add a Google Site Verification record for a subdomain for domain ownership verification.
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156

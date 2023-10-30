@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Discovering Control Panel interface
 description: Learn more about the Control Panel interface
-feature: Control Panel
+feature: Control Panel, Overview
 role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign 
 title: Monitoring your subdomains
 description: Monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8

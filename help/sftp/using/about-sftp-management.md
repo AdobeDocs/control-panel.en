@@ -4,7 +4,7 @@ solution: Campaign
 title: About SFTP management
 description: Learn more about SFTP management in the Control Panel
 testing: SSECD-836 2
-feature: Control Panel
+feature: Control Panel, SFTP Management
 role: Admin
 level: Intermediate
 exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
