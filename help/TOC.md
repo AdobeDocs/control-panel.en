@@ -24,6 +24,7 @@ level: Experienced
   + [Access Control Panel](discover/using/accessing-control-panel.md)
   + [Manage permissions to Control Panel](discover/using/managing-permissions.md)
   + [Discover Control Panel interface](discover/using/discovering-the-interface.md)
+  + [FAQ](faq.md)
 + Events & email alerts {#alerts-events}
   + [Monitor key contacts and events](service-events/service-events.md)
   + [Email alerting](performance-monitoring/using/email-alerting.md)
@@ -67,4 +68,3 @@ level: Experienced
   + [Instance details](instances-settings/using/instance-details.md)
   + [GPG Keys management](instances-settings/using/gpg-keys-management.md)
   + [Add MID/RT instances (hybrid model)](instances-settings/using/external-accounts.md)
-+ [FAQ](faq.md)
