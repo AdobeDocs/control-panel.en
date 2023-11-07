@@ -35,11 +35,6 @@ For more on active profiles, refer to [Campaign Standard](https://experienceleag
 >title="About active profiles monitoring"
 >abstract="In this tab, you can get real-time information on the latest and historical active profiles usage and evolution for each in your Campaign instances and your organization."
 
-Information related to active profiles usage is updated in Control Panel based on dedicated [!DNL Campaign] technical workflows which run everyday on your instances:
-* The ["Billing"](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) workflow for Campaign Standard,
-* The ["Number of active billing profiles"](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow for Campaign v7/v8.
-
-
 To monitor your active profile usage in Control Panel, navigate to the **[!UICONTROL Performance Monitoring]** card > **[!UICONTROL Active Profiles]** tab, and select the desired instance from the **[!UICONTROL Instance List]**.
 
 Information displays regarding your usage of active profiles. 
@@ -59,3 +54,10 @@ The upper section displays the following information:
 * The total count of active profiles allocated to your organization.
 
 The lower section provides a visual representation of active profile usage over the past 30 days. You can change this time frame to 1 year using the filter located in the upper-right corner. Hovering over the graph allows you to get the exact number of Active profiles used on the selected period.
+
+Information related to active profiles usage is updated in Control Panel based on dedicated [!DNL Campaign] "Billing" technical workflows which run at regular interval on your instances.
+
+|Campaign version|Technical workflow|Runs|
+|  ---  |  ---  |  ---  |
+|Campaign Standard|[Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html)|Daily|
+|Campaign v7/v8|[Billing](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html)|Monthly|
