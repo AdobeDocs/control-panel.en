@@ -24,7 +24,7 @@ Profiles are considered active if they have been targeted or communicated with i
 
 >[!NOTE]
 >
->Facebook and Twitter channels are not taken into account.
+>Facebook and X (formerly known as Twitter) channels are not taken into account.
 
 For more on active profiles, refer to [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) and [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentations.
 
