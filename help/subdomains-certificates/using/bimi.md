@@ -14,6 +14,8 @@ exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 
 Brand Indicators for Message Identification (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in mailbox providers' inboxes to enhance brand recognition and trust. It helps prevent email spoofing and phishing by verifying the sender's identity through DMARC authentication, making it more difficult for malicious actors to impersonate legitimate brands in emails.
 
+You can have multiple logos for a given subdomain. To do this, you need to setup one BIMI record for each logo and assign a BIMI selector to each record. [Learn how to add a BIMI record](#add)
+
 Detailed information on BIMI implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
@@ -38,6 +40,8 @@ To add a BIMI record for a subdomain, follow these steps:
 1. Click the **[!UICONTROL Add TXT record]** button, then choose **[!UICONTROL BIMI]** from the **[!UICONTROL Record type]** drop-down list.
 
     ![](assets/bimi-add.png)
+
+1. The **[!UICONTROL Selector]** field allows you to specify a BIMI selector for the record. A BIMI selector is a unique identifier that you can assign to a BIMI record. This allows you to define multiple logos for a given subdomain.
 
 1. In the **[!UICONTROL Company Logo URL]**, specify the URL of the SVG file containing your logo.
 
