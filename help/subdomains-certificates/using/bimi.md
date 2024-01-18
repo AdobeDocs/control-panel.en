@@ -41,7 +41,7 @@ To add a BIMI record for a subdomain, follow these steps:
 
     ![](assets/bimi-add.png)
 
-1. The **[!UICONTROL Selector]** field allows you to specify a BIMI selector for the record. A BIMI selector is a unique identifier that you can assign to a record. This allows you to define multiple logos for a given subdomain.
+1. The **[!UICONTROL Selector]** field allows you to specify a BIMI selector for the record. A BIMI selector is a unique identifier that you can assign to a BIMI record. This allows you to define multiple logos for a given subdomain.
 
 1. In the **[!UICONTROL Company Logo URL]**, specify the URL of the SVG file containing your logo.
 
