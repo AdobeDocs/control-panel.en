@@ -20,6 +20,9 @@ Detailed information on DMARC implementation is available in [Adobe Deliverabi
 
 * SPF and DKIM records are prerequisites for creating a DMARC record.
 * DMARC records can only be added for subdomains using Full subdomain delegation. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
+
+    To establish a DMARC record on a CNAME-based subdomain, you can configure the DMARC record on its parent domain. This ensures that all associated subdomains inherit the DMARC record parameters, even when delegated through CNAMEs.
+
 * If both DMARC and BIMI records exist for a subdomain:
     * DMARC records cannot be deleted. If you want to delete a DMARC record, delete the BIMI record first.
     * DMARC records can be edited, but the DMARC policy downgrade to "None" is not allowed and the percentage value must be set to "100".
