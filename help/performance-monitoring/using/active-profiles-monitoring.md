@@ -60,4 +60,5 @@ Information related to active profiles usage is updated in Control Panel based o
 |Campaign version|Technical workflow|Runs|
 |  ---  |  ---  |  ---  |
 |Campaign Standard|[Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html)|Daily|
-|Campaign v7/v8|[Billing](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html)|Monthly|
+|Campaign v7/v8|[Billing](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)|Monthly|
+  
