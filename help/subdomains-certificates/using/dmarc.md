@@ -60,6 +60,10 @@ To add a DMARC record for a subdomain, follow these steps:
     * Aggregate-DMARC reports provide high-level information like, for example, the number of emails that failed for a given period.
     * Forensic DMARC failure reports provide detailed information like, for example, which IP address the failed email originate from.
 
+    >[!CAUTION] 
+    >
+    >If the email addresses you are adding to receive reports are outside the domain for which the DMARC record is created,you need to authorize their external domain to specify to the DNS that you own this domain. To do this, follow the steps detailed in the [dmarc.org documentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+
 1. If the DMARC policy is set to "None", enter a percentage that applies to 100% of emails. 
 
     If the policy is set to "Reject" or "Quarantine", it is recommended that you start with a small percentage of your emails. As more emails from your domain pass authentication with receiving servers, update your record slowly with a higher percentage. 
