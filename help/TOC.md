@@ -14,11 +14,11 @@ level: Experienced
 + Release notes {#release-notes}
   + [Latest Release](rn/release-notes.md)
   + Previous Releases {#previous-releases}
-    + [Release Notes 2023](rn/release-notes-2023.md)
-    + [Release Notes 2022](rn/release-notes-2022.md)
-    + [Release Notes 2021](rn/release-notes-2021.md)
-    + [Release Notes 2020](rn/release-notes-2020.md)
-    + [Release Notes 2019](rn/release-notes-2019.md)
+    + [2023](rn/release-notes-2023.md)
+    + [2022](rn/release-notes-2022.md)
+    + [2021](rn/release-notes-2021.md)
+    + [2020](rn/release-notes-2020.md)
+    + [2019](rn/release-notes-2019.md)
 + Discover Control Panel {#discover-control-panel}
   + [Key features](discover/using/key-features.md)
   + [Access Control Panel](discover/using/accessing-control-panel.md)

@@ -4,6 +4,8 @@ description: This page lists all 2020 releases of Control Panel.
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: yes
+hidefromtoc: yes
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 ---
 # Release Notes 2020 {#rn-2020}
@@ -157,7 +159,7 @@ exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 
 ## January 2020 {#january-2020}
 
-We’ve added new capabilities for Admin users to configure subdomains and renew SSL certificates from Control Panel.
+We've added new capabilities for Admin users to configure subdomains and renew SSL certificates from Control Panel.
 
 For more information, refer to these pages:
 * [Setting up a new subdomain](../subdomains-certificates/using/setting-up-new-subdomain.md)

@@ -4,6 +4,8 @@ description: This page lists all 2021 releases of Control Panel.
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: yes
+hidefromtoc: yes
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 ---
 # Release Notes 2021 {#rn-2021}
