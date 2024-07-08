@@ -71,3 +71,4 @@ This field allows you to assign an operator to a workflow. If the workflow fails
 The value "1" indicates that the worklow has the **Severity** field set to "Production" and that no supervisor group has been assigned to the workflow.
 
 ![](assets/wkf-monitoring-supervisors.png)
+
