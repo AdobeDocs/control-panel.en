@@ -72,19 +72,19 @@ In order for you to manage settings for your instance, we want to ensure that yo
 
 ### What if I have multiple organization IDs?
 
-You may have more than one organization ID if you have access to multiple Adobe solutions. In this case, the correct organization ID you should be using is the one you see under your Adobe Campaign instance.
+Having one organization ID between Analytics and Campaign is a requirement if you plan to integrate the solutions to take advantage of complex use cases such as shopping cart abandonment (for Adobe Analytics + Adobe Campaign). You may have more than one organization ID if you have access to multiple Adobe solutions. In this case, the correct organization ID you should be using is the one you see under your Adobe Campaign instance.
 
+<!--
 >[!NOTE]
 >
->If you have the same organization ID for Adobe Campaign and Adobe Analytics, this is great. Having one organization ID between Analytics and Campaign is a requirement if you plan to integrate the solutions to take advantage of complex use cases such as shopping cart abandonment (for AA + AC).
->
 >If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### How can I know that my Adobe Campaign instance is hosted on AWS or not?{#hosted-aws}
 
 To check if your instance is hosted on AWS, follow these steps:
 
-1. Retrieve your login URL. It is the URL that you use to login to your Campaign instance, it mostly ends with ".campaign.adobe.com" or“.neolane.net”.
+1. Retrieve your login URL. It is the URL that you use to login to your Campaign instance, it mostly ends with ".campaign.adobe.com" or".neolane.net".
 1. Open the terminal, then execute a **[!DNL nslookup]** operation on your login URL.
 
     `doe-macOS% nslookup myinstance.campaign.adobe.com`
