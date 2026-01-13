@@ -44,9 +44,11 @@ The Control Panel is available to all Admin users of a Campaign instance. Follow
 
     ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-    >[!NOTE]
+    >[!IMPORTANT]
     >
-    >By default, Admin users belong to the "Administrators" Product Profile. According to your organization configuration, the Product Profile can be named differently ("admin", "admins", etc.).
+    >By default, the Control Panel is accessible to Admin users belonging to the "Administrators" Product Profile. According to your organization configuration, the Product Profile can be named differently ("admin", "admins", "approval admin", etc.). **Any Product Profile containing the word "admin" in its name will automatically grant access to Control Panel.** 
+    >
+    >Carefully review your Product Profile naming conventions in the Admin Console to ensure only authorized users have Control Panel access, as it allows making significant changes to Campaign instances.
 
 1. The list of Admin users displays. Click the **[!UICONTROL Add User]** button to add the desired user.
 

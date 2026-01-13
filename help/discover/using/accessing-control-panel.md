@@ -14,6 +14,12 @@ The Control Panel is available directly from the Experience Cloud, or from the p
 
 It is accessible to **Admin users** only. For more on how to assign users to the Administrators group, refer to [this section](../../discover/using/managing-permissions.md).
 
+>[!IMPORTANT]
+>
+>By default, the Control Panel is accessible to Admin users belonging to the "Administrators" Product Profile. According to your organization configuration, the Product Profile can be named differently ("admin", "admins", "approval admin", etc.). **Any Product Profile containing the word "admin" in its name will automatically grant access to Control Panel.** 
+>
+>Carefully review your Product Profile naming to ensure only authorized users have Control Panel access.
+
 ## Access from the Experience Cloud Platform {#access-experience-cloud-platform}
 
 To access the Control Panel from the Adobe Experience Cloud Platform, follow the steps below.
