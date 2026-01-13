@@ -96,7 +96,8 @@ To fully delegate a subdomain to Adobe Campaign, follow the steps below.
 
 1. Enter the subdomain that you created into your hosting solution, then click **[!UICONTROL Submit]**.
 
-    Make sure you fill in the **full name** of the subdomain to delegate. For example, to delegate the "usoffers.email.weretail.com" subdomain, type "usoffers.email.weretail.com".
+    Make sure you fill in the **full name** of the subdomain to delegate. For example, to delegate the “email.weretail.com” subdomain, type “email.weretail.com”.
+
 
 1. To delegate the generation of the subdomain's SSL certificate to Adobe, enable the **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** option. [Learn more on SSL certificates delegation](delegate-ssl.md)
 

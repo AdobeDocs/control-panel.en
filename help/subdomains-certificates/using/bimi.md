@@ -12,9 +12,7 @@ exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 
 ## About BIMI records {#about}
 
-Brand Indicators for Message Identification (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in mailbox providers' inboxes to enhance brand recognition and trust. It helps prevent email spoofing and phishing by verifying the sender's identity through DMARC authentication, making it more difficult for malicious actors to impersonate legitimate brands in emails.
-
-You can have multiple logos for a given subdomain. To do this, you need to setup one BIMI record for each logo and assign a BIMI selector to each record. [Learn how to add a BIMI record](#add)
+Brand Indicators for Message Identification (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in mailbox providers’ inboxes to enhance brand recognition and trust. 
 
 Detailed information on BIMI implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
@@ -23,10 +21,12 @@ Detailed information on BIMI implementation is available in [Adobe Deliverabilit
 ## Limitations & prerequisites {#limitations}
 
 * SPF, DKIM and DMARC records are prerequisites for creating a BIMI record.
-* BIMI records can only be added for subdomains using Full subdomain delegation. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
+
+* BIMI record needs to be published in DNS, for fully delegated domain, this is possible through the Control Panel. [Learn more on subdomains configuration methods](subdomains-branding.md#subdomain-delegation-methods)
+
 * DMARC record prerequisites:
 
-    * Record policy type for the subdomain must be set to "Quarantine" or "Reject". BIMI record creation is not available with a DMARC policy type set to "None".
+    * Record policy type for the organizational domain must be set to "Quarantine" or "Reject". BIMI record creation is not available with a DMARC policy type set to "None".
     * The percentage of emails the DMARC policy is applied to must be 100%. BIMI doesn’t support DMARC policies with this percentage set to less than 100%.
 
         [Learn how to configure DMARC records](dmarc.md)
@@ -41,11 +41,11 @@ To add a BIMI record for a subdomain, follow these steps:
 
     ![](assets/bimi-add.png)
 
-1. The **[!UICONTROL Selector]** field allows you to specify a BIMI selector for the record. A BIMI selector is a unique identifier that you can assign to a BIMI record. This allows you to define multiple logos for a given subdomain.
+1. The **[!UICONTROL Selector]** field allows you to specify a BIMI selector for the record. A BIMI selector is a unique identifier that you can assign to a BIMI record. This allows you to define multiple logos for a given subdomain. This is not supported by mailbox providers at the moment. 
 
 1. In the **[!UICONTROL Company Logo URL]**, specify the URL of the SVG file containing your logo.
 
-1. Though **[!UICONTROL Certificate URL]** is optional, it is needed for some mailbox providers like Gmail and Apple which cover 80% of the mailbox market. Hence we recommend getting a Verified Mark Certificate (VMC) to really leverage BIMI. 
+1. Though **[!UICONTROL Certificate URL]** is optional, it is needed for some mailbox providers like Gmail and Apple. Hence we recommend getting a Verified Mark Certificate (VMC) to really leverage BIMI. 
 
     +++How do I get a VMC?
 
