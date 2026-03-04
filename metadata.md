@@ -3,6 +3,8 @@ cloud: Experience Cloud
 product: adobe campaign
 solution: Campaign 
 feature-set: Campaign
+landing-page-name: campaign
+landing-page-breadcrumb-title: Campaign
 git-repo: https://github.com/AdobeDocs/control-panel.en
 index: yes
 feature: Control Panel
