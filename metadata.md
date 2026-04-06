@@ -6,7 +6,7 @@ feature-set: Campaign
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
 git-repo: https://github.com/AdobeDocs/control-panel.en
-index: yes
+index: true
 feature: Control Panel
 role: Admin
 level: Experienced
