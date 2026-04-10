@@ -5,7 +5,6 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 hide: yes
-hidefromtoc: yes
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 ---
 # Release Notes 2020 {#rn-2020}
