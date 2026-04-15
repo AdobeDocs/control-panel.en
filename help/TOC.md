@@ -16,7 +16,7 @@ level: Experienced
   + Previous Releases {#previous-releases}
     + [2023](rn/release-notes-2023.md)
     + [2022](rn/release-notes-2022.md)
-    + {hide-from-toc} [2021](rn/release-notes-2021.md)
+    + {hide-from-toc} [2021 - hidden](rn/release-notes-2021.md)
     + {hide-from-toc} [2020](rn/release-notes-2020.md)
     + {hide-from-toc} [2019](rn/release-notes-2019.md)
 + Discover Control Panel {#discover-control-panel}
