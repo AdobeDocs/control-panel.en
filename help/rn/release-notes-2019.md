@@ -6,6 +6,13 @@ role: Admin
 level: Experienced
 hide: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
+TQID: https://experienceleague.adobe.com/sZ7Aa1q9RMGlTbATRYM0AXlUe8vNwlM0Dl4E9LGuu8E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Release Notes 2019 {#rn-2019}
 

@@ -7,6 +7,16 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
+TQID: https://experienceleague.adobe.com/tIBV-VEno7yPNe3Y-HdWU80W-xyGUfjE3tYxRFe16uE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Throughputs and latency monitoring {#throughputs-latency-monitoring}
 

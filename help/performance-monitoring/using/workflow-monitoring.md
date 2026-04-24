@@ -5,6 +5,13 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+TQID: https://experienceleague.adobe.com/zdt3O-uriHQAhw7HT7sdmgidvvtaQQ8kqiG561edy2I
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Monitor workflows {#monitor-workflows}
 

@@ -1,12 +1,19 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: SFTP storage management
 description: Learn how to monitor and manage your SFTP server's storage
 feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
+TQID: https://experienceleague.adobe.com/srgn4RwWp9qTaozpNpZGTKLe0ntMM51KKMmcFS8wiB8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # SFTP storage management {#sftp-storage-management}
 

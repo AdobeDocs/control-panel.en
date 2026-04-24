@@ -5,6 +5,13 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+TQID: https://experienceleague.adobe.com/Dpa90tq2F5m7mfxeGGDjLg6Aw7bjh0Obx9qt-aUTvVA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Release Notes 2022 {#rn-2022}
 

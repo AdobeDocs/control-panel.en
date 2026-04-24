@@ -7,6 +7,13 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+TQID: https://experienceleague.adobe.com/J0Ck-CM1YCDNPjP-kCGbKXHXQGe34eTi7xYcnCSRabk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # About database monitoring {#database-monitoring}
 
