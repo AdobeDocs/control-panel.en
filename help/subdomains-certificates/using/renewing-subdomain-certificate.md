@@ -18,6 +18,8 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 >[!NOTE]
 >
 >Renewing the SSL certificates of your subdomains is only required if you chose to manage certificates yourself rather than delegating this process to Adobe. Delegating management of your subdomains' SSL certificates to Adobe is strongly recommended, as Adobe will automatically create the certificate and renew it every year before it expires. [Learn more on SSL certificates management](monitoring-ssl-certificates.md#management)
+>
+>Customer-managed SSL certificate management is available for Campaign v7/v8 instances hosted on AWS and for Campaign v8 instances hosted on Microsoft Azure.
 
 The SSL certificate renewal process includes 3 steps:
 

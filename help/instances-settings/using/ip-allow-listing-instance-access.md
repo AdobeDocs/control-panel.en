@@ -20,7 +20,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign v7/v8 instances only.
+>This feature is available for Campaign v7/v8 instances hosted on AWS, and for Campaign v8 instances hosted on Microsoft Azure.
 
 By default, your Adobe Campaign instance is not accessible from various IP addresses.
 
