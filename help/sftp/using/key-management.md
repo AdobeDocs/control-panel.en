@@ -1,12 +1,19 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Key management
 description: Learn how to manage keys to connect to SFTP servers
 feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+TQID: https://experienceleague.adobe.com/fCmnWIo7FfgfreWs9oFucCL1PNgSN7-1sWXbagwvn6I
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Key management {#key-management}
 

@@ -1,12 +1,22 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Accessing Control Panel
 description: Learn how to access the Control Panel
 feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
+TQID: https://experienceleague.adobe.com/Ug0vHjgyTK-BRO4IMdCwSQuiwO--XagzjW-MFTPcZrY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Accessing Control Panel {#accessing-control-panel}
 

@@ -1,12 +1,22 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: GPG keys management
 description: Learn how to manage GPG keys to encrypt and decrypt data within Adobe Campaign.
 feature: Control Panel, Encryption
 role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
+TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # GPG keys management {#gpg-keys-management}
 

@@ -7,6 +7,13 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
+TQID: https://experienceleague.adobe.com/1PSG6lEWpdKabuTMelwKAPnMjK2nBT-ygtKuSqEGZd8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Remove delegation of subdomains to Adobe {#remove-delegated--subdomains}
 

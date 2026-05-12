@@ -1,12 +1,19 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Storage overview
 description: Learn how to monitor in the Control Panel the different Campaign resources that are consuming database space on your instances.
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
+TQID: https://experienceleague.adobe.com/3zcScy61C5LHsWM86WWWuy0uic-pdNQGKc0qY7ewwOQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Storage overview {#storage-overview}
 

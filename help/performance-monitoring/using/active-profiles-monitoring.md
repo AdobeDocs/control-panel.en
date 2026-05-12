@@ -1,12 +1,19 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Active profiles monitoring
 description: Learn how to get real-time information on the latest and historical Active Profiles usage and evolution for each of your Campaign instances.
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+TQID: https://experienceleague.adobe.com/ttbPCa3fcEvCrEkf1hMVx0YQxc4F8hVID8yGLirp1uA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Monitor active profiles {#active-profiles-monitoring}
 

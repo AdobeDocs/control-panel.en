@@ -1,12 +1,22 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: Renewing a subdomain's SSL certificate
 description: Learn how to renew your subdomains' SSL certificates
 feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+TQID: https://experienceleague.adobe.com/rTb49TVxUqe2IeONpjiEMmhu1vZ-o6sStCwHxcWcAms
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Renew SSL certificates {#renewing-subdomains-ssl-certificates}
 

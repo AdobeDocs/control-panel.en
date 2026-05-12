@@ -1,12 +1,19 @@
 ---
 product: campaign
-solution: Campaign 
+solution: Campaign
 title: IP range allow listing
 description: Learn how to add IP ranges to the allow list for SFTP servers access
 feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+TQID: https://experienceleague.adobe.com/-btCtV-NLeiTpcF8uKDApY6ar-xAukAz05QmRbKM9oQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # IP range allow listing {#ip-range-allow-listing}
 
