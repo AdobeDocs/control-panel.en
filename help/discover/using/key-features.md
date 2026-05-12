@@ -20,9 +20,7 @@ Key benefits:
 
 >[!NOTE]
 >
->Control Panel is restricted to Admin users. The steps to grant Admin access to a user are detailed in [this section](managing-permissions.md).
->
->For Campaign v7/v8, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) or to build 9032 or higher. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](../../faq.md#hosted-aws).
+>Control Panel is restricted to Admin users. The steps to grant Admin access to a user are detailed in [this section](managing-permissions.md). For prerequisites on instance hosting requirements, refer to [this page](accessing-control-panel.md).
 
 <table style="table-layout:fixed">
 <tr>

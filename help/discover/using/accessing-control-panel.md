@@ -22,13 +22,15 @@ topic_v2:
 
 The Control Panel is available directly from the Experience Cloud, or from the product itself.
 
-It is accessible to **Admin users** only. For more on how to assign users to the Administrators group, refer to [this section](../../discover/using/managing-permissions.md).
+## Prerequisites {#prerequisites}
+
+For Campaign v7/v8, note that your instance must be hosted on Amazon Web Services (AWS) and upgraded to the latest [Campaign stable build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) or to build 9032 or higher. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](../../faq.md#hosted-aws).
+
+Campaign v8 instances hosted on Microsoft Azure also have access to a subset of Control Panel capabilities: [IP allow listing for instance access](../../instances-settings/using/ip-allow-listing-instance-access.md), [IP allow listing for SFTP servers](../../sftp/using/ip-range-allow-listing.md), and [customer-managed SSL certificate management](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
->By default, the Control Panel is accessible to Admin users belonging to the "Administrators" Product Profile. According to your organization configuration, the Product Profile can be named differently ("admin", "admins", "approval admin", etc.). **Any Product Profile containing the word "admin" in its name will automatically grant access to Control Panel.** 
->
->Carefully review your Product Profile naming to ensure only authorized users have Control Panel access.
+>By default, the Control Panel is accessible to Admin users belonging to the "Administrators" Product Profile. According to your organization configuration, the Product Profile can be named differently ("admin", "admins", "approval admin", etc.). **Any Product Profile containing the word "admin" in its name will automatically grant access to Control Panel**. Carefully review your Product Profile naming to ensure only authorized users have Control Panel access. [Learn how to manage permissions to Control Panel](../../discover/using/managing-permissions.md).
 
 ## Access from the Experience Cloud Platform {#access-experience-cloud-platform}
 

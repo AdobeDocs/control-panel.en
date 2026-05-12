@@ -25,6 +25,10 @@ role_v2:
 
 SFTP servers are protected. In order to be able to access them to view files or write new ones, you need to add the public IP address of the system or client that accesses the servers to the allow list.
 
+>[!NOTE]
+>
+>IP allow listing for SFTP servers is available for Campaign v7/v8 instances hosted on AWS, Campaign Standard instances, and Campaign v8 instances hosted on Microsoft Azure.
+
 ![](assets/do-not-localize/how-to-video.png) Discover this feature in video using [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) or [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
 
 ## About the CIDR format {#about-cidr-format}

@@ -38,7 +38,7 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->This feature is available for Campaign v7/v8 instances only.
+>This feature is available for Campaign v7/v8 instances hosted on AWS, and for Campaign v8 instances hosted on Microsoft Azure.
 
 By default, your Adobe Campaign instance is not accessible from various IP addresses.
 

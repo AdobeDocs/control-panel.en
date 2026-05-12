@@ -57,7 +57,7 @@ Yes, you will only be able to manage settings for Adobe Campaign in the Control 
 
 ### Can I use the Control Panel?
 
-The Control Panel is only open to product admins of our current customers who have Adobe Campaign hosted on AWS.
+The Control Panel is open to product admins of customers who have Adobe Campaign hosted on AWS. Campaign v8 instances hosted on Microsoft Azure also have access to a subset of Control Panel capabilities: IP allow listing for instance access, IP allow listing for SFTP servers, and customer-managed SSL certificate management.
 
 Control Panel allows customers with hybrid hosting model to leverage specific Control Panel capabilities. To do this, they need to provide the MID/RT instance URL configured in their marketing instance in Control Panel. [Learn more](instances-settings/using/external-accounts.md)
 
