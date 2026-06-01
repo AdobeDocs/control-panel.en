@@ -44,13 +44,13 @@ To delegate SSL certificates when setting up a new subdomain, enable the **[!UIC
 
 * **CNAME delegation**: Certificate records to copy into your hosting solution will be provided later on in the configuration wizard. You need to generate these certificate records in your domain hosting solution before submitting the subdomain configuration. [Learn more on CNAME delegation](setting-up-new-subdomain.md#use-cnames)
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## Delegate SSL certificates for already delegated subdomains {#delegated}
 
 To delegate SSL certificates for an already delegated subdomain, click the ellipsis button next to the desired subdomain and click **[!UICONTROL Switch to Managed SSL]**.
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 The certificate generation process depends on how the subdomain was originally configured:
 
@@ -64,4 +64,4 @@ For subdomains that were set up using CNAME delegation, a dialog box displays wi
 
 Make sure that all the certificate records have been generated into your domain hosting solution. If everything is configured properly, confirm the records creation then click **[!UICONTROL Submit]**.
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
