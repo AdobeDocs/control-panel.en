@@ -34,3 +34,4 @@ Additionally, Admin users can now delete SSH keys that were added to access SFTP
 We've added new features to empower Admin users to take greater control of Campaign v7/v8 instance settings. New Control Panel capabilities include the ability to add URLs that Adobe Campaign connect to for data/file transfers.
 
 For more information, refer to the [detailed documentation](../instances-settings/using/url-permissions.md).
+

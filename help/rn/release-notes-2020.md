@@ -168,6 +168,7 @@ role_v2:
 We've added new capabilities for Admin users to configure subdomains and renew SSL certificates from Control Panel.
 
 For more information, refer to these pages:
+
 * [Setting up a new subdomain](../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Renewing a subdomain's SSL certificate](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
