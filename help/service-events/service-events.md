@@ -7,10 +7,18 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
+TQID: 'https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
