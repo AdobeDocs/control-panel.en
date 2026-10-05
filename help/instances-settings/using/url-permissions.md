@@ -7,10 +7,18 @@ feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-TQID: https://experienceleague.adobe.com/YpWJsO1HDrqQ3FIV8zruodDfBwSxYa7nWoKLOnhdhBw
+TQID: 'https://experienceleague.adobe.com/YpWJsO1HDrqQ3FIV8zruodDfBwSxYa7nWoKLOnhdhBw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
